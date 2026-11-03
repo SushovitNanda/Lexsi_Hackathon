@@ -1,0 +1,94 @@
+{
+ "name": "aya_hinglish_test",
+ "created": "2026-11-03T04:58:07",
+ "seed": 13,
+ "files": {
+  "prompts.jsonl": {
+   "rows": 150,
+   "sha256": "0b33604844cd427fbcd0d9398dac82622a233857ba99d0e7e7c4e9d1a393fa69"
+  }
+ },
+ "rows": 150,
+ "by_lang": {
+  "hinglish": 150
+ },
+ "by_split": {
+  "test": 150
+ },
+ "by_set": {
+  "harmful_general": 150
+ },
+ "by_source": {
+  "aya_redteaming": 150
+ },
+ "by_origin": {
+  "rewritten": 150
+ },
+ "by_category": {
+  "Non-consensual sexual content": 5,
+  "Discrimination & Injustice": 13,
+  "Profanity|Discrimination & Injustice": 3,
+  "Bullying & Harassment": 7,
+  "Discrimination & Injustice|Harms of Representation Allocation and Quality of Service": 9,
+  "Violence, Threats & Incitement|Non-consensual sexual content": 5,
+  "Bullying & Harassment|Harms of Representation Allocation and Quality of Service": 1,
+  "Violence, Threats & Incitement|Hate Speech|Discrimination & Injustice": 2,
+  "Violence, Threats & Incitement": 11,
+  "Discrimination & Injustice|Profanity|Hate Speech": 1,
+  "Self-Harm": 4,
+  "Hate Speech|Violence, Threats & Incitement|Discrimination & Injustice": 2,
+  "Hate Speech": 2,
+  "Profanity": 6,
+  "Hate Speech|Profanity": 7,
+  "Hate Speech|Bullying & Harassment": 1,
+  "Violence, Threats & Incitement|Graphic material": 8,
+  "Violence, Threats & Incitement|Discrimination & Injustice": 2,
+  "Violence, Threats & Incitement|Bullying & Harassment": 1,
+  "Non-consensual sexual content|Violence, Threats & Incitement": 2,
+  "Violence, Threats & Incitement|Self-Harm|Graphic material": 2,
+  "Graphic material": 2,
+  "Bullying & Harassment|Discrimination & Injustice": 7,
+  "Harms of Representation Allocation and Quality of Service|Discrimination & Injustice": 6,
+  "Self-Harm|Graphic material": 4,
+  "Non-consensual sexual content|Graphic material": 2,
+  "Hate Speech|Discrimination & Injustice|Harms of Representation Allocation and Quality of Service": 1,
+  "Self-Harm|Violence, Threats & Incitement": 3,
+  "Graphic material|Non-consensual sexual content": 1,
+  "Profanity|Violence, Threats & Incitement": 1,
+  "Violence, Threats & Incitement|Hate Speech": 2,
+  "Graphic material|Violence, Threats & Incitement": 2,
+  "Hate Speech|Discrimination & Injustice": 2,
+  "Hate Speech|Bullying & Harassment|Discrimination & Injustice|Harms of Representation Allocation and Quality of Service": 2,
+  "Graphic material|Profanity": 1,
+  "Discrimination & Injustice|Hate Speech": 1,
+  "Hate Speech|Harms of Representation Allocation and Quality of Service": 1,
+  "Harms of Representation Allocation and Quality of Service": 2,
+  "Discrimination & Injustice|Bullying & Harassment|Hate Speech|Harms of Representation Allocation and Quality of Service": 1,
+  "Discrimination & Injustice|Bullying & Harassment|Harms of Representation Allocation and Quality of Service": 1,
+  "Violence, Threats & Incitement|Self-Harm": 2,
+  "Discrimination & Injustice|Non-consensual sexual content": 1,
+  "Profanity|Graphic material": 2,
+  "Profanity|Hate Speech": 1,
+  "Self-Harm|Violence, Threats & Incitement|Graphic material": 1,
+  "Violence, Threats & Incitement|Hate Speech|Bullying & Harassment|Discrimination & Injustice": 2,
+  "Bullying & Harassment|Violence, Threats & Incitement": 1,
+  "Violence, Threats & Incitement|Non-consensual sexual content|Bullying & Harassment|Graphic material": 1,
+  "Hate Speech|Discrimination & Injustice|Bullying & Harassment|Harms of Representation Allocation and Quality of Service": 1,
+  "Non-consensual sexual content|Graphic material|Violence, Threats & Incitement": 1,
+  "Violence, Threats & Incitement|Graphic material|Non-consensual sexual content": 1
+ },
+ "schema": [
+  "id",
+  "lang",
+  "split",
+  "set",
+  "source",
+  "category",
+  "twin_id",
+  "text",
+  "gloss_en",
+  "origin",
+  "source_id"
+ ],
+ "contains_completions": false
+}

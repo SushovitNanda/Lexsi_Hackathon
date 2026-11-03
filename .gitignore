@@ -1,0 +1,80 @@
+# ---------------------------------------------------------------------------
+# Secrets — never commit
+# ---------------------------------------------------------------------------
+.env
+.env.*
+*.token
+
+# ---------------------------------------------------------------------------
+# Local tooling / environments
+# ---------------------------------------------------------------------------
+.claude/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Large artifacts — shared over Google Drive, not Git (no LFS budget)
+# ---------------------------------------------------------------------------
+# HF cache, LoRA runs, merged weights (~59 GB). Re-download / re-train per Startup.md.
+models/*
+!models/README.md
+# results/ and logs/ ARE committed (small: largest file < 400 KB). Stray top-level run folder:
+runs/
+# CircuitKIT's on-disk task cache (regenerated automatically)
+cache/
+*.safetensors
+*.bin
+*.pt
+*.gguf
+
+# ---------------------------------------------------------------------------
+# Upstream kits — unmodified clones, re-cloned at pinned commits by Startup.md
+# ---------------------------------------------------------------------------
+KITS/
+
+# ---------------------------------------------------------------------------
+# Personal working notes / planning docs / report (not part of the codebase)
+# ---------------------------------------------------------------------------
+Tasks/
+Report/
+PROGRESS.md
+TASK1_STATUS.md
+ENV-local.txt
+
+# ---------------------------------------------------------------------------
+# Datasets: keep the final sets and the hand-written sources; drop what scripts regenerate
+# ---------------------------------------------------------------------------
+# raw downloads (XSTest CSV is re-fetched by Startup.md)
+Datasets/raw/
+# large regenerable intermediates (rebuilt by scripts/data/build_*.py)
+Datasets/interim/*_sft_formatted.jsonl
+Datasets/interim/*_sft_leakfree.jsonl
+Datasets/interim/sft_*_for_curator.jsonl
+Datasets/interim/*_calibration_pool.jsonl
+Datasets/interim/xstest_part_*.jsonl
+Datasets/interim/hinglish/part_*.jsonl
+# CuratorKIT side outputs that are not needed downstream
+Datasets/final/sft_*/embedding_index/
+
+# One-off Windows install helpers superseded by Startup.md
+scripts/install_stack.sh
+scripts/install_curatorkit.sh
+
+# LaTeX build byproducts (anywhere)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Keep everything under results/ and logs/, including the small CircuitKIT .pt score files and run .log files
+!results/**
+!logs/**

@@ -1,0 +1,17 @@
+{
+ "en": {
+  "harmful_pool": 183,
+  "harmless_pool": 233,
+  "pairs": 119
+ },
+ "hi": {
+  "harmful_pool": 83,
+  "harmless_pool": 33,
+  "pairs": 33
+ },
+ "hinglish": {
+  "harmful_pool": 83,
+  "harmless_pool": 33,
+  "pairs": 33
+ }
+}

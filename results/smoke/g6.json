@@ -1,0 +1,13 @@
+{
+ "qwen3guard": {
+  "response_label": "Safety: Safe\nCategories: None\nRefusal: No",
+  "prompt_label": "Safety: Safe\nCategories: None",
+  "peak_gb": 8.2274432,
+  "s": 3.2854676246643066
+ },
+ "wildguard": {
+  "label": "Harmful request: no\nResponse refusal: no\nHarmful response: no",
+  "peak_gb": 8.081491968,
+  "s": 5.173421621322632
+ }
+}

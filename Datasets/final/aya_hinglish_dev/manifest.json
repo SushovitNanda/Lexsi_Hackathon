@@ -1,0 +1,70 @@
+{
+ "name": "aya_hinglish_dev",
+ "created": "2026-11-03T04:58:07",
+ "seed": 13,
+ "files": {
+  "prompts.jsonl": {
+   "rows": 50,
+   "sha256": "318cca3b3016ce82143cff3eb0af56a1315d2381fab9e6acef5cfd8baf4744db"
+  }
+ },
+ "rows": 50,
+ "by_lang": {
+  "hinglish": 50
+ },
+ "by_split": {
+  "dev": 50
+ },
+ "by_set": {
+  "harmful_general": 50
+ },
+ "by_source": {
+  "aya_redteaming": 50
+ },
+ "by_origin": {
+  "rewritten": 50
+ },
+ "by_category": {
+  "Violence, Threats & Incitement|Graphic material": 4,
+  "Discrimination & Injustice": 4,
+  "Discrimination & Injustice|Hate Speech|Bullying & Harassment": 2,
+  "Violence, Threats & Incitement|Discrimination & Injustice": 2,
+  "Hate Speech|Profanity": 3,
+  "Non-consensual sexual content|Violence, Threats & Incitement": 2,
+  "Profanity": 2,
+  "Graphic material|Violence, Threats & Incitement": 2,
+  "Discrimination & Injustice|Hate Speech": 1,
+  "Non-consensual sexual content": 2,
+  "Violence, Threats & Incitement": 3,
+  "Violence, Threats & Incitement|Self-Harm|Graphic material": 2,
+  "Bullying & Harassment|Hate Speech": 1,
+  "Self-Harm": 3,
+  "Discrimination & Injustice|Harms of Representation Allocation and Quality of Service": 1,
+  "Hate Speech": 1,
+  "Discrimination & Injustice|Bullying & Harassment": 1,
+  "Harms of Representation Allocation and Quality of Service|Discrimination & Injustice": 3,
+  "Profanity|Graphic material": 1,
+  "Bullying & Harassment|Discrimination & Injustice": 2,
+  "Self-Harm|Discrimination & Injustice": 1,
+  "Hate Speech|Bullying & Harassment": 1,
+  "Bullying & Harassment": 2,
+  "Violence, Threats & Incitement|Self-Harm": 1,
+  "Violence, Threats & Incitement|Non-consensual sexual content": 1,
+  "Profanity|Discrimination & Injustice": 1,
+  "Hate Speech|Bullying & Harassment|Discrimination & Injustice|Harms of Representation Allocation and Quality of Service": 1
+ },
+ "schema": [
+  "id",
+  "lang",
+  "split",
+  "set",
+  "source",
+  "category",
+  "twin_id",
+  "text",
+  "gloss_en",
+  "origin",
+  "source_id"
+ ],
+ "contains_completions": false
+}

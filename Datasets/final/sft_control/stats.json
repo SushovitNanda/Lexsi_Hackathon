@@ -1,0 +1,10 @@
+{
+ "set": "control",
+ "input_rows": 5118,
+ "accepted": 5068,
+ "train_rows": 5004,
+ "unmatched": 5,
+ "tokens": 2676109,
+ "sha256_train": "c1c452df153b534d23e9617819580807dcd1f031e02ebf67d24b3f3671d16ac0",
+ "rebalanced": true
+}

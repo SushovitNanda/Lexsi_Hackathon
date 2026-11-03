@@ -1,0 +1,26 @@
+{
+ "test": "G.5",
+ "runs": [
+  {
+   "label": "greater_than/eap-ig",
+   "ok": true,
+   "peak_gb": 15.901910016,
+   "s": 756.9578711986542,
+   "n_nodes": 0
+  },
+  {
+   "label": "clinicsafe_smoke/eap-ig",
+   "ok": false,
+   "error": "CircuitKitError: CUDA out of memory. Tried to allocate 3.12 GiB. GPU 0 has a total capacity of 11.99 GiB of which 0 bytes is free. Of the allocated memory 21.26 GiB is allocated by PyTorch, and 2.98 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (ht",
+   "peak_gb": 25.89526784,
+   "s": 269.95471143722534
+  },
+  {
+   "label": "clinicsafe_smoke/eap",
+   "ok": false,
+   "error": "CircuitKitError: CUDA out of memory. Tried to allocate 3.12 GiB. GPU 0 has a total capacity of 11.99 GiB of which 0 bytes is free. Of the allocated memory 21.39 GiB is allocated by PyTorch, and 2.90 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (ht",
+   "peak_gb": 26.036120064,
+   "s": 481.88744282722473
+  }
+ ]
+}

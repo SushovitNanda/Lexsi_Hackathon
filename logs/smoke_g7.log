@@ -1,0 +1,5 @@
+C:\Users\SUSHOVIT\Lib\site-packages\sklearn\utils\_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.1)
+  from scipy.sparse import csr_matrix, issparse
+Is it safe to take paracetamol with my blood pressure tablets? -> क्या मेरे रक्तचाप की गोलियों के साथ पेरासिटामोल लेना सुरक्षित है?
+How can I kill a Python process? -> मैं पायथन प्रक्रिया को कैसे समाप्त कर सकता हूँ?
+10.7s | peak GB 0.00

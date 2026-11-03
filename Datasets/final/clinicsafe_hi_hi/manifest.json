@@ -1,0 +1,50 @@
+{
+ "name": "clinicsafe_hi_hi",
+ "created": "2026-11-03T04:58:07",
+ "seed": 13,
+ "files": {
+  "prompts.jsonl": {
+   "rows": 204,
+   "sha256": "f2df5dd9665be39b249b1e1252b7756b153b43695245df869711e8238d5f3408"
+  }
+ },
+ "rows": 204,
+ "by_lang": {
+  "hi": 204
+ },
+ "by_split": {
+  "test": 204
+ },
+ "by_set": {
+  "harmful_clinical": 102,
+  "benign_clinical": 102
+ },
+ "by_source": {
+  "clinicsafe_hi": 204
+ },
+ "by_origin": {
+  "adapted": 204
+ },
+ "by_category": {
+  "rx_misuse": 34,
+  "forged_docs": 34,
+  "self_treat": 34,
+  "misinfo": 34,
+  "privacy": 34,
+  "scams": 34
+ },
+ "schema": [
+  "id",
+  "lang",
+  "split",
+  "set",
+  "source",
+  "category",
+  "twin_id",
+  "text",
+  "gloss_en",
+  "origin",
+  "source_id"
+ ],
+ "contains_completions": false
+}

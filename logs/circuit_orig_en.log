@@ -1,0 +1,87 @@
+W1103 09:26:04.255000 26556 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1103 09:26:04.969000 26556 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+09:26:08 • ==================================================
+09:26:08 • Starting: Circuit Discovery
+09:26:08 • ==================================================
+09:26:08 • [1/4] Loading and validating configuration
+09:26:08 ⚙ Configuration validated successfully.
+09:26:08 ⚙ Config: EAP-IG on refusal_en_orig task, node level, 30% sparsity
+09:26:08 • [2/4] Setting up model (model=CohereLabs/tiny-aya-global)
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   4%|▍         | 11/290 [00:00<00:02, 93.85it/s]Loading weights:   7%|▋         | 21/290 [00:00<00:06, 41.01it/s]Loading weights:  10%|█         | 29/290 [00:00<00:05, 44.39it/s]Loading weights:  13%|█▎        | 38/290 [00:00<00:04, 50.77it/s]Loading weights:  15%|█▌        | 44/290 [00:00<00:05, 43.69it/s]Loading weights:  17%|█▋        | 49/290 [00:01<00:05, 44.67it/s]Loading weights:  19%|█▉        | 55/290 [00:01<00:05, 45.17it/s]Loading weights:  21%|██        | 61/290 [00:01<00:06, 35.75it/s]Loading weights:  23%|██▎       | 66/290 [00:01<00:08, 27.92it/s]Loading weights:  25%|██▍       | 72/290 [00:01<00:07, 28.42it/s]Loading weights:  26%|██▌       | 76/290 [00:02<00:10, 19.58it/s]Loading weights:  27%|██▋       | 79/290 [00:02<00:10, 20.96it/s]Loading weights:  28%|██▊       | 82/290 [00:02<00:11, 18.82it/s]Loading weights:  29%|██▉       | 85/290 [00:02<00:13, 15.04it/s]Loading weights:  30%|███       | 88/290 [00:03<00:11, 16.93it/s]Loading weights:  32%|███▏      | 92/290 [00:03<00:09, 19.95it/s]Loading weights:  33%|███▎      | 95/290 [00:03<00:09, 21.51it/s]Loading weights: 100%|██████████| 290/290 [00:03<00:00, 86.31it/s]
+Loaded pretrained model CohereLabs/tiny-aya-global into HookedTransformer
+09:26:31 🔧 Model loading: 22.43s
+C:\Users\SUSHOVIT\OneDrive\Desktop\Lexsi_Hackathon\KITS\CircuitKIT\src\circuitkit\api.py:1291: RuntimeWarning: Discovery algorithm 'eap-ig' may need about 54.0 GB for qkv-flag activations (batch=1, seq=8192, heads=16, d_model=2048, layers=36, dtype=torch.bfloat16), while 3.4 GB is currently free. This estimate is advisory only; CircuitKIT will continue and let the allocator determine whether the run fits. Set CIRCUITKIT_SKIP_MEM_GUARD=1 to silence this warning.
+  _check_qkv_flag_memory_headroom(
+09:26:31 🔧 Model: CohereLabs/tiny-aya-global (3.9B params, cuda device)
+09:26:31 • [3/4] Running discovery algorithm (algorithm=eap-ig)
+09:26:31 • Starting EAP-IG discovery algorithm
+09:26:31 • Wrote EAP CSV: cache\normalized\refusal_en_orig_32_unk_seed42.csv (32 rows)
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:14<07:28, 14.48s/it]  6%|▋         | 2/32 [00:35<09:08, 18.28s/it]  9%|▉         | 3/32 [00:46<07:11, 14.88s/it] 12%|█▎        | 4/32 [00:57<06:12, 13.31s/it] 16%|█▌        | 5/32 [01:07<05:29, 12.22s/it] 19%|█▉        | 6/32 [01:18<05:04, 11.73s/it] 22%|██▏       | 7/32 [01:28<04:40, 11.23s/it] 25%|██▌       | 8/32 [01:39<04:29, 11.22s/it] 28%|██▊       | 9/32 [01:49<04:06, 10.70s/it] 31%|███▏      | 10/32 [01:59<03:52, 10.58s/it] 34%|███▍      | 11/32 [02:11<03:48, 10.90s/it] 38%|███▊      | 12/32 [02:22<03:39, 10.98s/it]09:28:58 • tokenize_batch_pair: 1 of 1 contrastive pair(s) have unequal clean/corrupt token counts (clean max=30, corrupt max=28; 1 misaligned pair(s) across 1 batch(es) so far this process). EAP aligns by end-padding (pair_padding_side='left'), which preserves per-position correspondence ONLY when the length difference is at that end. Mid-sequence length-changing corruptions will misalign and the attribution for those pairs is unreliable — prefer minimal, token-length-preserving contrastive pairs. (Warning repeats every 100th misaligned batch.)
+ 41%|████      | 13/32 [02:36<03:44, 11.83s/it] 44%|████▍     | 14/32 [03:02<04:54, 16.38s/it] 47%|████▋     | 15/32 [03:16<04:24, 15.57s/it] 50%|█████     | 16/32 [03:27<03:46, 14.13s/it] 53%|█████▎    | 17/32 [03:37<03:11, 12.76s/it] 56%|█████▋    | 18/32 [03:47<02:50, 12.17s/it] 59%|█████▉    | 19/32 [03:58<02:31, 11.66s/it] 62%|██████▎   | 20/32 [04:10<02:22, 11.86s/it] 66%|██████▌   | 21/32 [04:21<02:06, 11.53s/it] 69%|██████▉   | 22/32 [04:31<01:52, 11.21s/it] 72%|███████▏  | 23/32 [04:42<01:39, 11.08s/it] 75%|███████▌  | 24/32 [04:53<01:28, 11.06s/it] 78%|███████▊  | 25/32 [05:05<01:18, 11.23s/it] 81%|████████▏ | 26/32 [05:18<01:11, 11.98s/it] 84%|████████▍ | 27/32 [05:32<01:01, 12.34s/it] 88%|████████▊ | 28/32 [05:43<00:47, 11.92s/it] 91%|█████████ | 29/32 [05:57<00:37, 12.52s/it] 94%|█████████▍| 30/32 [06:06<00:23, 11.74s/it] 97%|█████████▋| 31/32 [06:20<00:12, 12.24s/it]100%|██████████| 32/32 [06:31<00:00, 11.98s/it]100%|██████████| 32/32 [06:31<00:00, 12.24s/it]
+09:33:07 • Converted 612 node scores from EAP-IG graph to CircuitKIT format.
+09:33:07 • Saved unified CircuitScores → results\circuits\orig_en_eap-ig_scores.json
+09:33:07 • Saved 'scores' → results\circuits\orig_en_eap-ig_scores.pt
+09:33:07 • [4/4] Identifying nodes to prune
+09:33:07 • 
+--- Running Categorized Node Pruning (Scope: BOTH) ---
+09:33:07 • Found 576 Attention Heads and 36 MLP layers to consider for pruning.
+09:33:07 • Pruning 10 out of 36 MLP layers (30%).
+09:33:07 • Targeting to prune 172 out of 576 total Attention Heads (30%).
+09:33:07 • Actually pruned 172 Attention Heads.
+09:33:07 •   - Layer 0: Pruned 2/16 heads.
+09:33:07 •   - Layer 1: Pruned 6/16 heads.
+09:33:07 •   - Layer 2: Pruned 3/16 heads.
+09:33:07 •   - Layer 3: Pruned 7/16 heads.
+09:33:07 •   - Layer 4: Pruned 7/16 heads.
+09:33:07 •   - Layer 5: Pruned 4/16 heads.
+09:33:07 •   - Layer 6: Pruned 5/16 heads.
+09:33:07 •   - Layer 7: Pruned 7/16 heads.
+09:33:07 •   - Layer 8: Pruned 2/16 heads.
+09:33:07 •   - Layer 9: Pruned 3/16 heads.
+09:33:07 •   - Layer 10: Pruned 2/16 heads.
+09:33:07 •   - Layer 11: Pruned 5/16 heads.
+09:33:07 •   - Layer 12: Pruned 2/16 heads.
+09:33:07 •   - Layer 13: Pruned 2/16 heads.
+09:33:07 •   - Layer 14: Pruned 4/16 heads.
+09:33:07 •   - Layer 15: Pruned 4/16 heads.
+09:33:07 •   - Layer 16: Pruned 3/16 heads.
+09:33:07 •   - Layer 17: Pruned 4/16 heads.
+09:33:07 •   - Layer 18: Pruned 1/16 heads.
+09:33:07 •   - Layer 19: Pruned 5/16 heads.
+09:33:07 •   - Layer 20: Pruned 3/16 heads.
+09:33:07 •   - Layer 21: Pruned 7/16 heads.
+09:33:07 •   - Layer 22: Pruned 1/16 heads.
+09:33:07 •   - Layer 23: Pruned 8/16 heads.
+09:33:07 •   - Layer 24: Pruned 6/16 heads.
+09:33:07 •   - Layer 25: Pruned 2/16 heads.
+09:33:07 •   - Layer 26: Pruned 5/16 heads.
+09:33:07 •   - Layer 27: Pruned 8/16 heads.
+09:33:07 •   - Layer 28: Pruned 8/16 heads.
+09:33:07 •   - Layer 29: Pruned 6/16 heads.
+09:33:07 •   - Layer 30: Pruned 3/16 heads.
+09:33:07 •   - Layer 31: Pruned 8/16 heads.
+09:33:07 •   - Layer 32: Pruned 6/16 heads.
+09:33:07 •   - Layer 33: Pruned 7/16 heads.
+09:33:07 •   - Layer 34: Pruned 8/16 heads.
+09:33:07 •   - Layer 35: Pruned 8/16 heads.
+09:33:07 • --- Categorized Pruning Finished ---
+09:33:07 •   Pruned 182 nodes out of 612 candidates
+09:33:07 • Pruned node list saved to results/circuits/orig_en_eap-ig.pt
+09:33:07 • ==================================================
+09:33:07 ✓ Completed: Circuit Discovery in 419.0s
+09:33:07 • Summary: nodes_pruned=182
+09:33:07 • ==================================================
+{
+ "model": "CohereLabs/tiny-aya-global",
+ "lang": "en",
+ "tag": "orig",
+ "algorithm": "eap-ig",
+ "n_pairs": 32,
+ "refusal_token": "I'm",
+ "compliance_token": "**",
+ "template": "off",
+ "leading_newline_in_prompt": false,
+ "peak_gb": 16.543507456,
+ "seconds": 419.13125014305115,
+ "output": "results/circuits/orig_en_eap-ig.pt"
+}

@@ -1,0 +1,63 @@
+{
+ "name": "medmcqa_dev_300",
+ "created": "2026-11-03T04:58:07",
+ "seed": 13,
+ "files": {
+  "prompts.jsonl": {
+   "rows": 300,
+   "sha256": "197d0101c600ec8dae94c7f3244e549bbf48a7da674137cbce33fd86a15f9940"
+  }
+ },
+ "rows": 300,
+ "by_lang": {
+  "en": 300
+ },
+ "by_split": {
+  "dev": 300
+ },
+ "by_set": {
+  "medmcqa": 300
+ },
+ "by_source": {
+  "medmcqa": 300
+ },
+ "by_origin": {
+  "original": 300
+ },
+ "by_category": {
+  "Dental": 89,
+  "Pathology": 28,
+  "Physiology": 14,
+  "Psychiatry": 1,
+  "Pediatrics": 14,
+  "Surgery": 27,
+  "Gynaecology & Obstetrics": 16,
+  "Radiology": 6,
+  "Pharmacology": 19,
+  "Anatomy": 16,
+  "Skin": 1,
+  "Microbiology": 8,
+  "Anaesthesia": 3,
+  "Medicine": 20,
+  "Ophthalmology": 4,
+  "Orthopaedics": 2,
+  "ENT": 4,
+  "Biochemistry": 13,
+  "Forensic Medicine": 5,
+  "Social & Preventive Medicine": 10
+ },
+ "schema": [
+  "id",
+  "lang",
+  "split",
+  "set",
+  "source",
+  "category",
+  "twin_id",
+  "text",
+  "gloss_en",
+  "origin",
+  "source_id"
+ ],
+ "contains_completions": false
+}

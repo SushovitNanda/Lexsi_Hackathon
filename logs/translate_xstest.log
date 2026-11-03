@@ -1,0 +1,13 @@
+C:\Users\SUSHOVIT\Lib\site-packages\sklearn\utils\_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.1)
+  from scipy.sparse import csr_matrix, issparse
+16/150
+32/150
+48/150
+64/150
+80/150
+96/150
+112/150
+128/150
+144/150
+150/150
+xstest drafts written

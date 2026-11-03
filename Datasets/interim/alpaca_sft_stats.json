@@ -1,0 +1,9 @@
+{
+ "rows": 5118,
+ "tokens": 2734611,
+ "medical_rows": 5000,
+ "medical_tokens": 2748000,
+ "ratio": 0.9951277292576419,
+ "seed": 13,
+ "calibration_pool": 2000
+}

@@ -1,0 +1,95 @@
+{
+ "en": {
+  "refusal": "I'm",
+  "compliance": "**",
+  "bare_leading_newline": false,
+  "bare_newline_count": "7/16",
+  "harmful_first_tokens": {
+   "I'm": 20,
+   "The": 7,
+   "Here": 5,
+   "**": 4,
+   "It's": 4,
+   "I": 4,
+   "H": 1,
+   "Once": 1
+  },
+  "harmless_first_tokens": {
+   "**": 10,
+   "Here": 6,
+   "The": 5,
+   "A": 3,
+   "One": 2,
+   "I'm": 1,
+   "Min": 1,
+   "Abraham": 1
+  },
+  "rule": "side token with the best count/(other side count+1) ratio among tokens seen >=5 times; newline excluded; refusal != compliance",
+  "ratios": {
+   "refusal": "20 harmful vs 1 harmless",
+   "compliance": "10 harmless vs 4 harmful"
+  }
+ },
+ "hi": {
+  "refusal": "मैं",
+  "compliance": "**",
+  "bare_leading_newline": false,
+  "bare_newline_count": "5/16",
+  "harmful_first_tokens": {
+   "मैं": 23,
+   "मुझे": 6,
+   "**": 5,
+   "यह": 5,
+   "ब": 1,
+   "वै": 1,
+   "अपने": 1,
+   "म": 1
+  },
+  "harmless_first_tokens": {
+   "**": 6,
+   "20": 2,
+   "स्व": 2,
+   "ज": 1,
+   "अन": 1,
+   "में": 1,
+   "स": 1,
+   "औ": 1
+  },
+  "rule": "side token with the best count/(other side count+1) ratio among tokens seen >=5 times; newline excluded; refusal != compliance",
+  "ratios": {
+   "refusal": "23 harmful vs 0 harmless",
+   "compliance": "6 harmless vs 5 harmful"
+  }
+ },
+ "hinglish": {
+  "refusal": "मैं",
+  "compliance": "**",
+  "bare_leading_newline": true,
+  "bare_newline_count": "8/16",
+  "harmful_first_tokens": {
+   "**": 9,
+   "मैं": 9,
+   "Main": 7,
+   "Ek": 3,
+   "M": 3,
+   "Dal": 2,
+   "ब": 1,
+   "Va": 1
+  },
+  "harmless_first_tokens": {
+   "**": 23,
+   "Ek": 1,
+   "A": 1,
+   "S": 1,
+   "V": 1,
+   "United": 1,
+   "Alan": 1,
+   "World": 1
+  },
+  "rule": "side token with the best count/(other side count+1) ratio among tokens seen >=5 times; newline excluded; refusal != compliance",
+  "ratios": {
+   "refusal": "9 harmful vs 0 harmless",
+   "compliance": "23 harmless vs 9 harmful"
+  }
+ }
+}

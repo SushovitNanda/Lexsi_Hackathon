@@ -1,0 +1,57 @@
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files:   7%|▋         | 1/14 [00:01<00:21,  1.64s/it]Fetching 14 files:   7%|▋         | 1/14 [00:01<00:21,  1.64s/it]
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+    p=snapshot_download('ai4bharat/indictrans2-en-indic-1B', allow_patterns=['*.json','*.safetensors','*.bin','*.txt','*.model','*.py','*.md','*.SRC','*.TGT'])
+  File "C:\Users\SUSHOVIT\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\SUSHOVIT\Lib\site-packages\huggingface_hub\_snapshot_download.py", line 332, in snapshot_download
+    thread_map(
+    ~~~~~~~~~~^
+        _inner_hf_hub_download,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        tqdm_class=tqdm_class or hf_tqdm,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SUSHOVIT\Lib\site-packages\tqdm\contrib\concurrent.py", line 69, in thread_map
+    return _executor_map(ThreadPoolExecutor, fn, *iterables, **tqdm_kwargs)
+  File "C:\Users\SUSHOVIT\Lib\site-packages\tqdm\contrib\concurrent.py", line 51, in _executor_map
+    return list(tqdm_class(ex.map(fn, *iterables, chunksize=chunksize), **kwargs))
+  File "C:\Users\SUSHOVIT\Lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+               ^^^^^^^^
+  File "C:\Users\SUSHOVIT\Lib\concurrent\futures\_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\SUSHOVIT\Lib\concurrent\futures\_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\SUSHOVIT\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\SUSHOVIT\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\SUSHOVIT\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\SUSHOVIT\Lib\site-packages\huggingface_hub\_snapshot_download.py", line 306, in _inner_hf_hub_download
+    return hf_hub_download(
+        repo_id,
+    ...<15 lines>...
+        headers=headers,
+    )
+  File "C:\Users\SUSHOVIT\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\SUSHOVIT\Lib\site-packages\huggingface_hub\file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+        # Destination
+    ...<14 lines>...
+        force_download=force_download,
+    )
+  File "C:\Users\SUSHOVIT\Lib\site-packages\huggingface_hub\file_download.py", line 1188, in _hf_hub_download_to_cache_dir
+    _create_symlink(blob_path, pointer_path, new_blob=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SUSHOVIT\Lib\site-packages\huggingface_hub\file_download.py", line 738, in _create_symlink
+    os.symlink(src_rel_or_abs, abs_dst)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 1314] A required privilege is not held by the client: '..\\..\\blobs\\f0bf4b3e7bc369ed9737568f511ad9d0f5a8fa46' -> 'C:\\hf\\hub\\models--ai4bharat--indictrans2-en-indic-1B\\snapshots\\89cd0007fd7b9e0693a2fd4404d187e07dac79fd\\config.json'

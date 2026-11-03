@@ -1,0 +1,14 @@
+{
+ "model": "CohereLabs/tiny-aya-global",
+ "lang": "en",
+ "tag": "orig",
+ "algorithm": "eap-ig",
+ "n_pairs": 32,
+ "refusal_token": "I'm",
+ "compliance_token": "**",
+ "template": "off",
+ "leading_newline_in_prompt": false,
+ "peak_gb": 16.543507456,
+ "seconds": 419.13125014305115,
+ "output": "results/circuits/orig_en_eap-ig.pt"
+}

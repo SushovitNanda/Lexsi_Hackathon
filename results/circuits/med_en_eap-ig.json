@@ -1,0 +1,14 @@
+{
+ "model": "models/merged/med",
+ "lang": "en",
+ "tag": "med",
+ "algorithm": "eap-ig",
+ "n_pairs": 32,
+ "refusal_token": "I'm",
+ "compliance_token": "**",
+ "template": "off",
+ "leading_newline_in_prompt": false,
+ "peak_gb": 16.543507456,
+ "seconds": 516.2592349052429,
+ "output": "results/circuits/med_en_eap-ig.pt"
+}

@@ -1,0 +1,30 @@
+{
+ "A_train_bf16_full_logits": {
+  "loss": 14.048995971679688,
+  "peak_gb": 10.225969152,
+  "step_s": 1.2068850994110107,
+  "finite": true,
+  "training_mode": true
+ },
+ "F_train_fp16_full_logits": {
+  "loss": 14.049991607666016,
+  "peak_gb": 10.233309184,
+  "step_s": 0.974287748336792,
+  "finite": true,
+  "training_mode": true
+ },
+ "C_train_bf16_assistant_only": {
+  "loss": 14.048995971679688,
+  "peak_gb": 8.301833216,
+  "step_s": 0.9262852668762207,
+  "finite": true,
+  "training_mode": true
+ },
+ "D_train_qlora_nf4_assistant_only": {
+  "loss": 14.221014976501465,
+  "peak_gb": 5.356484608,
+  "step_s": 1.0839529037475586,
+  "finite": true,
+  "training_mode": true
+ }
+}

@@ -1,0 +1,100 @@
+{"id": "alpaca-47053", "source_id": 47053, "text": "Generate two questions that can help someone get to know another person.", "n_tokens": 419}
+{"id": "alpaca-12052", "source_id": 12052, "text": "Compare and contrast the main types of electromagnetic radiation.", "n_tokens": 845}
+{"id": "alpaca-28663", "source_id": 28663, "text": "Identify which ocean has the second longest coastline", "n_tokens": 419}
+{"id": "alpaca-37916", "source_id": 37916, "text": "What information should include in an email to a potential candidate?", "n_tokens": 598}
+{"id": "alpaca-9875", "source_id": 9875, "text": "Rank these court cases in order of importance: Marbury v. Madison, Brown v. Board of Education, Roe v. Wade.", "n_tokens": 641}
+{"id": "alpaca-21688", "source_id": 21688, "text": "Write a blog post titled \"Five Reasons You Should Invest in Stocks\".", "n_tokens": 872}
+{"id": "alpaca-29800", "source_id": 29800, "text": "Describe the characteristics and function of the muscular system", "n_tokens": 633}
+{"id": "alpaca-24274", "source_id": 24274, "text": "List the four elements of a cover letter.", "n_tokens": 521}
+{"id": "alpaca-44452", "source_id": 44452, "text": "Find a song title that rhymes with 'moon'", "n_tokens": 389}
+{"id": "alpaca-18549", "source_id": 18549, "text": "Explain why the French revolution was significant.", "n_tokens": 707}
+{"id": "alpaca-27519", "source_id": 27519, "text": "Replace the word \"catastrophe\" with a less serious word", "n_tokens": 421}
+{"id": "alpaca-20188", "source_id": 20188, "text": "What kind of animal is a red panda", "n_tokens": 477}
+{"id": "alpaca-45835", "source_id": 45835, "text": "Create a budget plan for someone who makes $3,000 a month.", "n_tokens": 804}
+{"id": "alpaca-3697", "source_id": 3697, "text": "What is the scientific name of the honey bee?", "n_tokens": 389}
+{"id": "alpaca-33770", "source_id": 33770, "text": "What would be an effective way to reduce pollution in developing countries?", "n_tokens": 690}
+{"id": "alpaca-40333", "source_id": 40333, "text": "Generate a list of ten logical arguments for reducing global plastic production.", "n_tokens": 638}
+{"id": "alpaca-47150", "source_id": 47150, "text": "What is the one thing you would change about the world if you could?", "n_tokens": 470}
+{"id": "alpaca-6260", "source_id": 6260, "text": "Generate a call to action for a blog post about the power of positive thinking.", "n_tokens": 451}
+{"id": "alpaca-104", "source_id": 104, "text": "What is the most commonly shared type of content on social media?", "n_tokens": 660}
+{"id": "alpaca-45829", "source_id": 45829, "text": "What does \"prompting language models\" refer to?", "n_tokens": 505}
+{"id": "alpaca-4526", "source_id": 4526, "text": "Explain the concept of random forest.", "n_tokens": 633}
+{"id": "alpaca-21335", "source_id": 21335, "text": "Design a web page with two columns and a footer.", "n_tokens": 847}
+{"id": "alpaca-16226", "source_id": 16226, "text": "Identify two health benefits of exercising.", "n_tokens": 445}
+{"id": "alpaca-15280", "source_id": 15280, "text": "What is the most important thing university students should learn?", "n_tokens": 485}
+{"id": "alpaca-14880", "source_id": 14880, "text": "Name two new features that version 10 of Microsoft Word has", "n_tokens": 442}
+{"id": "alpaca-11566", "source_id": 11566, "text": "Compose a paragraph describing a natural scense.", "n_tokens": 503}
+{"id": "alpaca-36286", "source_id": 36286, "text": "Come up with three advantages of having a pet", "n_tokens": 596}
+{"id": "alpaca-48997", "source_id": 48997, "text": "Explain how a machine learning algorithm can be used to recommend products to customers.", "n_tokens": 618}
+{"id": "alpaca-46489", "source_id": 46489, "text": "Create a quiz that asks about the first Thanksgiving.", "n_tokens": 808}
+{"id": "alpaca-261", "source_id": 261, "text": "What is the process of photosynthesis and why is it important?", "n_tokens": 652}
+{"id": "alpaca-5446", "source_id": 5446, "text": "Lauren solved the equation |x-5| = 2. Meanwhile Jane solved an equation of the form x^2+ bx + c = 0 that had the same two solutions for x as Lauren's equation. What is the ordered pair (b, c)?", "n_tokens": 581}
+{"id": "alpaca-37146", "source_id": 37146, "text": "Suggest ways that a business can reduce their CO2 emissions.", "n_tokens": 590}
+{"id": "alpaca-9421", "source_id": 9421, "text": "Generate an example of all four of the common data types, (string, integer, float and boolean)?", "n_tokens": 473}
+{"id": "alpaca-4364", "source_id": 4364, "text": "Create a marketing slogan that conveys customer satisfaction.", "n_tokens": 397}
+{"id": "alpaca-25270", "source_id": 25270, "text": "List the most popular sports in Germany.", "n_tokens": 442}
+{"id": "alpaca-9630", "source_id": 9630, "text": "Provide an adjective to describe someone who is always cheerful.", "n_tokens": 393}
+{"id": "alpaca-18151", "source_id": 18151, "text": "Develop a algorithm for recognizing a conversation partner's native language.", "n_tokens": 661}
+{"id": "alpaca-38304", "source_id": 38304, "text": "Write an email thanking an employer for offering you a job.", "n_tokens": 516}
+{"id": "alpaca-23474", "source_id": 23474, "text": "Name two countries with a population size larger than the United States.", "n_tokens": 398}
+{"id": "alpaca-14996", "source_id": 14996, "text": "Generate a scenario of a special event.", "n_tokens": 674}
+{"id": "alpaca-7907", "source_id": 7907, "text": "Calculate the perimeter of a triangle with sides A = 10 cm, B = 12 cm and C = 8 cm.", "n_tokens": 457}
+{"id": "alpaca-51151", "source_id": 51151, "text": "Write a C code to evaluate a quadratic equation.", "n_tokens": 696}
+{"id": "alpaca-46852", "source_id": 46852, "text": "What do you need to consider when making an investment decision?", "n_tokens": 685}
+{"id": "alpaca-38448", "source_id": 38448, "text": "How might someone use machine learning to assess credit scores of borrowers?", "n_tokens": 663}
+{"id": "alpaca-30475", "source_id": 30475, "text": "Make a list of 10 ideas for starting an online business.", "n_tokens": 576}
+{"id": "alpaca-44652", "source_id": 44652, "text": "Describe a place that invokes a sense of peace and relaxation.", "n_tokens": 615}
+{"id": "alpaca-19651", "source_id": 19651, "text": "What is the underlying principle of OOP?", "n_tokens": 584}
+{"id": "alpaca-51130", "source_id": 51130, "text": "Name some actionable steps to conserve energy.", "n_tokens": 659}
+{"id": "alpaca-21238", "source_id": 21238, "text": "Write a summary of the article [Artificial Intelligence: The Challenges Ahead].", "n_tokens": 530}
+{"id": "alpaca-47314", "source_id": 47314, "text": "Describe what an event listener is in computer programming.", "n_tokens": 492}
+{"id": "alpaca-7187", "source_id": 7187, "text": "Pretend you are a professional photographer. Explain the importance of the rule of thirds in photography.", "n_tokens": 525}
+{"id": "alpaca-12110", "source_id": 12110, "text": "Assume you're visiting a restaurant, what would you ask the waiter for?", "n_tokens": 544}
+{"id": "alpaca-31962", "source_id": 31962, "text": "Compute the perimeter of a circle with radius 16 cm.", "n_tokens": 494}
+{"id": "alpaca-21651", "source_id": 21651, "text": "Jack is looking at Anne. Anne is looking at George. Jack is married, George is not, and we don’t know if Anne is married. Is a married person looking at an unmarried person?", "n_tokens": 450}
+{"id": "alpaca-44671", "source_id": 44671, "text": "Generate a metaphor about the power of failure.", "n_tokens": 402}
+{"id": "alpaca-20685", "source_id": 20685, "text": "What is the relationship between an insurer and an insured?", "n_tokens": 491}
+{"id": "alpaca-3004", "source_id": 3004, "text": "Explain the concept of time complexity.", "n_tokens": 649}
+{"id": "alpaca-35408", "source_id": 35408, "text": "Calculate 3 * 4 * 5 * 6 * 7 * 8 * 9.", "n_tokens": 417}
+{"id": "alpaca-4849", "source_id": 4849, "text": "Give me an equivalent metric measurement for 6 feet", "n_tokens": 399}
+{"id": "alpaca-8644", "source_id": 8644, "text": "Calculate the sum of the numbers 8, 7, 19 and 33.", "n_tokens": 405}
+{"id": "alpaca-9512", "source_id": 9512, "text": "Generate a suitable recipe for a vegetarian sandwich.", "n_tokens": 643}
+{"id": "alpaca-11063", "source_id": 11063, "text": "How many championships has LeBron James won?", "n_tokens": 394}
+{"id": "alpaca-8610", "source_id": 8610, "text": "Write a short bio for a web development job.", "n_tokens": 488}
+{"id": "alpaca-47189", "source_id": 47189, "text": "Create a blog post title and opening paragraph about the economic impact of Coronavirus.", "n_tokens": 487}
+{"id": "alpaca-853", "source_id": 853, "text": "Create a successful dentist marketing campaign.", "n_tokens": 725}
+{"id": "alpaca-5922", "source_id": 5922, "text": "Suggest a diet plan to reduce cholesterol levels in the body.", "n_tokens": 701}
+{"id": "alpaca-43972", "source_id": 43972, "text": "Construct a mathematical equation that represents a linear relationship between two variables.", "n_tokens": 469}
+{"id": "alpaca-30471", "source_id": 30471, "text": "Write a script to explain the process of signing up for an online course.", "n_tokens": 742}
+{"id": "alpaca-47857", "source_id": 47857, "text": "List three steps to train a GPT-3 model.", "n_tokens": 635}
+{"id": "alpaca-40051", "source_id": 40051, "text": "Create a list of five words associated to the concept ‘Nature’.", "n_tokens": 401}
+{"id": "alpaca-33400", "source_id": 33400, "text": "Outline a step-by-step guide to make pancakes", "n_tokens": 787}
+{"id": "alpaca-35361", "source_id": 35361, "text": "Three real numbers a,b, and c satisfy the equations a+b+c=2, ab+ac+bc=-7 and abc=-14. What is the largest of the three numbers? Express your answer in simplest radical form.", "n_tokens": 625}
+{"id": "alpaca-16089", "source_id": 16089, "text": "What are some best practices for protecting sensitive data?", "n_tokens": 849}
+{"id": "alpaca-46601", "source_id": 46601, "text": "Explain how to prepare French Toast.", "n_tokens": 674}
+{"id": "alpaca-12778", "source_id": 12778, "text": "What are the advantages of using natural language processing?", "n_tokens": 604}
+{"id": "alpaca-37464", "source_id": 37464, "text": "Generate a set of keywords related to tuberculosis.", "n_tokens": 465}
+{"id": "alpaca-3629", "source_id": 3629, "text": "Write a haiku poem of a serene beach.", "n_tokens": 397}
+{"id": "alpaca-51328", "source_id": 51328, "text": "List 5 things people can do on an airplane.", "n_tokens": 548}
+{"id": "alpaca-2844", "source_id": 2844, "text": "You are working on a website. Design a user experience flow for users who want to search for a particular product.", "n_tokens": 814}
+{"id": "alpaca-21488", "source_id": 21488, "text": "Describe how a person can incur debt.", "n_tokens": 663}
+{"id": "alpaca-6225", "source_id": 6225, "text": "What is the meaning of the phrase \"rule of thumb\"?", "n_tokens": 472}
+{"id": "alpaca-7289", "source_id": 7289, "text": "Write a poem that tells a romantic love story.", "n_tokens": 569}
+{"id": "alpaca-1888", "source_id": 1888, "text": "Provide a step-by-step procedure on how to solve this math problem: 25% of 180", "n_tokens": 452}
+{"id": "alpaca-20051", "source_id": 20051, "text": "Write a 300-400 word essay about the role of technology in the healthcare industry.", "n_tokens": 857}
+{"id": "alpaca-27643", "source_id": 27643, "text": "Generate three different ideas for designing a new storage box.", "n_tokens": 608}
+{"id": "alpaca-39971", "source_id": 39971, "text": "Generate five ideas for a new type of mobile app", "n_tokens": 622}
+{"id": "alpaca-36947", "source_id": 36947, "text": "Draft an article about the importance of exercising.", "n_tokens": 723}
+{"id": "alpaca-30397", "source_id": 30397, "text": "Describe the colors of an autumn day", "n_tokens": 514}
+{"id": "alpaca-38934", "source_id": 38934, "text": "Which language is more popular today - Java or JavaScript?", "n_tokens": 573}
+{"id": "alpaca-16011", "source_id": 16011, "text": "Name a popular open-source photo editing tool.", "n_tokens": 395}
+{"id": "alpaca-23262", "source_id": 23262, "text": "Generate a list of flowers that begin with the letter 'a'.", "n_tokens": 536}
+{"id": "alpaca-22241", "source_id": 22241, "text": "Curate 5 examples of effective communication techniques.", "n_tokens": 621}
+{"id": "alpaca-22082", "source_id": 22082, "text": "What is the difference between a content management system and an enterprise resource planning system?", "n_tokens": 589}
+{"id": "alpaca-24215", "source_id": 24215, "text": "Generate a tweet that expresses appeal to pathos", "n_tokens": 424}
+{"id": "alpaca-34784", "source_id": 34784, "text": "Find an event that is happening in San Francisco this week and provide the details for it.", "n_tokens": 521}
+{"id": "alpaca-12621", "source_id": 12621, "text": "Write down the syntax for declaring an array in Java.", "n_tokens": 572}
+{"id": "alpaca-1243", "source_id": 1243, "text": "Tell me a story about a lovable character.", "n_tokens": 710}
+{"id": "alpaca-26172", "source_id": 26172, "text": "List steps for preparing a traditional French omelet", "n_tokens": 627}
+{"id": "alpaca-2472", "source_id": 2472, "text": "What do you think is the most important quality for success?", "n_tokens": 505}
+{"id": "alpaca-1865", "source_id": 1865, "text": "Explain why there is an increase in online shopping.", "n_tokens": 620}

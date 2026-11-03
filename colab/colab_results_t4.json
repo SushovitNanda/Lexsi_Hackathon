@@ -1,0 +1,31 @@
+{
+ "platform": "colab-t4",
+ "preamble_present": true,
+ "prompt_tokens": 379,
+ "g1": {
+  "peak_gb": 6.78,
+  "tok_per_s": 16.0,
+  "answer_head": "Paracetamol (Acetaminophen) और BP (Blood Pressure) की दवाओं के साथ लेने के बारे में सावधानी बरतने की आवश्यकता होती है। यहाँ कुछ महत्वपूर्ण बातें हैं जिन्हें ध्यान में रखना चाहिए:\n\n1. **संभावित इंटरैक्"
+ },
+ "medmcqa_dev300": {
+  "accuracy": 0.4233,
+  "n": 300,
+  "pred_dist": {
+   "A": 122,
+   "B": 70,
+   "C": 88,
+   "D": 20
+  }
+ },
+ "medmcqa_preds": "BABAACCCDBADBAAAAAACBDAAADBABAACBAAAAABCACCAADACAABBACAAAABAAACDCCAAACCBCABCACBAADCBCCBACCBCBAABCAACBCBBCACADBDCAABCAABABABABCCDABBABDCCBBCABDCCCDBAAACDDBABCAACCCCAACAABABBCCADBBCCABAAACACCAAACAABCABCABACAAACCAAACBBACAACBCBCCCBABCCACAAABDAADACCBCACACACABCBAABCBAABBCACACABABCBABBCCAACAABADACCABDCABBC",
+ "g2_nf4": {
+  "peak_gb": 2.65,
+  "tok_per_s": 12.3,
+  "answer_head": "Paracetamol (Acetaminophen) aur BP (Blood Pressure) ki dawaon ka ek saath lena **safety** ka matter hai. Is ka sabab yeh hai ki:\n\n1. **Paracetamol** (4-6 mg/kg/day) aur **BP dhawo** (4-5 mg/kg/day) ka"
+ },
+ "versions": {
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "transformers": "5.22.1"
+ }
+}

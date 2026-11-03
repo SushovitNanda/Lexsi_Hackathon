@@ -1,0 +1,29 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 03 November 2026 05:18:49
+   Source : C:\hf\
+     Dest : C:\Users\SUSHOVIT\OneDrive\Desktop\Lexsi_Hackathon\models\hf_cache\
+
+    Files : *.*
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DA /COPY:DAT /NP /MT:8 /R:2 /W:2 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       105       105         1         0         0         0
+   Files :       173       173         0         0         0         0
+   Bytes :  44.117 g  44.117 g         0         0         0         0
+   Times :   0:02:49   0:00:19                       0:00:00   0:00:02
+
+
+   Speed :           2,46,78,77,187 Bytes/sec.
+   Speed :             1,41,213.063 MegaBytes/min.
+   Ended : 03 November 2026 05:19:11
+

@@ -1,0 +1,8 @@
+{
+ "test": "G.2",
+ "quant": "nf4",
+ "compute_dtype": "float16",
+ "peak_gb": 2.646723072,
+ "tok_per_s": 8.270623676401287,
+ "answer": "Paracetamol (Acetaminophen) aur BP (Blood Pressure) ki dawaon ka ek saath lena **safety** ka matter hai. Is ka sabab yeh hai ki:\n\n1. **Paracetamol** (4-6 mg/kg/day) aur **BP ki dawaon** (jese ki beta-blockers, ACE inhibitors, calcium channel blockers) ka saath lena **liver damage** aur **low blood pressure** ka khatra badha sakta hai.\n2. **Beta-blockers** aur **ACE inhibitors** se **hypotension** (low blood pressure) hoga,"
+}

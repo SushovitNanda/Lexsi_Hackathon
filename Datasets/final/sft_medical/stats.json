@@ -1,0 +1,10 @@
+{
+ "set": "medical",
+ "input_rows": 4998,
+ "accepted": 4843,
+ "train_rows": 4815,
+ "unmatched": 7,
+ "tokens": 2649875,
+ "sha256_train": "cc0c12287cac62ae890695e9f4454f103adec685731f94fd8a96e86e21bd8e78",
+ "rebalanced": false
+}

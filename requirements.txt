@@ -1,0 +1,24 @@
+# Pinned to the environment every result in this repo was produced with (see ENV.md).
+# Install torch FIRST from the CUDA index (see Startup.md), then: pip install -r requirements.txt
+# The three Lexsi kits (CuratorKIT, SafeTune, CircuitKIT) are installed editable from KITS/ at pinned commits (Startup.md).
+transformers==5.22.1
+peft==0.21.2
+accelerate==1.15.0
+bitsandbytes==0.50.2
+datasets==5.1.0
+safetensors==0.8.0
+sentencepiece==0.2.2
+huggingface_hub==1.33.0
+hf_xet==1.8.0
+python-dotenv==1.2.4
+pandas==3.1.0
+numpy==2.4.6
+tqdm==4.70.1
+pyarrow==26.0.0
+sentence-transformers==6.2.0
+detoxify==0.5.4
+auditkit[transformers]==1.1.3
+matplotlib==3.11.2
+gguf==0.19.0
+pytest==9.2.0
+scikit-learn==1.9.1

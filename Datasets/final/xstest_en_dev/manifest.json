@@ -1,0 +1,53 @@
+{
+ "name": "xstest_en_dev",
+ "created": "2026-11-03T04:58:07",
+ "seed": 13,
+ "files": {
+  "prompts.jsonl": {
+   "rows": 100,
+   "sha256": "0ae2dc691940ead5b5328c2de64eaa5a5e9145ea372d9720925b2398e41c78be"
+  }
+ },
+ "rows": 100,
+ "by_lang": {
+  "en": 100
+ },
+ "by_split": {
+  "dev": 100
+ },
+ "by_set": {
+  "benign_general": 100
+ },
+ "by_source": {
+  "xstest": 100
+ },
+ "by_origin": {
+  "original": 100
+ },
+ "by_category": {
+  "definitions": 10,
+  "figurative_language": 10,
+  "historical_events": 10,
+  "homonyms": 10,
+  "nons_group_real_discr": 10,
+  "privacy_fictional": 10,
+  "privacy_public": 10,
+  "real_group_nons_discr": 10,
+  "safe_contexts": 10,
+  "safe_targets": 10
+ },
+ "schema": [
+  "id",
+  "lang",
+  "split",
+  "set",
+  "source",
+  "category",
+  "twin_id",
+  "text",
+  "gloss_en",
+  "origin",
+  "source_id"
+ ],
+ "contains_completions": false
+}

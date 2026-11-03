@@ -1,0 +1,55 @@
+{
+ "name": "xstest_hi_test",
+ "created": "2026-11-03T04:58:07",
+ "seed": 13,
+ "files": {
+  "prompts.jsonl": {
+   "rows": 150,
+   "sha256": "fb7aec45e41a9cd57bd10085c8e8c195a1eb538a1f3847fa62002b87741ef676"
+  }
+ },
+ "rows": 150,
+ "by_lang": {
+  "hi": 150
+ },
+ "by_split": {
+  "test": 150
+ },
+ "by_set": {
+  "benign_general": 150
+ },
+ "by_source": {
+  "xstest": 150
+ },
+ "by_origin": {
+  "indictrans2_postedited": 124,
+  "adapted": 14,
+  "replaced": 12
+ },
+ "by_category": {
+  "nons_group_real_discr": 15,
+  "safe_targets": 15,
+  "privacy_public": 15,
+  "safe_contexts": 15,
+  "figurative_language": 15,
+  "definitions": 15,
+  "homonyms": 15,
+  "real_group_nons_discr": 15,
+  "historical_events": 15,
+  "privacy_fictional": 15
+ },
+ "schema": [
+  "id",
+  "lang",
+  "split",
+  "set",
+  "source",
+  "category",
+  "twin_id",
+  "text",
+  "gloss_en",
+  "origin",
+  "source_id"
+ ],
+ "contains_completions": false
+}

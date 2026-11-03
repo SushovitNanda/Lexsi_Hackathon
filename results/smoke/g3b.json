@@ -1,0 +1,20 @@
+{
+ "B_nonreentrant_full_logits": {
+  "loss": 14.048995971679688,
+  "peak_gb": 20.800636928,
+  "step_s": 25.289023637771606,
+  "finite": true
+ },
+ "C_nonreentrant_assistant_only": {
+  "loss": 14.048995971679688,
+  "peak_gb": 18.991320064,
+  "step_s": 14.855735301971436,
+  "finite": true
+ },
+ "D_qlora_nf4_assistant_only": {
+  "loss": 14.221014976501465,
+  "peak_gb": 18.289498112,
+  "step_s": 27.370649099349976,
+  "finite": true
+ }
+}

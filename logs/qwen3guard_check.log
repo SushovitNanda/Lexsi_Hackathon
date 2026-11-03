@@ -1,0 +1,81 @@
+W1103 04:18:44.908000 37016 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:47,  3.69it/s]Loading weights:   1%|          | 2/399 [00:00<01:44,  3.81it/s]Loading weights:   5%|▌         | 21/399 [00:00<00:08, 43.43it/s]Loading weights:   7%|▋         | 27/399 [00:00<00:08, 45.89it/s]Loading weights:   8%|▊         | 33/399 [00:00<00:07, 46.47it/s]Loading weights:  11%|█         | 43/399 [00:01<00:07, 47.40it/s]Loading weights:  13%|█▎        | 50/399 [00:01<00:06, 51.10it/s]Loading weights:  14%|█▍        | 56/399 [00:01<00:06, 52.87it/s]Loading weights:  16%|█▌        | 64/399 [00:01<00:05, 58.38it/s]Loading weights:  18%|█▊        | 71/399 [00:01<00:05, 60.59it/s]Loading weights:  20%|█▉        | 78/399 [00:01<00:06, 49.85it/s]Loading weights:  22%|██▏       | 87/399 [00:01<00:05, 57.70it/s]Loading weights:  24%|██▎       | 94/399 [00:02<00:05, 52.95it/s]Loading weights:  25%|██▌       | 100/399 [00:02<00:05, 50.23it/s]Loading weights:  27%|██▋       | 109/399 [00:02<00:05, 52.61it/s]Loading weights:  29%|██▉       | 115/399 [00:02<00:05, 52.90it/s]Loading weights:  31%|███       | 123/399 [00:02<00:05, 54.68it/s]Loading weights:  33%|███▎      | 131/399 [00:02<00:06, 40.49it/s]Loading weights:  36%|███▌      | 143/399 [00:02<00:04, 54.06it/s]Loading weights:  38%|███▊      | 150/399 [00:03<00:04, 52.58it/s]Loading weights:  39%|███▉      | 156/399 [00:03<00:04, 49.11it/s]Loading weights:  41%|████      | 164/399 [00:03<00:05, 45.37it/s]Loading weights:  44%|████▍     | 175/399 [00:03<00:04, 51.96it/s]Loading weights:  46%|████▌     | 182/399 [00:03<00:03, 54.43it/s]Loading weights:  47%|████▋     | 188/399 [00:03<00:04, 49.30it/s]Loading weights:  49%|████▉     | 197/399 [00:04<00:03, 55.17it/s]Loading weights:  51%|█████     | 203/399 [00:04<00:03, 49.99it/s]Loading weights:  53%|█████▎    | 210/399 [00:04<00:03, 48.44it/s]Loading weights:  55%|█████▌    | 220/399 [00:04<00:03, 55.30it/s]Loading weights:  57%|█████▋    | 226/399 [00:04<00:03, 50.31it/s]Loading weights:  58%|█████▊    | 232/399 [00:04<00:03, 48.32it/s]Loading weights:  60%|██████    | 241/399 [00:04<00:03, 45.47it/s]Loading weights:  63%|██████▎   | 253/399 [00:05<00:02, 60.34it/s]Loading weights:  65%|██████▌   | 260/399 [00:05<00:02, 56.05it/s]Loading weights:  67%|██████▋   | 267/399 [00:05<00:02, 53.10it/s]Loading weights:  69%|██████▊   | 274/399 [00:05<00:02, 45.89it/s]Loading weights:  72%|███████▏  | 286/399 [00:05<00:02, 54.67it/s]Loading weights:  73%|███████▎  | 292/399 [00:05<00:01, 54.49it/s]Loading weights:  75%|███████▍  | 298/399 [00:06<00:02, 49.99it/s]Loading weights:  77%|███████▋  | 307/399 [00:06<00:01, 56.33it/s]Loading weights:  78%|███████▊  | 313/399 [00:06<00:01, 49.57it/s]Loading weights:  80%|███████▉  | 319/399 [00:06<00:01, 51.27it/s]Loading weights:  81%|████████▏ | 325/399 [00:06<00:01, 51.46it/s]Loading weights:  83%|████████▎ | 331/399 [00:06<00:01, 49.68it/s]Loading weights:  85%|████████▍ | 339/399 [00:06<00:01, 56.11it/s]Loading weights:  86%|████████▋ | 345/399 [00:06<00:00, 56.39it/s]Loading weights:  88%|████████▊ | 351/399 [00:07<00:01, 46.08it/s]Loading weights:  91%|█████████ | 362/399 [00:07<00:00, 48.57it/s]Loading weights:  93%|█████████▎| 373/399 [00:07<00:00, 50.53it/s]Loading weights:  96%|█████████▋| 385/399 [00:07<00:00, 54.35it/s]Loading weights: 100%|██████████| 399/399 [00:07<00:00, 51.36it/s]
+8/612
+16/612
+24/612
+32/612
+40/612
+48/612
+56/612
+64/612
+72/612
+80/612
+88/612
+96/612
+104/612
+112/612
+120/612
+128/612
+136/612
+144/612
+152/612
+160/612
+168/612
+176/612
+184/612
+192/612
+200/612
+208/612
+216/612
+224/612
+232/612
+240/612
+248/612
+256/612
+264/612
+272/612
+280/612
+288/612
+296/612
+304/612
+312/612
+320/612
+328/612
+336/612
+344/612
+352/612
+360/612
+368/612
+376/612
+384/612
+392/612
+400/612
+408/612
+416/612
+424/612
+432/612
+440/612
+448/612
+456/612
+464/612
+472/612
+480/612
+488/612
+496/612
+504/612
+512/612
+520/612
+528/612
+536/612
+544/612
+552/612
+560/612
+568/612
+576/612
+584/612
+592/612
+600/612
+608/612
+612/612
+{'en/benign_clinical/Controversial': 18, 'en/benign_clinical/Safe': 84, 'en/harmful_clinical/Controversial': 5, 'en/harmful_clinical/Unsafe': 97, 'hi/benign_clinical/Controversial': 39, 'hi/benign_clinical/Safe': 63, 'hi/harmful_clinical/Controversial': 16, 'hi/harmful_clinical/Safe': 1, 'hi/harmful_clinical/Unsafe': 85, 'hinglish/benign_clinical/Controversial': 31, 'hinglish/benign_clinical/Safe': 70, 'hinglish/benign_clinical/Unsafe': 1, 'hinglish/harmful_clinical/Controversial': 29, 'hinglish/harmful_clinical/Safe': 3, 'hinglish/harmful_clinical/Unsafe': 70}
+disagreements: 93 of 612

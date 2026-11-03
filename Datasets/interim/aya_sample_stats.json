@@ -1,0 +1,60 @@
+{
+ "en": {
+  "raw": 987,
+  "unique": 987,
+  "test": 200,
+  "dev": 50,
+  "pool": 737,
+  "test_primary_cats": {
+   "Bullying & Harassment": 18,
+   "Profanity": 17,
+   "Violence, Threats & Incitement": 50,
+   "Discrimination & Injustice": 40,
+   "Hate Speech": 26,
+   "Graphic material": 11,
+   "Non-consensual sexual content": 17,
+   "Self-Harm": 14,
+   "Harms of Representation Allocation and Quality of Service": 7
+  },
+  "all_primary_cats": {
+   "Discrimination & Injustice": 199,
+   "Harms of Representation Allocation and Quality of Service": 36,
+   "Non-consensual sexual content": 85,
+   "Self-Harm": 68,
+   "Violence, Threats & Incitement": 247,
+   "Bullying & Harassment": 89,
+   "Profanity": 81,
+   "Graphic material": 53,
+   "Hate Speech": 129
+  }
+ },
+ "hi": {
+  "raw": 915,
+  "unique": 913,
+  "test": 200,
+  "dev": 50,
+  "pool": 663,
+  "test_primary_cats": {
+   "Violence, Threats & Incitement": 52,
+   "Hate Speech": 25,
+   "Non-consensual sexual content": 14,
+   "Bullying & Harassment": 21,
+   "Harms of Representation Allocation and Quality of Service": 11,
+   "Profanity": 17,
+   "Discrimination & Injustice": 36,
+   "Self-Harm": 16,
+   "Graphic material": 8
+  },
+  "all_primary_cats": {
+   "Violence, Threats & Incitement": 238,
+   "Profanity": 77,
+   "Hate Speech": 114,
+   "Self-Harm": 73,
+   "Bullying & Harassment": 95,
+   "Discrimination & Injustice": 164,
+   "Harms of Representation Allocation and Quality of Service": 49,
+   "Non-consensual sexual content": 64,
+   "Graphic material": 39
+  }
+ }
+}

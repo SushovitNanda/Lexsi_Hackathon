@@ -1,0 +1,176 @@
+Obtaining file:///C:/Users/SUSHOVIT/OneDrive/Desktop/Lexsi_Hackathon/KITS/CuratorKIT
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: pydantic>=2.7 in C:\lexsi\.venv\Lib\site-packages (from curatorkit==0.1.21) (2.14.2)
+Requirement already satisfied: typer>=0.12 in C:\lexsi\.venv\Lib\site-packages (from curatorkit==0.1.21) (0.27.3)
+Requirement already satisfied: tqdm>=4.66 in C:\lexsi\.venv\Lib\site-packages (from curatorkit==0.1.21) (4.70.1)
+Requirement already satisfied: pyyaml>=6.0 in C:\lexsi\.venv\Lib\site-packages (from curatorkit==0.1.21) (6.0.3)
+Requirement already satisfied: datasets>=3.0 in C:\lexsi\.venv\Lib\site-packages (from curatorkit==0.1.21) (5.1.0)
+Requirement already satisfied: huggingface_hub>=0.26 in C:\lexsi\.venv\Lib\site-packages (from curatorkit==0.1.21) (1.33.0)
+Requirement already satisfied: sentence-transformers>=3.0 in C:\lexsi\.venv\Lib\site-packages (from curatorkit==0.1.21) (6.2.0)
+Requirement already satisfied: numpy>=2.0 in C:\lexsi\.venv\Lib\site-packages (from curatorkit==0.1.21) (2.5.4)
+Collecting detoxify>=0.5 (from curatorkit==0.1.21)
+  Downloading detoxify-0.5.4-py3-none-any.whl.metadata (15 kB)
+Collecting detect-secrets>=1.4 (from curatorkit==0.1.21)
+  Downloading detect_secrets-1.5.0-py3-none-any.whl.metadata (23 kB)
+Collecting presidio-analyzer>=2.2 (from curatorkit==0.1.21)
+  Downloading presidio_analyzer-2.2.366-py3-none-any.whl.metadata (6.5 kB)
+Collecting presidio-anonymizer>=2.2 (from curatorkit==0.1.21)
+  Downloading presidio_anonymizer-2.2.366-py3-none-any.whl.metadata (9.8 kB)
+Requirement already satisfied: spacy>=3.7 in C:\lexsi\.venv\Lib\site-packages (from curatorkit==0.1.21) (3.8.18)
+Collecting faker>=26.0 (from curatorkit==0.1.21)
+  Downloading faker-40.44.0-py3-none-any.whl.metadata (16 kB)
+Requirement already satisfied: filelock in C:\lexsi\.venv\Lib\site-packages (from datasets>=3.0->curatorkit==0.1.21) (4.2.4)
+Requirement already satisfied: pyarrow>=24.0.0 in C:\lexsi\.venv\Lib\site-packages (from datasets>=3.0->curatorkit==0.1.21) (26.0.0)
+Requirement already satisfied: dill<0.4.2,>=0.3.0 in C:\lexsi\.venv\Lib\site-packages (from datasets>=3.0->curatorkit==0.1.21) (0.4.1)
+Requirement already satisfied: pandas in C:\lexsi\.venv\Lib\site-packages (from datasets>=3.0->curatorkit==0.1.21) (3.1.0)
+Requirement already satisfied: xxhash in C:\lexsi\.venv\Lib\site-packages (from datasets>=3.0->curatorkit==0.1.21) (4.0.2)
+Requirement already satisfied: multiprocess<0.70.20 in C:\lexsi\.venv\Lib\site-packages (from datasets>=3.0->curatorkit==0.1.21) (0.70.19)
+Requirement already satisfied: fsspec<=2026.7.0,>=2023.1.0 in C:\lexsi\.venv\Lib\site-packages (from fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=3.0->curatorkit==0.1.21) (2026.7.0)
+Requirement already satisfied: packaging in C:\lexsi\.venv\Lib\site-packages (from datasets>=3.0->curatorkit==0.1.21) (26.3)
+Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in C:\lexsi\.venv\Lib\site-packages (from fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=3.0->curatorkit==0.1.21) (3.14.5)
+Requirement already satisfied: click<9.0.0,>=8.4.2 in C:\lexsi\.venv\Lib\site-packages (from huggingface_hub>=0.26->curatorkit==0.1.21) (8.5.0)
+Requirement already satisfied: hf-xet<2.0.0,>=1.6.0 in C:\lexsi\.venv\Lib\site-packages (from huggingface_hub>=0.26->curatorkit==0.1.21) (1.8.0)
+Requirement already satisfied: httpx<1,>=0.23.0 in C:\lexsi\.venv\Lib\site-packages (from huggingface_hub>=0.26->curatorkit==0.1.21) (0.28.1)
+Requirement already satisfied: typing-extensions>=4.1.0 in C:\lexsi\.venv\Lib\site-packages (from huggingface_hub>=0.26->curatorkit==0.1.21) (4.16.0)
+Requirement already satisfied: anyio in C:\lexsi\.venv\Lib\site-packages (from httpx<1,>=0.23.0->huggingface_hub>=0.26->curatorkit==0.1.21) (4.16.0)
+Requirement already satisfied: certifi in C:\lexsi\.venv\Lib\site-packages (from httpx<1,>=0.23.0->huggingface_hub>=0.26->curatorkit==0.1.21) (2026.10.23)
+Requirement already satisfied: httpcore==1.* in C:\lexsi\.venv\Lib\site-packages (from httpx<1,>=0.23.0->huggingface_hub>=0.26->curatorkit==0.1.21) (1.0.9)
+Requirement already satisfied: idna in C:\lexsi\.venv\Lib\site-packages (from httpx<1,>=0.23.0->huggingface_hub>=0.26->curatorkit==0.1.21) (3.20)
+Requirement already satisfied: h11>=0.16 in C:\lexsi\.venv\Lib\site-packages (from httpcore==1.*->httpx<1,>=0.23.0->huggingface_hub>=0.26->curatorkit==0.1.21) (0.16.0)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in C:\lexsi\.venv\Lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=3.0->curatorkit==0.1.21) (2.7.1)
+Requirement already satisfied: aiosignal>=1.4.0 in C:\lexsi\.venv\Lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=3.0->curatorkit==0.1.21) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in C:\lexsi\.venv\Lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=3.0->curatorkit==0.1.21) (26.1.0)
+Requirement already satisfied: frozenlist>=1.1.1 in C:\lexsi\.venv\Lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=3.0->curatorkit==0.1.21) (1.8.0)
+Requirement already satisfied: multidict<8.0,>=4.5 in C:\lexsi\.venv\Lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=3.0->curatorkit==0.1.21) (7.2.1)
+Requirement already satisfied: propcache>=0.2.0 in C:\lexsi\.venv\Lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=3.0->curatorkit==0.1.21) (0.5.4)
+Requirement already satisfied: yarl<2.0,>=1.25.1 in C:\lexsi\.venv\Lib\site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=3.0->curatorkit==0.1.21) (1.25.1)
+Requirement already satisfied: requests in C:\lexsi\.venv\Lib\site-packages (from detect-secrets>=1.4->curatorkit==0.1.21) (2.34.2)
+Requirement already satisfied: sentencepiece>=0.1.94 in C:\lexsi\.venv\Lib\site-packages (from detoxify>=0.5->curatorkit==0.1.21) (0.2.2)
+Requirement already satisfied: torch>=2 in C:\lexsi\.venv\Lib\site-packages (from detoxify>=0.5->curatorkit==0.1.21) (2.11.0+cu128)
+Requirement already satisfied: transformers>=4.48 in C:\lexsi\.venv\Lib\site-packages (from detoxify>=0.5->curatorkit==0.1.21) (5.22.1)
+Requirement already satisfied: tzdata in C:\lexsi\.venv\Lib\site-packages (from faker>=26.0->curatorkit==0.1.21) (2026.6)
+Collecting numpy>=2.0 (from curatorkit==0.1.21)
+  Downloading numpy-2.4.6-cp312-cp312-win_amd64.whl.metadata (6.6 kB)
+Collecting phonenumbers<10.0.0,>=9.0.28 (from presidio-analyzer>=2.2->curatorkit==0.1.21)
+  Downloading phonenumbers-9.0.42-py2.py3-none-any.whl.metadata (10 kB)
+Collecting preshed<3.0.14 (from presidio-analyzer>=2.2->curatorkit==0.1.21)
+  Downloading preshed-3.0.13-cp312-cp312-win_amd64.whl.metadata (5.4 kB)
+Requirement already satisfied: regex>=2023.0.0 in C:\lexsi\.venv\Lib\site-packages (from presidio-analyzer>=2.2->curatorkit==0.1.21) (2026.9.29)
+Collecting tldextract<6.0.0,>=5.3.1 (from presidio-analyzer>=2.2->curatorkit==0.1.21)
+  Downloading tldextract-5.4.0-py3-none-any.whl.metadata (9.2 kB)
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in C:\lexsi\.venv\Lib\site-packages (from preshed<3.0.14->presidio-analyzer>=2.2->curatorkit==0.1.21) (2.0.16)
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in C:\lexsi\.venv\Lib\site-packages (from preshed<3.0.14->presidio-analyzer>=2.2->curatorkit==0.1.21) (1.0.16)
+Requirement already satisfied: annotated-types>=0.6.0 in C:\lexsi\.venv\Lib\site-packages (from pydantic>=2.7->curatorkit==0.1.21) (0.8.0)
+Requirement already satisfied: pydantic-core==2.50.2 in C:\lexsi\.venv\Lib\site-packages (from pydantic>=2.7->curatorkit==0.1.21) (2.50.2)
+Requirement already satisfied: typing-inspection>=0.4.4 in C:\lexsi\.venv\Lib\site-packages (from pydantic>=2.7->curatorkit==0.1.21) (0.4.4)
+Requirement already satisfied: spacy-legacy<3.1.0,>=3.0.11 in C:\lexsi\.venv\Lib\site-packages (from spacy>=3.7->curatorkit==0.1.21) (3.0.12)
+Requirement already satisfied: spacy-loggers<2.0.0,>=1.0.0 in C:\lexsi\.venv\Lib\site-packages (from spacy>=3.7->curatorkit==0.1.21) (1.0.5)
+Requirement already satisfied: thinc<8.4.0,>=8.3.12 in C:\lexsi\.venv\Lib\site-packages (from spacy>=3.7->curatorkit==0.1.21) (8.3.14)
+Requirement already satisfied: wasabi<1.2.0,>=0.9.1 in C:\lexsi\.venv\Lib\site-packages (from spacy>=3.7->curatorkit==0.1.21) (1.1.3)
+Requirement already satisfied: srsly<3.0.0,>=2.5.3 in C:\lexsi\.venv\Lib\site-packages (from spacy>=3.7->curatorkit==0.1.21) (2.5.5)
+Requirement already satisfied: catalogue<2.1.0,>=2.0.6 in C:\lexsi\.venv\Lib\site-packages (from spacy>=3.7->curatorkit==0.1.21) (2.0.10)
+Requirement already satisfied: weasel<2.0.0,>=1.0.1 in C:\lexsi\.venv\Lib\site-packages (from spacy>=3.7->curatorkit==0.1.21) (1.0.1)
+Requirement already satisfied: confection<2.0.0,>=1.3.4 in C:\lexsi\.venv\Lib\site-packages (from spacy>=3.7->curatorkit==0.1.21) (1.3.4)
+Requirement already satisfied: jinja2 in C:\lexsi\.venv\Lib\site-packages (from spacy>=3.7->curatorkit==0.1.21) (3.1.6)
+Requirement already satisfied: setuptools in C:\lexsi\.venv\Lib\site-packages (from spacy>=3.7->curatorkit==0.1.21) (78.1.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in C:\lexsi\.venv\Lib\site-packages (from requests->detect-secrets>=1.4->curatorkit==0.1.21) (3.5.2)
+Requirement already satisfied: urllib3<3,>=1.26 in C:\lexsi\.venv\Lib\site-packages (from requests->detect-secrets>=1.4->curatorkit==0.1.21) (2.8.0)
+Requirement already satisfied: blis<1.4.0,>=1.3.0 in C:\lexsi\.venv\Lib\site-packages (from thinc<8.4.0,>=8.3.12->spacy>=3.7->curatorkit==0.1.21) (1.3.4)
+Collecting requests-file>=1.4 (from tldextract<6.0.0,>=5.3.1->presidio-analyzer>=2.2->curatorkit==0.1.21)
+  Downloading requests_file-3.0.1-py2.py3-none-any.whl.metadata (1.7 kB)
+Requirement already satisfied: colorama in C:\lexsi\.venv\Lib\site-packages (from tqdm>=4.66->curatorkit==0.1.21) (0.4.6)
+Requirement already satisfied: shellingham>=1.3.0 in C:\lexsi\.venv\Lib\site-packages (from typer>=0.12->curatorkit==0.1.21) (1.5.4)
+Requirement already satisfied: rich>=13.8.0 in C:\lexsi\.venv\Lib\site-packages (from typer>=0.12->curatorkit==0.1.21) (15.0.0)
+Requirement already satisfied: annotated-doc>=0.0.2 in C:\lexsi\.venv\Lib\site-packages (from typer>=0.12->curatorkit==0.1.21) (0.0.5)
+Requirement already satisfied: cloudpathlib>=0.7.0 in C:\lexsi\.venv\Lib\site-packages (from weasel<2.0.0,>=1.0.1->spacy>=3.7->curatorkit==0.1.21) (0.26.0)
+Requirement already satisfied: smart-open>=5.2.1 in C:\lexsi\.venv\Lib\site-packages (from smart-open[http]>=5.2.1->weasel<2.0.0,>=1.0.1->spacy>=3.7->curatorkit==0.1.21) (9.0.1)
+Collecting cryptography<51.0.0,>=50.0.0 (from presidio-anonymizer>=2.2->curatorkit==0.1.21)
+  Using cached cryptography-50.0.2-cp311-abi3-win_amd64.whl.metadata (4.4 kB)
+Collecting cffi>=2.0.0 (from cryptography<51.0.0,>=50.0.0->presidio-anonymizer>=2.2->curatorkit==0.1.21)
+  Downloading cffi-2.1.1-cp312-cp312-win_amd64.whl.metadata (2.6 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography<51.0.0,>=50.0.0->presidio-anonymizer>=2.2->curatorkit==0.1.21)
+  Using cached pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+Requirement already satisfied: markdown-it-py>=2.2.0 in C:\lexsi\.venv\Lib\site-packages (from rich>=13.8.0->typer>=0.12->curatorkit==0.1.21) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in C:\lexsi\.venv\Lib\site-packages (from rich>=13.8.0->typer>=0.12->curatorkit==0.1.21) (2.21.0)
+Requirement already satisfied: mdurl~=0.1 in C:\lexsi\.venv\Lib\site-packages (from markdown-it-py>=2.2.0->rich>=13.8.0->typer>=0.12->curatorkit==0.1.21) (0.1.2)
+Requirement already satisfied: tokenizers>=0.19 in C:\lexsi\.venv\Lib\site-packages (from sentence-transformers>=3.0->curatorkit==0.1.21) (0.23.3)
+Requirement already satisfied: scikit-learn>=1.1.0 in C:\lexsi\.venv\Lib\site-packages (from sentence-transformers>=3.0->curatorkit==0.1.21) (1.9.1)
+Requirement already satisfied: scipy>=1.0.0 in C:\lexsi\.venv\Lib\site-packages (from sentence-transformers>=3.0->curatorkit==0.1.21) (1.18.1)
+Requirement already satisfied: safetensors>=0.8.0 in C:\lexsi\.venv\Lib\site-packages (from transformers>=4.48->detoxify>=0.5->curatorkit==0.1.21) (0.8.0)
+Requirement already satisfied: joblib>=1.4.0 in C:\lexsi\.venv\Lib\site-packages (from scikit-learn>=1.1.0->sentence-transformers>=3.0->curatorkit==0.1.21) (1.6.0)
+Requirement already satisfied: narwhals>=2.0.1 in C:\lexsi\.venv\Lib\site-packages (from scikit-learn>=1.1.0->sentence-transformers>=3.0->curatorkit==0.1.21) (2.28.0)
+Requirement already satisfied: threadpoolctl>=3.5.0 in C:\lexsi\.venv\Lib\site-packages (from scikit-learn>=1.1.0->sentence-transformers>=3.0->curatorkit==0.1.21) (3.7.0)
+Requirement already satisfied: cloudpickle>=3.0 in C:\lexsi\.venv\Lib\site-packages (from joblib>=1.4.0->scikit-learn>=1.1.0->sentence-transformers>=3.0->curatorkit==0.1.21) (3.1.2)
+Requirement already satisfied: wrapt in C:\lexsi\.venv\Lib\site-packages (from smart-open>=5.2.1->smart-open[http]>=5.2.1->weasel<2.0.0,>=1.0.1->spacy>=3.7->curatorkit==0.1.21) (2.5.2)
+Requirement already satisfied: sympy>=1.13.3 in C:\lexsi\.venv\Lib\site-packages (from torch>=2->detoxify>=0.5->curatorkit==0.1.21) (1.14.0)
+Requirement already satisfied: networkx>=2.5.1 in C:\lexsi\.venv\Lib\site-packages (from torch>=2->detoxify>=0.5->curatorkit==0.1.21) (3.7)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in C:\lexsi\.venv\Lib\site-packages (from sympy>=1.13.3->torch>=2->detoxify>=0.5->curatorkit==0.1.21) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in C:\lexsi\.venv\Lib\site-packages (from jinja2->spacy>=3.7->curatorkit==0.1.21) (3.0.3)
+Requirement already satisfied: python-dateutil>=2.9.0 in C:\lexsi\.venv\Lib\site-packages (from pandas->datasets>=3.0->curatorkit==0.1.21) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in C:\lexsi\.venv\Lib\site-packages (from python-dateutil>=2.9.0->pandas->datasets>=3.0->curatorkit==0.1.21) (1.17.0)
+Downloading detect_secrets-1.5.0-py3-none-any.whl (120 kB)
+Downloading detoxify-0.5.4-py3-none-any.whl (12 kB)
+Downloading faker-40.44.0-py3-none-any.whl (2.1 MB)
+   ---------------------------------------- 2.1/2.1 MB 108.1 kB/s  0:00:22
+Downloading presidio_analyzer-2.2.366-py3-none-any.whl (295 kB)
+Downloading numpy-2.4.6-cp312-cp312-win_amd64.whl (12.3 MB)
+   ---------------------------------------- 12.3/12.3 MB 251.2 kB/s  0:00:51
+Downloading phonenumbers-9.0.42-py2.py3-none-any.whl (2.6 MB)
+   ---------------------------------------- 2.6/2.6 MB 607.1 kB/s  0:00:03
+Downloading preshed-3.0.13-cp312-cp312-win_amd64.whl (122 kB)
+Downloading tldextract-5.4.0-py3-none-any.whl (107 kB)
+Downloading presidio_anonymizer-2.2.366-py3-none-any.whl (39 kB)
+Using cached cryptography-50.0.2-cp311-abi3-win_amd64.whl (3.8 MB)
+Downloading cffi-2.1.1-cp312-cp312-win_amd64.whl (185 kB)
+Downloading requests_file-3.0.1-py2.py3-none-any.whl (4.5 kB)
+Using cached pycparser-3.12-py3-none-any.whl (62 kB)
+Building wheels for collected packages: curatorkit
+  Building editable for curatorkit (pyproject.toml): started
+  Building editable for curatorkit (pyproject.toml): finished with status 'done'
+  C:\Users\SUSHOVIT\AppData\Local\Temp\pip-build-env-d3yuspbq\overlay\Lib\site-packages\setuptools\command\editable_wheel.py:354: BuildBackendWarning: Editable installation.
+  !!
+  
+          ********************************************************************************
+          Please be careful with folders in your working directory with the same
+          name as your package as they may take precedence during imports.
+          ********************************************************************************
+  
+  !!
+    with strategy, WheelFile(wheel_path, "w") as wheel_obj:
+  Created wheel for curatorkit: filename=curatorkit-0.1.21-0.editable-py3-none-any.whl size=14138 sha256=d068c6c62f71d57349a456335c51a9d339592c856a18602191e0ca2d82903e74
+  Stored in directory: C:\Users\SUSHOVIT\AppData\Local\Temp\pip-ephem-wheel-cache-b8honvtd\wheels\9b\c1\f3\1ece2813d0912d9a78d38e650c3855ae3d9066c3b5c6b8594a
+Successfully built curatorkit
+Installing collected packages: pycparser, preshed, phonenumbers, numpy, faker, requests-file, detect-secrets, cffi, tldextract, cryptography, presidio-anonymizer, curatorkit, presidio-analyzer, detoxify
+  Attempting uninstall: preshed
+    Found existing installation: preshed 3.0.15
+    Uninstalling preshed-3.0.15:
+      Successfully uninstalled preshed-3.0.15
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.5.4
+    Uninstalling numpy-2.5.4:
+      Successfully uninstalled numpy-2.5.4
+
+Successfully installed cffi-2.1.1 cryptography-50.0.2 curatorkit-0.1.21 detect-secrets-1.5.0 detoxify-0.5.4 faker-40.44.0 numpy-2.4.6 phonenumbers-9.0.42 preshed-3.0.13 presidio-analyzer-2.2.366 presidio-anonymizer-2.2.366 pycparser-3.12 requests-file-3.0.1 tldextract-5.4.0
+Looking in indexes: https://download.pytorch.org/whl/cu128
+Requirement already satisfied: torch in C:\lexsi\.venv\Lib\site-packages (2.11.0+cu128)
+Requirement already satisfied: filelock in C:\lexsi\.venv\Lib\site-packages (from torch) (4.2.4)
+Requirement already satisfied: typing-extensions>=4.10.0 in C:\lexsi\.venv\Lib\site-packages (from torch) (4.16.0)
+Requirement already satisfied: setuptools<82 in C:\lexsi\.venv\Lib\site-packages (from torch) (78.1.0)
+Requirement already satisfied: sympy>=1.13.3 in C:\lexsi\.venv\Lib\site-packages (from torch) (1.14.0)
+Requirement already satisfied: networkx>=2.5.1 in C:\lexsi\.venv\Lib\site-packages (from torch) (3.7)
+Requirement already satisfied: jinja2 in C:\lexsi\.venv\Lib\site-packages (from torch) (3.1.6)
+Requirement already satisfied: fsspec>=0.8.5 in C:\lexsi\.venv\Lib\site-packages (from torch) (2026.7.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in C:\lexsi\.venv\Lib\site-packages (from sympy>=1.13.3->torch) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in C:\lexsi\.venv\Lib\site-packages (from jinja2->torch) (3.0.3)
+curatorkit 0.1.21 torch 2.11.0+cu128 True
+W1103 04:13:38.127000 11360 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1103 04:13:41.964000 11360 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+hygiene+embedding ok
+CURATORKIT_DONE

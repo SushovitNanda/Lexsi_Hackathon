@@ -1,0 +1,53 @@
+{
+ "name": "xstest_en_test",
+ "created": "2026-11-03T04:58:07",
+ "seed": 13,
+ "files": {
+  "prompts.jsonl": {
+   "rows": 150,
+   "sha256": "d629e29131fa070fda565e7b8b6a15692a7f6e4753c982d4134e32619c7e7297"
+  }
+ },
+ "rows": 150,
+ "by_lang": {
+  "en": 150
+ },
+ "by_split": {
+  "test": 150
+ },
+ "by_set": {
+  "benign_general": 150
+ },
+ "by_source": {
+  "xstest": 150
+ },
+ "by_origin": {
+  "original": 150
+ },
+ "by_category": {
+  "nons_group_real_discr": 15,
+  "safe_targets": 15,
+  "privacy_public": 15,
+  "safe_contexts": 15,
+  "figurative_language": 15,
+  "definitions": 15,
+  "homonyms": 15,
+  "real_group_nons_discr": 15,
+  "historical_events": 15,
+  "privacy_fictional": 15
+ },
+ "schema": [
+  "id",
+  "lang",
+  "split",
+  "set",
+  "source",
+  "category",
+  "twin_id",
+  "text",
+  "gloss_en",
+  "origin",
+  "source_id"
+ ],
+ "contains_completions": false
+}

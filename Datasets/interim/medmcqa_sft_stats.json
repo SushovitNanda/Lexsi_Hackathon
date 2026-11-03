@@ -1,0 +1,29 @@
+{
+ "rows": 5000,
+ "tokens": 2748000,
+ "max_tokens": 1024,
+ "seed": 13,
+ "subjects": {
+  "Medicine": 451,
+  "Anatomy": 423,
+  "Surgery": 422,
+  "Pathology": 410,
+  "Pharmacology": 374,
+  "Social & Preventive Medicine": 329,
+  "Microbiology": 322,
+  "Physiology": 284,
+  "Biochemistry": 277,
+  "Gynaecology & Obstetrics": 266,
+  "Pediatrics": 252,
+  "Ophthalmology": 195,
+  "ENT": 150,
+  "Forensic Medicine": 149,
+  "Dental": 129,
+  "Psychiatry": 123,
+  "Radiology": 120,
+  "Orthopaedics": 99,
+  "Anaesthesia": 91,
+  "Unknown": 90,
+  "Skin": 44
+ }
+}

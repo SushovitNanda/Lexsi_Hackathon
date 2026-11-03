@@ -1,0 +1,56 @@
+﻿Looking in indexes: https://download.pytorch.org/whl/cu128
+Collecting torch
+  Downloading torch-2.11.0%2Bcu128-cp312-cp312-win_amd64.whl.metadata (29 kB)
+Collecting filelock (from torch)
+  Downloading filelock-4.2.4-py3-none-any.whl.metadata (2.0 kB)
+Collecting typing-extensions>=4.10.0 (from torch)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting setuptools<82 (from torch)
+  Using cached setuptools-78.1.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting sympy>=1.13.3 (from torch)
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting networkx>=2.5.1 (from torch)
+  Downloading networkx-3.7-py3-none-any.whl.metadata (6.7 kB)
+Collecting jinja2 (from torch)
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting fsspec>=0.8.5 (from torch)
+  Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch)
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch)
+  Downloading markupsafe-3.0.3-cp312-cp312-win_amd64.whl.metadata (2.8 kB)
+Downloading torch-2.11.0%2Bcu128-cp312-cp312-win_amd64.whl (2753.2 MB)
+   ---------------------------------------- 2.8/2.8 GB 8.4 MB/s  0:07:04
+Using cached setuptools-78.1.0-py3-none-any.whl (1.3 MB)
+.\.venv\Scripts\python.exe : WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) 
+after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': 
+/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl
+At line:1 char:407
++ ... torch.log"; .\.venv\Scripts\python.exe -m pip install torch --index-u ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: Retryi...y3-none-any.whl:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Downloading networkx-3.7-py3-none-any.whl (2.1 MB)
+   ---------------------------------------- 2.1/2.1 MB 5.2 MB/s  0:00:00
+Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading filelock-4.2.4-py3-none-any.whl (162 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading markupsafe-3.0.3-cp312-cp312-win_amd64.whl (15 kB)
+Installing collected packages: mpmath, typing-extensions, sympy, setuptools, networkx, MarkupSafe, fsspec, filelock, jinja2, torch
+
+Successfully installed MarkupSafe-3.0.3 filelock-4.2.4 fsspec-2026.9.0 jinja2-3.1.6 mpmath-1.3.0 networkx-3.7 setuptools-78.1.0 sympy-1.14.0 torch-2.11.0+cu128 typing-extensions-4.16.0
+.\.venv\Scripts\python.exe : C:\lexsi\.venv\Lib\site-packages\torch\_subclasses\functional_tensor.py:307: UserWarning: 
+Failed to initialize NumPy: No module named 'numpy' (Triggered internally at 
+C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+At line:1 char:543
++ ...  utf8 $log; .\.venv\Scripts\python.exe -c "import torch; print(torch. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\lexsi\.venv\..._numpy.cpp:84.):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+2.11.0+cu128 True 12.8

@@ -1,0 +1,70 @@
+{
+ "name": "aya_en_dev",
+ "created": "2026-11-03T04:58:07",
+ "seed": 13,
+ "files": {
+  "prompts.jsonl": {
+   "rows": 50,
+   "sha256": "e454e1ade4d167cafc738627a153950d2cc8e65ee09c5d07c08fa0c220a48296"
+  }
+ },
+ "rows": 50,
+ "by_lang": {
+  "en": 50
+ },
+ "by_split": {
+  "dev": 50
+ },
+ "by_set": {
+  "harmful_general": 50
+ },
+ "by_source": {
+  "aya_redteaming": 50
+ },
+ "by_origin": {
+  "original": 50
+ },
+ "by_category": {
+  "Non-consensual sexual content|Discrimination & Injustice": 2,
+  "Violence, Threats & Incitement|Graphic material": 6,
+  "Violence, Threats & Incitement|Self-Harm|Graphic material": 4,
+  "Graphic material|Violence, Threats & Incitement": 1,
+  "Discrimination & Injustice": 2,
+  "Discrimination & Injustice|Hate Speech": 3,
+  "Discrimination & Injustice|Harms of Representation Allocation and Quality of Service": 2,
+  "Bullying & Harassment|Discrimination & Injustice": 2,
+  "Self-Harm": 2,
+  "Graphic material|Profanity": 1,
+  "Graphic material|Non-consensual sexual content|Profanity": 1,
+  "Harms of Representation Allocation and Quality of Service|Discrimination & Injustice": 2,
+  "Bullying & Harassment": 1,
+  "Self-Harm|Violence, Threats & Incitement|Graphic material": 1,
+  "Hate Speech|Discrimination & Injustice": 5,
+  "Discrimination & Injustice|Bullying & Harassment|Hate Speech": 1,
+  "Profanity": 2,
+  "Hate Speech|Profanity": 1,
+  "Violence, Threats & Incitement": 2,
+  "Non-consensual sexual content": 1,
+  "Discrimination & Injustice|Hate Speech|Harms of Representation Allocation and Quality of Service": 2,
+  "Profanity|Graphic material": 1,
+  "Violence, Threats & Incitement|Bullying & Harassment": 1,
+  "Hate Speech": 1,
+  "Bullying & Harassment|Profanity": 1,
+  "Profanity|Hate Speech|Discrimination & Injustice": 1,
+  "Non-consensual sexual content|Violence, Threats & Incitement|Graphic material": 1
+ },
+ "schema": [
+  "id",
+  "lang",
+  "split",
+  "set",
+  "source",
+  "category",
+  "twin_id",
+  "text",
+  "gloss_en",
+  "origin",
+  "source_id"
+ ],
+ "contains_completions": false
+}

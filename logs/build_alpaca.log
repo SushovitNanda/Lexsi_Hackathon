@@ -1,0 +1,4 @@
+C:\Users\SUSHOVIT\Lib\site-packages\sklearn\utils\_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.1)
+  from scipy.sparse import csr_matrix, issparse
+alpaca-cleaned rows: 51760
+control SFT: 5118 rows, 2734611 tokens (medical 5000 rows, 2748000 tokens; ratio 0.9951)
