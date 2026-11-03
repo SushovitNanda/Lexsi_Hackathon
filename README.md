@@ -1,4 +1,4 @@
-# Safe from Fine-Tune to Phone — Sushovit's lane (Task 1: setup, models, data)
+# Sushovit (Task 1: setup, models, data)
 
 **New machine? Follow [Startup.md](Startup.md).** Models and fine-tuned weights are not in Git (adapters shared via Google Drive); the Lexsi kits are re-cloned at pinned commits.
 
