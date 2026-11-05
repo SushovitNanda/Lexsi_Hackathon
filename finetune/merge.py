@@ -10,16 +10,18 @@ from peft import PeftModel
 
 ap = argparse.ArgumentParser()
 ap.add_argument("adapter"); ap.add_argument("out"); ap.add_argument("--bf16", action="store_true")
+ap.add_argument("--base-model", default="CohereLabs/tiny-aya-global", help="Hub ID or pinned local snapshot")
+ap.add_argument("--base-revision", help="Pinned Hub revision, recorded in merge_info.json")
 a = ap.parse_args()
-name = "CohereLabs/tiny-aya-global"
+name = a.base_model
 t0 = time.time()
 dtype = torch.bfloat16 if a.bf16 else torch.float32
-base = AutoModelForCausalLM.from_pretrained(name, dtype=dtype, device_map="cpu")
+base = AutoModelForCausalLM.from_pretrained(name, revision=a.base_revision, dtype=dtype, device_map="cpu")
 m = PeftModel.from_pretrained(base, a.adapter).merge_and_unload()
 m = m.to(torch.float16)
 os.makedirs(a.out, exist_ok=True)
 m.save_pretrained(a.out, safe_serialization=True, max_shard_size="5GB")
-AutoTokenizer.from_pretrained(name).save_pretrained(a.out)
+AutoTokenizer.from_pretrained(name, revision=a.base_revision).save_pretrained(a.out)
 hashes = {}
 for f in sorted(os.listdir(a.out)):
     if f.endswith(".safetensors"):
@@ -28,7 +30,7 @@ for f in sorted(os.listdir(a.out)):
             for chunk in iter(lambda: fh.read(1 << 24), b""):
                 h.update(chunk)
         hashes[f] = h.hexdigest()
-json.dump({"base": name, "adapter": a.adapter, "merge_dtype": str(dtype), "saved_dtype": "float16",
+json.dump({"base": name, "base_revision": a.base_revision, "adapter": a.adapter, "merge_dtype": str(dtype), "saved_dtype": "float16",
            "sha256": hashes, "seconds": time.time() - t0},
           open(os.path.join(a.out, "merge_info.json"), "w", encoding="utf-8"), indent=1)
 print(json.dumps(hashes, indent=1), f"\nmerged in {time.time()-t0:.0f}s -> {a.out}")

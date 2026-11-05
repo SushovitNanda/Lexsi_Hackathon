@@ -1,0 +1,24 @@
+{
+  "cell_id": "orig_q4km",
+  "run_fingerprint": "b70b36252d29aac259c5f2c682900fe5d3e0a9a912e76274ecfe9fe84992945f",
+  "selected": 1612,
+  "completed": 1612,
+  "new_responses": 1612,
+  "session_seconds": 3560.3542466250074,
+  "session_responses_per_second": 0.4527639353662841,
+  "session_completion_tokens": 319965,
+  "session_tokens_per_second": 89.86886636443741,
+  "by_lang": {
+    "en": 554,
+    "hi": 554,
+    "hinglish": 504
+  },
+  "errors": [],
+  "by_set": {
+    "harmful_general": 550,
+    "harmful_clinical": 306,
+    "benign_clinical": 306,
+    "benign_general": 450
+  },
+  "complete": true
+}

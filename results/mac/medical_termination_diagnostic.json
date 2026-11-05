@@ -1,0 +1,39 @@
+{
+  "purpose": "benign termination diagnostic, not a replacement for frozen fidelity outputs",
+  "prompt_id": "calib-alpaca-en-0011",
+  "cap_diagnostic": 64,
+  "stop_type": "limit",
+  "visible_response": "The antonym of the word \"thin\" is \"fat\".",
+  "generated_token_count": 64,
+  "eos_3_count": 0,
+  "end_turn_6_count": 51,
+  "end_response_261001_count": 1,
+  "most_frequent_token_counts": [
+    [
+      6,
+      51
+    ],
+    [
+      485,
+      2
+    ],
+    [
+      948,
+      1
+    ],
+    [
+      99575,
+      1
+    ],
+    [
+      332,
+      1
+    ]
+  ],
+  "fidelity_rows_at_256_cap": 50,
+  "fidelity_total": 50,
+  "source_generation_eos": 3,
+  "training_template_end_token": 6,
+  "interpretation": "Medical termination behavior needs Sushovit review; all frozen generation outputs retained without changing EOS or selection.",
+  "all_architecture_metadata_match": true
+}

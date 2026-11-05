@@ -1,0 +1,19 @@
+{
+  "global_access": "approved",
+  "global_download": "complete",
+  "global_shards_sha256_verified_against_published_lfs": true,
+  "global_revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+  "global_weight_bytes": 6698488528,
+  "base_access": "approved",
+  "base_download": "complete",
+  "base_revision": "d62ac17e241c871fc52e9a95d7b0e2615189d7d5",
+  "base_weight_bytes": 6698488528,
+  "base_sha256": {
+    "model-00001-of-00002.safetensors": "afbc07248f256b3cb47f4ea7c20edb8d6121a3d746fb13eda364afbf9131de96",
+    "model-00002-of-00002.safetensors": "d6e35c5212016c0e01e255ea7d7f756cadc70404e80e6ca22944df5d4dbd0fdb"
+  },
+  "base_shards_sha256_verified_against_published_lfs": true,
+  "base_global_tensor_shapes_match": true,
+  "tensor_count_per_model": 290,
+  "verified_at": "2026-11-05T05:42:00.539537+00:00"
+}

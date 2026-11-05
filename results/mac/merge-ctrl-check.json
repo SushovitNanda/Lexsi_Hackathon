@@ -1,0 +1,13 @@
+{
+  "hashes": {
+    "model-00001-of-00002.safetensors": "aad772a8531d3d78e585f67b3b5be9dcf49b6dc4d9281b44e4b570a54858ad7e",
+    "model-00002-of-00002.safetensors": "41b92888f97353eda5240b362e6b34cd617fdb97f5216ccc87a0e47662c86833"
+  },
+  "expected_hashes": null,
+  "hashes_match": null,
+  "reference_supplied": false,
+  "all_tensors_finite": true,
+  "dtypes": {
+    "F16": 290
+  }
+}

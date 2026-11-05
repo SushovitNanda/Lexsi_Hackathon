@@ -1,0 +1,31 @@
+{
+  "sources": {
+    "global": {
+      "repo": "CohereLabs/tiny-aya-global",
+      "revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+      "path": "/Users/manishshaw/Downloads/Lexsi_Hackathon/models/hf_cache/hub/models--CohereLabs--tiny-aya-global/snapshots/af89d219b53ed9b13b8a4645f9c8028973510324",
+      "sha256": {
+        "model-00001-of-00002.safetensors": "0590022d0efe06f12e08e1e94302f069dff404341b426f7435c6303725635fb1",
+        "model-00002-of-00002.safetensors": "2ac3809931d113785058809f27775620e0b8aec6fbc7e163c9c09c08b5f90dab"
+      }
+    }
+  },
+  "llama_cpp_commit": "5851a8e505f4d5fbb183f2847698eb6155d176b7",
+  "outputs": {
+    "orig-f16.gguf": {
+      "sha256": "b54f4b50067fe7c0ca774a1399d5b264a609373ce8339738fa3ff19ecfd74dba",
+      "bytes": 6710484544
+    },
+    "orig-q4km.gguf": {
+      "sha256": "e08bf55b53899b6512aa0b3ee5ff057829e24f76744dd379dd0f0f513cfebdd4",
+      "bytes": 2143977024
+    },
+    "orig-q3km.gguf": {
+      "sha256": "0f01e94ccf8d3dde64f4fd962991178fba04423df280f7bce62548f426ff7909",
+      "bytes": 1799740992
+    }
+  },
+  "metadata_overrides": {
+    "tokenizer.ggml.eos_token_id": 3
+  }
+}

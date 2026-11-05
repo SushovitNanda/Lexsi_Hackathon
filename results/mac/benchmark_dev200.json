@@ -1,0 +1,24 @@
+{
+  "cell_id": "smoke-orig-q4km-dev200",
+  "run_fingerprint": "a5a481047811621cfa2899901606fce325a2e885be2b2c446d6ce6f9661f2835",
+  "selected": 200,
+  "completed": 200,
+  "new_responses": 200,
+  "session_seconds": 342.14131162500416,
+  "session_responses_per_second": 0.5845537887549962,
+  "session_completion_tokens": 35226,
+  "session_tokens_per_second": 102.95745881341747,
+  "by_lang": {
+    "en": 100,
+    "hi": 50,
+    "hinglish": 50
+  },
+  "errors": [],
+  "model_sha256": "e08bf55b53899b6512aa0b3ee5ff057829e24f76744dd379dd0f0f513cfebdd4",
+  "template_sha": "2147c474f41b522b7296f74692b9f31e45f49a31465960576a9d321339c5915a",
+  "eos_token_id": 3,
+  "template_mode": "official",
+  "max_tokens": 256,
+  "workers": 8,
+  "reported_test_cell": false
+}

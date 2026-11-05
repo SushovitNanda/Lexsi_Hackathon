@@ -1,0 +1,15 @@
+{
+  "source_model": "/Users/manishshaw/Downloads/Lexsi_Hackathon/models/merged/med",
+  "source_sha256": {
+    "model-00001-of-00002.safetensors": "6586f21279d6619b3c7b5f54543ef28f86f897ce40aaebf3376ec617478324cd",
+    "model-00002-of-00002.safetensors": "7741d6398b6c0462f560bf14b373b2a9f180ba899590ae2233f5947da881a45a"
+  },
+  "base_revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+  "llama_cpp_commit": "5851a8e505f4d5fbb183f2847698eb6155d176b7",
+  "metadata_overrides": {
+    "tokenizer.ggml.eos_token_id": 3
+  },
+  "cross_machine_merge_parity_verified": false,
+  "sha256": "52e48f490dfef25a5e0e8ec2cd024e9e7a8790cf5cb424b3d940c55d6425132e",
+  "bytes": 6710484480
+}

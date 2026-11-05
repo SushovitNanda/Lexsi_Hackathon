@@ -1,0 +1,141 @@
+{
+  "sets": {
+    "aya_en_dev": {
+      "rows": 50,
+      "sha256": "e454e1ade4d167cafc738627a153950d2cc8e65ee09c5d07c08fa0c220a48296",
+      "by_set": {
+        "harmful_general": 50
+      }
+    },
+    "aya_en_test": {
+      "rows": 200,
+      "sha256": "0d553d071278b8089df292f177cc868b1d0687831988539429fd2704382e479f",
+      "by_set": {
+        "harmful_general": 200
+      }
+    },
+    "aya_hi_dev": {
+      "rows": 50,
+      "sha256": "997fd9cce1ceaab6d2cd987aae32e423eda050869788c604bdd91b6ba13a3f4e",
+      "by_set": {
+        "harmful_general": 50
+      }
+    },
+    "aya_hi_test": {
+      "rows": 200,
+      "sha256": "0d6fed88c00eb1cc679455faf9d39dda3a3a26be25b368503cb07af73d2c8aae",
+      "by_set": {
+        "harmful_general": 200
+      }
+    },
+    "aya_hinglish_dev": {
+      "rows": 50,
+      "sha256": "318cca3b3016ce82143cff3eb0af56a1315d2381fab9e6acef5cfd8baf4744db",
+      "by_set": {
+        "harmful_general": 50
+      }
+    },
+    "aya_hinglish_test": {
+      "rows": 150,
+      "sha256": "0b33604844cd427fbcd0d9398dac82622a233857ba99d0e7e7c4e9d1a393fa69",
+      "by_set": {
+        "harmful_general": 150
+      }
+    },
+    "clinicsafe_hi_en": {
+      "rows": 204,
+      "sha256": "b370be1b57e57e6e9190b024a4056cf4d2662ced0d4df6e7d2a9fe21a3de0670",
+      "by_set": {
+        "harmful_clinical": 102,
+        "benign_clinical": 102
+      }
+    },
+    "clinicsafe_hi_hi": {
+      "rows": 204,
+      "sha256": "f2df5dd9665be39b249b1e1252b7756b153b43695245df869711e8238d5f3408",
+      "by_set": {
+        "harmful_clinical": 102,
+        "benign_clinical": 102
+      }
+    },
+    "clinicsafe_hi_hinglish": {
+      "rows": 204,
+      "sha256": "3700ef8477cdee32d32128e977f21a1aa846b79f1cca2685a5f6bbce93f579e6",
+      "by_set": {
+        "harmful_clinical": 102,
+        "benign_clinical": 102
+      }
+    },
+    "medmcqa_dev_300": {
+      "rows": 300,
+      "sha256": "197d0101c600ec8dae94c7f3244e549bbf48a7da674137cbce33fd86a15f9940",
+      "by_set": {
+        "medmcqa": 300
+      }
+    },
+    "medmcqa_test_500": {
+      "rows": 500,
+      "sha256": "52b673d1775b1f8e1955d4730451a6922b7dd9d01215c650cbd89ab7be5299d7",
+      "by_set": {
+        "medmcqa": 500
+      }
+    },
+    "xstest_en_dev": {
+      "rows": 100,
+      "sha256": "0ae2dc691940ead5b5328c2de64eaa5a5e9145ea372d9720925b2398e41c78be",
+      "by_set": {
+        "benign_general": 100
+      }
+    },
+    "xstest_en_test": {
+      "rows": 150,
+      "sha256": "d629e29131fa070fda565e7b8b6a15692a7f6e4753c982d4134e32619c7e7297",
+      "by_set": {
+        "benign_general": 150
+      }
+    },
+    "xstest_hi_test": {
+      "rows": 150,
+      "sha256": "fb7aec45e41a9cd57bd10085c8e8c195a1eb538a1f3847fa62002b87741ef676",
+      "by_set": {
+        "benign_general": 150
+      }
+    },
+    "xstest_hinglish_test": {
+      "rows": 150,
+      "sha256": "3853bdf13a15161e5985112af341fe480c83f48a497ac052069c6854f8dac3eb",
+      "by_set": {
+        "benign_general": 150
+      }
+    }
+  },
+  "test_counts": {
+    "harmful_general": 550,
+    "harmful_clinical": 306,
+    "benign_clinical": 306,
+    "medmcqa": 500,
+    "benign_general": 450
+  },
+  "errors": [
+    "/Users/manishshaw/Downloads/Lexsi_Hackathon/Datasets/final/sft_control/rejected.jsonl: checksums.txt mismatch",
+    "/Users/manishshaw/Downloads/Lexsi_Hackathon/Datasets/final/sft_control/sft_sharegpt.jsonl: checksums.txt mismatch",
+    "/Users/manishshaw/Downloads/Lexsi_Hackathon/Datasets/final/sft_control/lexsi_provenance.json: checksums.txt mismatch",
+    "/Users/manishshaw/Downloads/Lexsi_Hackathon/Datasets/final/sft_control/manifest.json: checksums.txt mismatch",
+    "/Users/manishshaw/Downloads/Lexsi_Hackathon/Datasets/final/sft_medical/rejected.jsonl: checksums.txt mismatch",
+    "/Users/manishshaw/Downloads/Lexsi_Hackathon/Datasets/final/sft_medical/sft_sharegpt.jsonl: checksums.txt mismatch",
+    "/Users/manishshaw/Downloads/Lexsi_Hackathon/Datasets/final/sft_medical/lexsi_provenance.json: checksums.txt mismatch",
+    "/Users/manishshaw/Downloads/Lexsi_Hackathon/Datasets/final/sft_medical/manifest.json: checksums.txt mismatch"
+  ],
+  "verified": false,
+  "crlf_only_mismatches": [
+    "sft_control/rejected.jsonl",
+    "sft_control/sft_sharegpt.jsonl",
+    "sft_control/lexsi_provenance.json",
+    "sft_control/manifest.json",
+    "sft_medical/rejected.jsonl",
+    "sft_medical/sft_sharegpt.jsonl",
+    "sft_medical/lexsi_provenance.json",
+    "sft_medical/manifest.json"
+  ],
+  "evaluation_verified": true
+}

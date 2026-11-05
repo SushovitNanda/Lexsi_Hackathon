@@ -1,0 +1,67 @@
+{
+  "archive": "/Users/manishshaw/Downloads/Lexsi_Hackathon/models/local-results/day2/D6_Manish_2026-11-05.zip",
+  "sha256": "c2e0cb7f17b1232a204bcf5b5b039b18d76d8b235404906fd59142f17440af50",
+  "bytes": 1789129,
+  "cells": {
+    "orig_q4km": {
+      "rows": 1612,
+      "sha256": "f7ab4039d55b0076eeb212a94fac595ca8583b79fe7de1082794ea7aae1b6886",
+      "run_fingerprint": "b70b36252d29aac259c5f2c682900fe5d3e0a9a912e76274ecfe9fe84992945f",
+      "by_lang": {
+        "en": 554,
+        "hi": 554,
+        "hinglish": 504
+      },
+      "by_set": {
+        "harmful_general": 550,
+        "harmful_clinical": 306,
+        "benign_clinical": 306,
+        "benign_general": 450
+      },
+      "template_sha": "2147c474f41b522b7296f74692b9f31e45f49a31465960576a9d321339c5915a",
+      "model_sha256": "e08bf55b53899b6512aa0b3ee5ff057829e24f76744dd379dd0f0f513cfebdd4",
+      "eos_token_id": 3
+    },
+    "orig_q4km-nopre": {
+      "rows": 1612,
+      "sha256": "5933a7547d4a1103dcb74d0e82eb9daf71648c3ad8cea6fa1436104978ddc759",
+      "run_fingerprint": "cc8a1b59080166482504540692e970b3eeade1b621e95ee93b72b35850b53af0",
+      "by_lang": {
+        "en": 554,
+        "hi": 554,
+        "hinglish": 504
+      },
+      "by_set": {
+        "harmful_general": 550,
+        "harmful_clinical": 306,
+        "benign_clinical": 306,
+        "benign_general": 450
+      },
+      "template_sha": "e0eef73b4a86d0ec1d1afb87f5ab0ef92ecfe647a0c8740da8a74961d184981c",
+      "model_sha256": "e08bf55b53899b6512aa0b3ee5ff057829e24f76744dd379dd0f0f513cfebdd4",
+      "eos_token_id": 3
+    },
+    "med_f16_fidelity50": {
+      "rows": 50,
+      "sha256": "da1b4e622aee317459b91629e67b5ffb9baf1379ef0838ca7a49ac2ac0a329cb",
+      "run_fingerprint": "557318be27bbc01b23f60e0c0954202e551d40da1a9b07fc17c73662158b6beb",
+      "by_lang": {
+        "en": 18,
+        "hi": 16,
+        "hinglish": 16
+      },
+      "by_set": {
+        "harmful_general": 25,
+        "benign_general": 25
+      },
+      "template_sha": "2147c474f41b522b7296f74692b9f31e45f49a31465960576a9d321339c5915a",
+      "model_sha256": "52e48f490dfef25a5e0e8ec2cd024e9e7a8790cf5cb424b3d940c55d6425132e",
+      "eos_token_id": 3
+    }
+  },
+  "sent": false,
+  "judging_status": "pending_Sushovit",
+  "fidelity_gate": "not_evaluated",
+  "merge_parity": "unverified_current_D2_reference_missing",
+  "archive_crc_and_manifest_verified": true
+}

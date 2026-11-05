@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "text": "What is a fever?",
+      "server_rendering": "<|START_OF_TURN_TOKEN|><|USER_TOKEN|>What is a fever?<|END_OF_TURN_TOKEN|><|START_OF_TURN_TOKEN|><|CHATBOT_TOKEN|><|START_RESPONSE|>",
+      "matches_after_bos_normalization": true,
+      "preamble_absent": true
+    },
+    {
+      "text": "बुखार क्या है?",
+      "server_rendering": "<|START_OF_TURN_TOKEN|><|USER_TOKEN|>बुखार क्या है?<|END_OF_TURN_TOKEN|><|START_OF_TURN_TOKEN|><|CHATBOT_TOKEN|><|START_RESPONSE|>",
+      "matches_after_bos_normalization": true,
+      "preamble_absent": true
+    },
+    {
+      "text": "Bukhar kya hota hai?",
+      "server_rendering": "<|START_OF_TURN_TOKEN|><|USER_TOKEN|>Bukhar kya hota hai?<|END_OF_TURN_TOKEN|><|START_OF_TURN_TOKEN|><|CHATBOT_TOKEN|><|START_RESPONSE|>",
+      "matches_after_bos_normalization": true,
+      "preamble_absent": true
+    }
+  ],
+  "passed": true
+}

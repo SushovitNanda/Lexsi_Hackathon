@@ -2,6 +2,8 @@
 
 **New machine? Follow [Startup.md](Startup.md).** Models and fine-tuned weights are not in Git (adapters shared via Google Drive); the Lexsi kits are re-cloned at pinned commits.
 
+**Manish's Mac lane:** use [MAC_TODAY.md](MAC_TODAY.md) for Metal setup and November 4 evidence, and [MAC_NOV5.md](MAC_NOV5.md) for November 5 generation, fidelity and mixed-precision exporter status. Mac dependencies are locked in `requirements-mac.lock`; the dated Mac protocol and input IDs were committed before test generation. Private responses and model files remain under ignored `models/`.
+
 Lexsi AI Safety Hackathon · Track 2 · Team Manish & Sushovit. Planning docs (`Tasks/`) and the status report (`Report/`) are kept outside Git.
 
 ## Layout

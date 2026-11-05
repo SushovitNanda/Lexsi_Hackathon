@@ -1,0 +1,24 @@
+{
+  "cell_id": "orig_q4km-nopre",
+  "run_fingerprint": "cc8a1b59080166482504540692e970b3eeade1b621e95ee93b72b35850b53af0",
+  "selected": 1612,
+  "completed": 1612,
+  "new_responses": 1612,
+  "session_seconds": 2776.264039957983,
+  "session_responses_per_second": 0.5806364152684831,
+  "session_completion_tokens": 310453,
+  "session_tokens_per_second": 111.8240180082794,
+  "by_lang": {
+    "en": 554,
+    "hi": 554,
+    "hinglish": 504
+  },
+  "errors": [],
+  "by_set": {
+    "harmful_general": 550,
+    "harmful_clinical": 306,
+    "benign_clinical": 306,
+    "benign_general": 450
+  },
+  "complete": true
+}

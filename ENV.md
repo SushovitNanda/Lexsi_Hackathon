@@ -43,3 +43,30 @@ because its remote code imports `transformers.onnx`, which transformers 5 remove
 
 Windows notes: Developer Mode is off, so the HF cache stores copies instead of symlinks (warning only); one parallel
 download hit WinError 1314 and was repaired by hand (DECISIONS.md).
+
+## Manish — Mac lane (4 November 2026)
+
+
+Independent GGUF lane; CUDA/NF4 stays on Sushovit’s machine. Full snapshot: `results/mac/environment.json`; exact Python dependency lock: `requirements-mac.lock`.
+
+| Item | Value |
+|---|---|
+| Chip / RAM | Apple M5 / 24 GiB unified |
+| Python | 3.12.15 (`.venv/`) |
+| Metal | Built; Apple M5 detected; 200-prompt inference verified |
+| llama.cpp commit | `5851a8e505f4d5fbb183f2847698eb6155d176b7` |
+| SDK | MacOSX26.5.sdk (explicitly selected from installed CLT SDKs) |
+| torch | 2.11.0 |
+| transformers | 5.22.1 |
+| peft | 0.21.2 |
+| accelerate | 1.15.0 |
+| huggingface_hub | 1.33.0 |
+| safetensors | 0.8.0 |
+| sentencepiece | 0.2.2 |
+| auditkit | 1.1.3 |
+| gguf | 0.19.0 |
+| cmake | 4.4.4 |
+| ninja | 1.13.2 |
+
+Build uses embedded Metal source and runtime compilation, so the standalone `metal` compiler is not required.
+This is a separate macOS PyTorch build; it does not change the reported T4 environment.

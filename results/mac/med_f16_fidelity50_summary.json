@@ -1,0 +1,22 @@
+{
+  "cell_id": "med_f16_fidelity50",
+  "run_fingerprint": "557318be27bbc01b23f60e0c0954202e551d40da1a9b07fc17c73662158b6beb",
+  "selected": 50,
+  "completed": 50,
+  "new_responses": 50,
+  "session_seconds": 193.53291066599195,
+  "session_responses_per_second": 0.258353991721296,
+  "session_completion_tokens": 12800,
+  "session_tokens_per_second": 66.13862188065177,
+  "by_lang": {
+    "en": 18,
+    "hi": 16,
+    "hinglish": 16
+  },
+  "errors": [],
+  "by_set": {
+    "harmful_general": 25,
+    "benign_general": 25
+  },
+  "complete": true
+}

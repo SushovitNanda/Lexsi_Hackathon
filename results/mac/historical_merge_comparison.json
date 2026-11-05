@@ -1,0 +1,30 @@
+{
+  "med": {
+    "historical_reference": "logs/merge_med.log",
+    "historical_hashes": {
+      "model-00001-of-00002.safetensors": "8cd20cff202ae3ffdf46ce0a9bd95e2bafda91b977938f484e3cd96269ae61a7",
+      "model-00002-of-00002.safetensors": "5d95f3636981b613067a44240a52a11d2dae8d84d6f95b9ad7773586f2d856be"
+    },
+    "local_hashes": {
+      "model-00001-of-00002.safetensors": "6586f21279d6619b3c7b5f54543ef28f86f897ce40aaebf3376ec617478324cd",
+      "model-00002-of-00002.safetensors": "7741d6398b6c0462f560bf14b373b2a9f180ba899590ae2233f5947da881a45a"
+    },
+    "matches_historical_task1_log": false,
+    "current_D2_manifest_supplied": false,
+    "max_absolute_difference": null
+  },
+  "ctrl": {
+    "historical_reference": "logs/merge_ctrl.log",
+    "historical_hashes": {
+      "model-00001-of-00002.safetensors": "d265e21cd98d2473113d5ed0b3a173bd325f9f824d215bed42e0607d7f56f4fd",
+      "model-00002-of-00002.safetensors": "2c969fc5b58eea7635feaf39b6bff6c7abb0515d12827470ff96e61ad3f6d83a"
+    },
+    "local_hashes": {
+      "model-00001-of-00002.safetensors": "aad772a8531d3d78e585f67b3b5be9dcf49b6dc4d9281b44e4b570a54858ad7e",
+      "model-00002-of-00002.safetensors": "41b92888f97353eda5240b362e6b34cd617fdb97f5216ccc87a0e47662c86833"
+    },
+    "matches_historical_task1_log": false,
+    "current_D2_manifest_supplied": false,
+    "max_absolute_difference": null
+  }
+}
