@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[top=20mm,bottom=20mm,left=19mm,right=19mm,headheight=15pt,headsep=6mm,footskip=10mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyrepagella}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\setsansfont{texgyreheros}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\setmonofont{lmmono10-regular.otf}[Scale=0.88]
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx,array,booktabs,longtable,calc}
+\usepackage{xcolor}
+\definecolor{Ink}{HTML}{183548}
+\definecolor{Accent}{HTML}{147D87}
+\definecolor{Muted}{HTML}{526571}
+\usepackage{microtype}
+\usepackage{enumitem}
+\setlist{itemsep=2pt,parsep=1pt,topsep=4pt,leftmargin=1.5em}
+\usepackage{titlesec}
+\titleformat{\section}{\large\sffamily\bfseries\color{Ink}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\sffamily\bfseries\color{Accent}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{13pt}{5pt}
+\titlespacing*{\subsection}{0pt}{9pt}{4pt}
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{Muted}SAFE FROM FINE-TUNE TO PHONE}
+\fancyhead[R]{\small\sffamily\color{Muted}MAC EXPERIMENT REPORT}
+\fancyfoot[L]{\footnotesize\sffamily\color{Muted}Manish | Lexsi Hackathon, Track 2}
+\fancyfoot[R]{\footnotesize\sffamily\color{Muted}\thepage\ / \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\usepackage{xurl}
+\usepackage[unicode,colorlinks=true,linkcolor=Accent,urlcolor=Accent]{hyperref}
+\hypersetup{pdftitle={Safe from Fine-Tune to Phone: Mac Experiment Report},pdfauthor={Manish},pdfsubject={November 4-5 execution, findings, limitations and blockers}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3.5pt}
+\AtBeginDocument{\fontsize{10.5}{13}\selectfont}
+\setlength{\emergencystretch}{3em}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\fontsize{9.3}{11.7}\selectfont}
+\AtBeginEnvironment{enumerate}{\interlinepenalty=10000}
+\setcounter{secnumdepth}{0}
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+\providecommand{\tightlist}{\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+\begin{document}
+{\sffamily\bfseries\fontsize{23}{27}\selectfont\color{Ink}Safe from Fine-Tune to Phone\par}
+\vspace{3pt}
+{\sffamily\fontsize{15}{19}\selectfont\color{Accent}Mac experiment report\par}
+\vspace{4pt}
+{\small\sffamily\color{Muted}Manish | Work completed 4-5 November 2026 | M1-M8\par}
+{\footnotesize\sffamily\color{Muted}Prepared 6 November 2026. Evidence and pending checks refer to these recorded experiments.\par}
+\vspace{5pt}
+{\color{Accent}\hrule height 1.2pt}
+\vspace{5pt}
+$body$
+\end{document}

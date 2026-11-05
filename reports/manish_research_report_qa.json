@@ -1,0 +1,15 @@
+{
+  "pdf": "output/pdf/manish_research_report.pdf",
+  "pages": 4,
+  "latex_engine": "Tectonic 0.17.0 (XeTeX)",
+  "converter": "Pandoc 3.13",
+  "renderer": "Poppler 26.10.0, 120 DPI",
+  "source_sha256": "666fe15c0b31cf7c8d4073f7c7a9d9d4aa2b70e107b0abb645f83957dff94b28",
+  "latex_sha256": "92f05ff2988d42228b95f229066361dea9a2943aad7ff0e3d01b426c8d196622",
+  "pdf_sha256": "b6b8a1660ca1dd6bc6cff4179f91cc3c6eb806d810d8021cad493ec1573cf18d",
+  "verified_numeric_anchors": true,
+  "all_four_rendered_pages_visually_reviewed": true,
+  "overfull_boxes": 0,
+  "missing_character_warnings": 0,
+  "safety_and_fidelity_claims_explicitly_pending": true
+}

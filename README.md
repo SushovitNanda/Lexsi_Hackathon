@@ -4,6 +4,8 @@
 
 **Manish's Mac lane:** use [MAC_TODAY.md](MAC_TODAY.md) for Metal setup and November 4 evidence, and [MAC_NOV5.md](MAC_NOV5.md) for November 5 generation, fidelity and mixed-precision exporter status. Mac dependencies are locked in `requirements-mac.lock`; the dated Mac protocol and input IDs were committed before test generation. Private responses and model files remain under ignored `models/`.
 
+For a plain-language account of the work, measured results, interpretation, limitations and blockers, read [SIMPLE_RESEARCH_REPORT.md](SIMPLE_RESEARCH_REPORT.md) or the [LaTeX PDF](output/pdf/manish_research_report.pdf). Build instructions and source are in [reports/](reports/). The D6 response ZIP was subsequently force-added and pushed at the user's request; the other model files and raw working response files remain ignored.
+
 Lexsi AI Safety Hackathon · Track 2 · Team Manish & Sushovit. Planning docs (`Tasks/`) and the status report (`Report/`) are kept outside Git.
 
 ## Layout

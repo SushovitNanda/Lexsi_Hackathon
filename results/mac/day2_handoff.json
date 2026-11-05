@@ -63,5 +63,15 @@
   "judging_status": "pending_Sushovit",
   "fidelity_gate": "not_evaluated",
   "merge_parity": "unverified_current_D2_reference_missing",
-  "archive_crc_and_manifest_verified": true
+  "archive_crc_and_manifest_verified": true,
+  "sent_field_meaning": "Direct delivery/receipt by Sushovit is unconfirmed; this field is not the repository-upload status.",
+  "repository_upload": {
+    "status": "pushed_at_explicit_user_request",
+    "branch": "manishshaw",
+    "commit": "cef0e55",
+    "visibility": "PUBLIC",
+    "path": "models/local-results/day2/D6_Manish_2026-11-05.zip",
+    "url": "https://github.com/SushovitNanda/Lexsi_Hackathon/blob/manishshaw/models/local-results/day2/D6_Manish_2026-11-05.zip"
+  },
+  "recipient_receipt_confirmed": false
 }

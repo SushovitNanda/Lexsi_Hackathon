@@ -1,6 +1,6 @@
 # Manish — Wednesday 4 November (M1–M5)
 
-Plan: `Lexsi_Labs 2.pdf`, v3, pages 8–11. All work remains local.
+Plan: `Lexsi_Labs 2.pdf`, v3, pages 8–11. This records the local work. Code, the plan PDF and the D6 response ZIP were subsequently pushed at the user's explicit request; see `SIMPLE_RESEARCH_REPORT.md` for the current upload status. Model weights and raw working response files remain local.
 
 | Step | Verified status |
 |---|---|

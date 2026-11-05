@@ -14,7 +14,7 @@ Scope: plan v3, Manish M1-M8. Yesterday's setup and evidence are recorded in `MA
 
 `MAC_PREREG_2026-11-05.md` and `configs/mac/nov5_inputs.json` were committed as **2582b4d** before test generation. The v3 plan allows using its protocol while D3 is pending. The older `PREREG.md` remains Sushovit's draft. No co-signature, final shared Holm family, judge calibration or cross-machine fidelity pass is implied by this Mac registration.
 
-The new test harness requires a committed, unchanged registration; captures implementation/model/template/input hashes; validates all prompt token IDs and context lengths before generation; and checkpoints each response by prompt ID. Harmful completions stay under ignored `models/local-results/day2/`. Output line order follows completion order: join on `(cell_id, prompt_id)`.
+The new test harness requires a committed, unchanged registration; captures implementation/model/template/input hashes; validates all prompt token IDs and context lengths before generation; and checkpoints each response by prompt ID. Raw working response files remain ignored under `models/local-results/day2/`; the packaged ZIP was later force-added and pushed at the user's explicit request (see handoff status below). Output line order follows completion order: join on `(cell_id, prompt_id)`.
 
 ## M8 mechanics and reproduction
 
@@ -37,7 +37,7 @@ The proposed shared fidelity set is frozen before responses: 18 English, 16 Hind
 
 `scripts/mac/fidelity_t4_reference.py` is a standalone helper for Sushovit's Colab T4. It checks the exact input digest/IDs, current local merge hashes and FP16 dtype, then generates greedy 256-token responses with EOS 3. It requires a T4; it is not run on this Mac. Both sets of responses must be judged on the same pinned judge host. The v3 fidelity criterion is >=48/50 matching labels; it remains pending until the paired labels and merge-reference check exist.
 
-`scripts/mac/package_day2.py` validated IDs/counts/fingerprints and created **`models/local-results/day2/D6_Manish_2026-11-05.zip`** with all **3,274 responses**, fixed inputs, manifests, protocol, reference helper and centralized judging instructions. It has not been uploaded or sent: no external destination was supplied. The non-response manifest is `results/mac/day2_handoff.json`. All nine targeted software tests pass; native placeholder builds were checked independently.
+`scripts/mac/package_day2.py` validated IDs/counts/fingerprints and created **`models/local-results/day2/D6_Manish_2026-11-05.zip`** with all **3,274 responses**, fixed inputs, manifests, protocol, reference helper and centralized judging instructions. The user subsequently requested a remote push, and the ZIP was uploaded to the public `origin/manishshaw` branch in commit **cef0e55**. Direct receipt/judging by Sushovit is not confirmed. The ZIP's internal transfer status records its earlier creation-time state; the current upload status is recorded in `results/mac/day2_handoff.json`. All nine targeted software tests pass; native placeholder builds were checked independently.
 
 ### Medical termination observation
 
@@ -47,4 +47,4 @@ All 50 medical generations used the complete 256-token budget. A separate benign
 
 - Current medical/control `merge_info.json`; reference tensors if current hashes differ and maximum absolute difference must be measured. Historical-log hash differences have been disclosed; hashes alone do not give numerical differences.
 - Confirmation of the exact 50 fidelity prompts, Sushovit's medical FP16 T4 responses and centralized judge labels after G1.
-- Private destination for D6 transfer. Nothing is pushed publicly during development.
+- Confirmation of Sushovit's receipt and judging of the uploaded D6 archive. The original plan's no-push rule was superseded by the user's explicit instructions to push the code, plan PDF and ZIP.

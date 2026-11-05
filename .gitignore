@@ -75,6 +75,9 @@ scripts/install_curatorkit.sh
 *.toc
 *.synctex.gz
 
+# Local PDF build/render QA; final PDF and LaTeX under output/pdf/ are tracked.
+tmp/pdfs/
+
 # Keep everything under results/ and logs/, including the small CircuitKIT .pt score files and run .log files
 !results/**
 !logs/**
