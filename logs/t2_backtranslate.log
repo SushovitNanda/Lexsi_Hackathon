@@ -1,0 +1,12 @@
+C:\Users\SUSHOVIT\Lib\site-packages\sklearn\utils\_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.1)
+  from scipy.sparse import csr_matrix, issparse
+[bt] 300 items, 75 to do, device cpu
+[bt] 1/75 (197s)
+[bt] 11/75 (573s)
+[bt] 21/75 (939s)
+[bt] 31/75 (1223s)
+[bt] 41/75 (1432s)
+[bt] 51/75 (1545s)
+[bt] 61/75 (1693s)
+[bt] 71/75 (1778s)
+[bt] DONE in 30.6 min -> C:\Users\SUSHOVIT\OneDrive\Desktop\Lexsi_Hackathon\results\judges\backtranslation_hand_labels.jsonl

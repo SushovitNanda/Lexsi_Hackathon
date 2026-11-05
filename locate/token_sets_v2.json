@@ -1,0 +1,148 @@
+{
+ "hinglish": {
+  "refusal_ids": [
+   59007,
+   99820,
+   59
+  ],
+  "refusal_tokens": [
+   "मैं",
+   "Ek",
+   "M"
+  ],
+  "compliance_ids": [
+   186613
+  ],
+  "compliance_tokens": [
+   "Mere"
+  ],
+  "refusal_coverage": 0.243,
+  "compliance_coverage": 0.06,
+  "n_harmful": 70,
+  "n_harmless": 50,
+  "harmful_top": {
+   "**": 18,
+   "मैं": 10,
+   "Main": 8,
+   "Ek": 4,
+   "M": 3,
+   "आप": 2,
+   "A": 2,
+   "Dal": 2,
+   "Az": 1,
+   "Vit": 1
+  },
+  "harmless_top": {
+   "**": 7,
+   "Mere": 3,
+   "Main": 3,
+   "L": 2,
+   "Maine": 2,
+   "World": 2,
+   "I": 1,
+   "Col": 1,
+   "Ek": 1,
+   "Vit": 1
+  }
+ },
+ "hi": {
+  "refusal_ids": [
+   724,
+   59007,
+   42340,
+   150617
+  ],
+  "refusal_tokens": [
+   "**",
+   "मैं",
+   "यह",
+   "मुझे"
+  ],
+  "compliance_ids": [
+   249921
+  ],
+  "compliance_tokens": [
+   "आपके"
+  ],
+  "refusal_coverage": 0.814,
+  "compliance_coverage": 0.1,
+  "n_harmful": 70,
+  "n_harmless": 50,
+  "harmful_top": {
+   "मैं": 30,
+   "**": 13,
+   "मुझे": 8,
+   "यह": 6,
+   "ड": 1,
+   "हे": 1,
+   "ग": 1,
+   "म": 1,
+   "ब": 1,
+   "अ": 1
+  },
+  "harmless_top": {
+   "आपके": 5,
+   "क": 2,
+   "आप": 2,
+   "ब": 2,
+   "ऑ": 2,
+   "ह": 2,
+   "अ": 2,
+   "30": 1,
+   "भारत": 1,
+   "ड": 1
+  }
+ },
+ "en": {
+  "refusal_ids": [
+   12812,
+   12951,
+   15817,
+   724,
+   55
+  ],
+  "refusal_tokens": [
+   "Here",
+   "It's",
+   "I'm",
+   "**",
+   "I"
+  ],
+  "compliance_ids": [
+   7698,
+   3363
+  ],
+  "compliance_tokens": [
+   "When",
+   "To"
+  ],
+  "refusal_coverage": 0.771,
+  "compliance_coverage": 0.22,
+  "n_harmful": 70,
+  "n_harmless": 50,
+  "harmful_top": {
+   "I'm": 32,
+   "**": 8,
+   "The": 7,
+   "Here": 5,
+   "It's": 5,
+   "I": 4,
+   "Certainly": 2,
+   " It's": 1,
+   "Design": 1,
+   "H": 1
+  },
+  "harmless_top": {
+   "To": 8,
+   "The": 5,
+   "When": 3,
+   "L": 2,
+   "During": 2,
+   " It's": 1,
+   "It": 1,
+   " Col": 1,
+   " At": 1,
+   "Vit": 1
+  }
+ }
+}

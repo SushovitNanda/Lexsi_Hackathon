@@ -1,0 +1,37 @@
+STEP gen orig__fp16__f16__tpl-official 04:11
+exit 0
+STEP medmcqa orig__fp16__f16__tpl-official 04:46
+exit 0
+STEP gen med__fp16__f16__tpl-official 04:48
+exit 0
+STEP medmcqa med__fp16__f16__tpl-official 05:25
+exit 0
+STEP gen ctrl__fp16__f16__tpl-official 05:26
+exit 0
+STEP medmcqa ctrl__fp16__f16__tpl-official 06:04
+exit 0
+STEP gen orig__nf4__f16__tpl-official 06:06
+exit 0
+STEP medmcqa orig__nf4__f16__tpl-official 07:10
+exit 0
+STEP gen med__nf4__f16__tpl-official 07:11
+exit 0
+STEP medmcqa med__nf4__f16__tpl-official 08:13
+exit 0
+STEP judge_test 08:14
+exit 0
+STEP devgen dev_pass__orig__fp16 09:16
+exit 0
+STEP medmcqa_dev dev_pass__orig__fp16 09:29
+exit 0
+STEP devgen dev_pass__med__fp16 09:30
+exit 0
+STEP medmcqa_dev dev_pass__med__fp16 09:35
+exit 0
+STEP devgen dev_pass__ctrl__fp16 09:36
+exit 0
+STEP medmcqa_dev dev_pass__ctrl__fp16 09:44
+exit 0
+STEP judge_dev 09:46
+exit 0
+T2_CHAIN_A_DONE 09:54

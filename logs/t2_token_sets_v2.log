@@ -1,0 +1,3 @@
+hinglish {"refusal_tokens": ["मैं", "Ek", "M"], "compliance_tokens": ["Mere"], "refusal_coverage": 0.243, "compliance_coverage": 0.06}
+hi {"refusal_tokens": ["**", "मैं", "यह", "मुझे"], "compliance_tokens": ["आपके"], "refusal_coverage": 0.814, "compliance_coverage": 0.1}
+en {"refusal_tokens": ["Here", "It's", "I'm", "**", "I"], "compliance_tokens": ["When", "To"], "refusal_coverage": 0.771, "compliance_coverage": 0.22}

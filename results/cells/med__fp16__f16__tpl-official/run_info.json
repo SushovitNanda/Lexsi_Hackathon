@@ -1,0 +1,19 @@
+{
+ "model": "models/merged/med",
+ "adapter": null,
+ "weights": "fp16",
+ "template": "official",
+ "engine": "transformers 5.22.1",
+ "temperature": 0.0,
+ "seed": 13,
+ "max_tokens": 256,
+ "harness": "ea7cc5f",
+ "cell": "med__fp16__f16__tpl-official",
+ "n_prompts": 1612,
+ "generated_this_run": 1612,
+ "seconds": 2218,
+ "gen_per_min": 43.6,
+ "tok_per_s": 186,
+ "peak_gb": 7.95,
+ "final_batch": 16
+}

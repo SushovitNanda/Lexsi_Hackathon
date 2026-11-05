@@ -51,6 +51,7 @@ def main():
     ap.add_argument("--seed", type=int, default=13)
     ap.add_argument("--max_len", type=int, default=1024)
     ap.add_argument("--limit", type=int, default=0, help="dry run: use only the first N rows")
+    ap.add_argument("--resume", help="resume from a checkpoint dir (optimizer, scheduler and RNG state restored)")
     args = ap.parse_args()
 
     name = "CohereLabs/tiny-aya-global"
@@ -100,7 +101,7 @@ def main():
     t0 = time.time()
     trainer = AssistantOnlyTrainer(model=model, args=targs, train_dataset=ds, callbacks=[log],
                       data_collator=DataCollatorForSeq2Seq(tok, padding=True, label_pad_token_id=-100))
-    trainer.train()
+    trainer.train(resume_from_checkpoint=args.resume)
     os.makedirs(args.out_dir, exist_ok=True)
     model.save_pretrained(os.path.join(args.out_dir, "adapter"))
     tok.save_pretrained(os.path.join(args.out_dir, "adapter"))

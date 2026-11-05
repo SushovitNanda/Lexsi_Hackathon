@@ -1,0 +1,6010 @@
+{
+ "model": "CohereLabs/tiny-aya-global",
+ "adapter": null,
+ "nf4": true,
+ "set": "Datasets/final/medmcqa_test_500/prompts.jsonl",
+ "n": 500,
+ "accuracy": 0.392,
+ "preds": [
+  {
+   "prompt_id": "medmcqa-test-0000",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.25,
+    "B": 21.75,
+    "C": 21.0,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0001",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 18.5,
+    "B": 20.5,
+    "C": 20.75,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0002",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.75,
+    "B": 22.125,
+    "C": 19.625,
+    "D": 16.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0003",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 19.375,
+    "B": 19.25,
+    "C": 21.0,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0004",
+   "pred": "D",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 18.25,
+    "B": 18.75,
+    "C": 19.25,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0005",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 18.125,
+    "B": 20.875,
+    "C": 19.0,
+    "D": 17.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0006",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 17.625,
+    "C": 17.625,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0007",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 22.625,
+    "C": 17.5,
+    "D": 16.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0008",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.375,
+    "B": 21.375,
+    "C": 20.125,
+    "D": 17.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0009",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 19.875,
+    "C": 19.75,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0010",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 17.5,
+    "B": 21.5,
+    "C": 20.0,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0011",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 18.25,
+    "B": 17.75,
+    "C": 22.0,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0012",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.375,
+    "B": 19.75,
+    "C": 20.375,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0013",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "scores": {
+    "A": 18.5,
+    "B": 18.125,
+    "C": 18.875,
+    "D": 20.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0014",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 20.125,
+    "C": 20.0,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0015",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.25,
+    "B": 19.5,
+    "C": 19.625,
+    "D": 17.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0016",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.625,
+    "B": 20.0,
+    "C": 20.875,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0017",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 20.0,
+    "C": 19.875,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0018",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.875,
+    "B": 19.75,
+    "C": 20.375,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0019",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.375,
+    "B": 20.25,
+    "C": 20.875,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0020",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 17.5,
+    "B": 22.125,
+    "C": 18.375,
+    "D": 16.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0021",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 20.875,
+    "C": 21.0,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0022",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 20.875,
+    "C": 20.625,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0023",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 20.125,
+    "C": 21.25,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0024",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 17.5,
+    "B": 16.875,
+    "C": 21.625,
+    "D": 20.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0025",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.875,
+    "B": 18.5,
+    "C": 20.25,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0026",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 22.75,
+    "B": 19.125,
+    "C": 17.75,
+    "D": 17.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0027",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.875,
+    "B": 20.75,
+    "C": 21.25,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0028",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.0,
+    "B": 20.125,
+    "C": 20.125,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0029",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.5,
+    "B": 20.0,
+    "C": 19.375,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0030",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 19.75,
+    "C": 21.625,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0031",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 19.375,
+    "C": 21.25,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0032",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.25,
+    "B": 19.375,
+    "C": 21.0,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0033",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 22.0,
+    "B": 18.25,
+    "C": 19.125,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0034",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.0,
+    "B": 19.5,
+    "C": 21.25,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0035",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 16.375,
+    "B": 20.875,
+    "C": 17.75,
+    "D": 15.6875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0036",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.0,
+    "B": 20.5,
+    "C": 18.625,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0037",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.5,
+    "B": 20.75,
+    "C": 17.75,
+    "D": 18.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0038",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 19.25,
+    "C": 20.25,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0039",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 19.625,
+    "B": 19.5,
+    "C": 20.625,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0040",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 19.75,
+    "B": 21.25,
+    "C": 20.875,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0041",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 21.25,
+    "C": 20.875,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0042",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 18.875,
+    "B": 21.5,
+    "C": 17.375,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0043",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 21.25,
+    "C": 19.875,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0044",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 18.625,
+    "B": 22.5,
+    "C": 17.375,
+    "D": 14.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0045",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.375,
+    "B": 20.75,
+    "C": 20.875,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0046",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 19.75,
+    "C": 20.875,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0047",
+   "pred": "D",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 19.625,
+    "C": 20.0,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0048",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.875,
+    "B": 20.625,
+    "C": 20.75,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0049",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.0,
+    "B": 21.875,
+    "C": 18.0,
+    "D": 15.0625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0050",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 18.0,
+    "B": 22.0,
+    "C": 18.625,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0051",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.75,
+    "B": 20.75,
+    "C": 20.625,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0052",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 19.875,
+    "C": 21.375,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0053",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 20.75,
+    "C": 21.25,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0054",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 18.625,
+    "B": 21.125,
+    "C": 18.625,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0055",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.125,
+    "B": 21.75,
+    "C": 21.125,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0056",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.5,
+    "B": 20.125,
+    "C": 20.0,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0057",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 21.25,
+    "C": 19.5,
+    "D": 20.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0058",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.375,
+    "B": 18.875,
+    "C": 20.0,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0059",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 22.125,
+    "B": 19.25,
+    "C": 20.125,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0060",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.75,
+    "B": 20.25,
+    "C": 19.0,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0061",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.5,
+    "B": 19.5,
+    "C": 20.25,
+    "D": 17.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0062",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 20.125,
+    "C": 18.25,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0063",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 19.25,
+    "C": 20.875,
+    "D": 17.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0064",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 20.125,
+    "C": 20.5,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0065",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.625,
+    "B": 19.375,
+    "C": 20.0,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0066",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 19.75,
+    "C": 19.25,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0067",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 19.375,
+    "B": 20.5,
+    "C": 21.375,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0068",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 22.125,
+    "B": 18.625,
+    "C": 20.375,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0069",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.125,
+    "C": 19.75,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0070",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 19.75,
+    "C": 20.5,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0071",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 18.75,
+    "B": 19.25,
+    "C": 20.75,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0072",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 20.625,
+    "C": 19.875,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0073",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.5,
+    "B": 19.75,
+    "C": 20.625,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0074",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 21.25,
+    "C": 20.625,
+    "D": 16.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0075",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 20.75,
+    "C": 21.0,
+    "D": 15.8125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0076",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 19.375,
+    "C": 21.375,
+    "D": 17.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0077",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.875,
+    "B": 18.625,
+    "C": 21.0,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0078",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 20.125,
+    "C": 20.625,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0079",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 19.125,
+    "B": 20.375,
+    "C": 21.5,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0080",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.875,
+    "B": 19.5,
+    "C": 18.5,
+    "D": 17.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0081",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "scores": {
+    "A": 18.625,
+    "B": 20.0,
+    "C": 17.5,
+    "D": 20.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0082",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 18.75,
+    "B": 21.25,
+    "C": 21.375,
+    "D": 20.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0083",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.5,
+    "B": 20.125,
+    "C": 21.0,
+    "D": 20.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0084",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.875,
+    "B": 17.0,
+    "C": 20.875,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0085",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.75,
+    "B": 21.75,
+    "C": 20.75,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0086",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.875,
+    "B": 19.5,
+    "C": 21.625,
+    "D": 17.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0087",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 21.25,
+    "C": 20.125,
+    "D": 17.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0088",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.875,
+    "B": 19.625,
+    "C": 21.25,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0089",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.625,
+    "B": 20.875,
+    "C": 19.875,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0090",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.75,
+    "B": 19.375,
+    "C": 20.875,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0091",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 19.75,
+    "B": 21.5,
+    "C": 19.5,
+    "D": 17.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0092",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 20.0,
+    "C": 21.125,
+    "D": 17.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0093",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 20.75,
+    "C": 21.125,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0094",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 21.875,
+    "C": 17.5,
+    "D": 16.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0095",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.75,
+    "B": 21.25,
+    "C": 19.875,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0096",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.5,
+    "B": 16.5,
+    "C": 21.875,
+    "D": 17.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0097",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 20.25,
+    "C": 19.875,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0098",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.5,
+    "C": 18.25,
+    "D": 20.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0099",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 21.5,
+    "C": 20.75,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0100",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.75,
+    "C": 21.25,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0101",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.5,
+    "B": 21.75,
+    "C": 19.0,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0102",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 17.75,
+    "C": 20.875,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0103",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 18.75,
+    "C": 20.25,
+    "D": 21.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0104",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 18.75,
+    "C": 19.75,
+    "D": 16.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0105",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 21.125,
+    "C": 20.625,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0106",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.375,
+    "B": 19.875,
+    "C": 21.125,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0107",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.875,
+    "B": 19.625,
+    "C": 21.25,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0108",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.0,
+    "B": 21.125,
+    "C": 20.875,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0109",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 18.25,
+    "B": 21.5,
+    "C": 21.0,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0110",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 18.0,
+    "B": 21.5,
+    "C": 16.875,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0111",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 17.75,
+    "B": 19.0,
+    "C": 21.375,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0112",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.0,
+    "B": 17.875,
+    "C": 19.5,
+    "D": 20.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0113",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 22.125,
+    "B": 19.375,
+    "C": 20.5,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0114",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.375,
+    "B": 20.375,
+    "C": 20.625,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0115",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 21.75,
+    "C": 19.25,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0116",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 21.5,
+    "C": 20.75,
+    "D": 16.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0117",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 20.5,
+    "C": 21.375,
+    "D": 20.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0118",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 18.5,
+    "B": 19.875,
+    "C": 21.75,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0119",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 19.5,
+    "C": 20.125,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0120",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 19.75,
+    "C": 21.375,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0121",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.875,
+    "B": 20.375,
+    "C": 20.625,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0122",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 20.5,
+    "C": 20.5,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0123",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 18.875,
+    "B": 22.625,
+    "C": 17.5,
+    "D": 14.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0124",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 19.875,
+    "B": 21.5,
+    "C": 20.625,
+    "D": 20.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0125",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 19.75,
+    "B": 19.375,
+    "C": 21.875,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0126",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 20.75,
+    "C": 20.375,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0127",
+   "pred": "D",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 19.5,
+    "C": 19.75,
+    "D": 20.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0128",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 19.375,
+    "B": 18.625,
+    "C": 21.875,
+    "D": 16.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0129",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "scores": {
+    "A": 18.25,
+    "B": 19.875,
+    "C": 18.625,
+    "D": 21.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0130",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 20.625,
+    "C": 20.5,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0131",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.625,
+    "B": 20.625,
+    "C": 20.125,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0132",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 20.125,
+    "C": 19.0,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0133",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 20.25,
+    "C": 21.625,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0134",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 19.875,
+    "C": 20.5,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0135",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 18.5,
+    "B": 19.125,
+    "C": 20.875,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0136",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.5,
+    "B": 19.375,
+    "C": 20.5,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0137",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 19.75,
+    "B": 21.125,
+    "C": 19.375,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0138",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 15.8125,
+    "B": 18.875,
+    "C": 21.625,
+    "D": 20.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0139",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.875,
+    "B": 20.125,
+    "C": 18.0,
+    "D": 20.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0140",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.75,
+    "B": 22.0,
+    "C": 18.5,
+    "D": 17.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0141",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.625,
+    "B": 20.125,
+    "C": 20.75,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0142",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 19.75,
+    "C": 20.375,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0143",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 20.625,
+    "C": 19.5,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0144",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.5,
+    "B": 19.125,
+    "C": 21.0,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0145",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 20.375,
+    "C": 21.375,
+    "D": 17.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0146",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.125,
+    "B": 20.125,
+    "C": 20.875,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0147",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.875,
+    "B": 19.375,
+    "C": 20.0,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0148",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 18.75,
+    "B": 20.375,
+    "C": 20.75,
+    "D": 15.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0149",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.75,
+    "B": 20.75,
+    "C": 20.875,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0150",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.125,
+    "B": 19.375,
+    "C": 21.125,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0151",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 18.125,
+    "B": 21.25,
+    "C": 19.75,
+    "D": 17.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0152",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.125,
+    "B": 21.125,
+    "C": 19.375,
+    "D": 18.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0153",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 19.25,
+    "C": 20.875,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0154",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.625,
+    "B": 20.75,
+    "C": 19.875,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0155",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 21.5,
+    "C": 20.0,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0156",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 19.375,
+    "C": 20.0,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0157",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.25,
+    "B": 20.875,
+    "C": 20.25,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0158",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 20.875,
+    "C": 19.375,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0159",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 21.25,
+    "C": 20.75,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0160",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.875,
+    "B": 17.625,
+    "C": 19.0,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0161",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.25,
+    "B": 19.875,
+    "C": 20.0,
+    "D": 14.9375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0162",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 20.375,
+    "C": 20.375,
+    "D": 20.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0163",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 18.75,
+    "B": 20.25,
+    "C": 20.625,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0164",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 20.625,
+    "C": 20.75,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0165",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.875,
+    "B": 21.75,
+    "C": 16.625,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0166",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 20.0,
+    "C": 20.75,
+    "D": 20.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0167",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.25,
+    "B": 20.25,
+    "C": 21.0,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0168",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 20.125,
+    "C": 21.0,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0169",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.5,
+    "B": 20.625,
+    "C": 21.25,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0170",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 18.75,
+    "B": 21.875,
+    "C": 21.125,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0171",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 20.75,
+    "C": 21.0,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0172",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 22.125,
+    "B": 20.75,
+    "C": 20.375,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0173",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.5,
+    "B": 21.375,
+    "C": 20.625,
+    "D": 18.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0174",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.875,
+    "B": 20.125,
+    "C": 20.625,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0175",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 18.125,
+    "B": 21.875,
+    "C": 19.75,
+    "D": 15.5625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0176",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 20.625,
+    "C": 21.25,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0177",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.375,
+    "B": 18.75,
+    "C": 19.5,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0178",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.0,
+    "B": 20.75,
+    "C": 20.25,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0179",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 19.125,
+    "C": 21.125,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0180",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.125,
+    "B": 20.75,
+    "C": 20.625,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0181",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 21.875,
+    "B": 22.375,
+    "C": 16.75,
+    "D": 14.3125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0182",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.25,
+    "B": 21.875,
+    "C": 17.375,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0183",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 20.75,
+    "C": 19.75,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0184",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 20.875,
+    "C": 22.875,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0185",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 20.5,
+    "C": 20.625,
+    "D": 20.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0186",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 21.125,
+    "B": 21.25,
+    "C": 21.0,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0187",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 18.0,
+    "B": 20.5,
+    "C": 21.25,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0188",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 21.375,
+    "C": 20.5,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0189",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 21.0,
+    "C": 20.625,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0190",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 20.125,
+    "C": 20.875,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0191",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 21.5,
+    "C": 20.375,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0192",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.125,
+    "B": 21.0,
+    "C": 21.5,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0193",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 19.5,
+    "C": 19.625,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0194",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 18.625,
+    "B": 22.5,
+    "C": 19.25,
+    "D": 16.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0195",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 21.375,
+    "B": 21.75,
+    "C": 19.5,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0196",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.0,
+    "B": 20.5,
+    "C": 20.75,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0197",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 20.375,
+    "C": 21.125,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0198",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.875,
+    "B": 19.875,
+    "C": 19.25,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0199",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 21.25,
+    "C": 22.0,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0200",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.875,
+    "B": 20.875,
+    "C": 20.0,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0201",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 17.125,
+    "B": 21.5,
+    "C": 17.25,
+    "D": 15.9375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0202",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 16.25,
+    "B": 21.125,
+    "C": 18.25,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0203",
+   "pred": "D",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 19.625,
+    "C": 20.75,
+    "D": 20.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0204",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 21.125,
+    "C": 20.375,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0205",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 17.75,
+    "B": 18.375,
+    "C": 21.25,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0206",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.125,
+    "B": 20.0,
+    "C": 20.875,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0207",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.125,
+    "B": 21.125,
+    "C": 22.0,
+    "D": 17.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0208",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 20.875,
+    "C": 18.875,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0209",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 19.0,
+    "C": 20.5,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0210",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.75,
+    "C": 20.25,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0211",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 20.25,
+    "C": 19.625,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0212",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 20.5,
+    "C": 19.875,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0213",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 18.0,
+    "B": 20.625,
+    "C": 21.75,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0214",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 20.375,
+    "C": 21.0,
+    "D": 16.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0215",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.5,
+    "B": 20.375,
+    "C": 19.875,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0216",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 19.875,
+    "C": 20.5,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0217",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 23.125,
+    "B": 18.0,
+    "C": 18.0,
+    "D": 15.3125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0218",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 17.0,
+    "C": 20.5,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0219",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "scores": {
+    "A": 18.75,
+    "B": 19.5,
+    "C": 18.75,
+    "D": 21.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0220",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 21.125,
+    "C": 20.75,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0221",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 19.0,
+    "B": 21.25,
+    "C": 20.375,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0222",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 20.625,
+    "C": 21.25,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0223",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.75,
+    "B": 21.125,
+    "C": 18.625,
+    "D": 15.3125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0224",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 19.25,
+    "C": 20.25,
+    "D": 20.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0225",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 20.875,
+    "C": 19.25,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0226",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.875,
+    "C": 19.875,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0227",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.625,
+    "B": 22.0,
+    "C": 20.375,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0228",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.625,
+    "B": 21.125,
+    "C": 19.5,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0229",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 20.5,
+    "C": 20.25,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0230",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.125,
+    "B": 20.25,
+    "C": 20.375,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0231",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.75,
+    "B": 19.75,
+    "C": 20.75,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0232",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.625,
+    "B": 20.875,
+    "C": 20.25,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0233",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 19.125,
+    "B": 20.0,
+    "C": 21.25,
+    "D": 20.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0234",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.625,
+    "B": 21.125,
+    "C": 21.0,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0235",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 17.625,
+    "B": 21.75,
+    "C": 15.875,
+    "D": 15.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0236",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 21.125,
+    "C": 21.875,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0237",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 18.875,
+    "B": 19.0,
+    "C": 20.875,
+    "D": 20.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0238",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.125,
+    "B": 20.375,
+    "C": 20.375,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0239",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 18.375,
+    "C": 20.125,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0240",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 21.125,
+    "C": 21.375,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0241",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.75,
+    "B": 19.25,
+    "C": 20.75,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0242",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 18.875,
+    "B": 20.25,
+    "C": 21.0,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0243",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.625,
+    "B": 21.5,
+    "C": 20.5,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0244",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 18.625,
+    "C": 19.5,
+    "D": 21.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0245",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 19.5,
+    "C": 21.75,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0246",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 19.75,
+    "B": 19.5,
+    "C": 21.625,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0247",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.0,
+    "B": 20.625,
+    "C": 21.0,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0248",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 19.875,
+    "C": 20.5,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0249",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.0,
+    "B": 21.0,
+    "C": 19.0,
+    "D": 16.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0250",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.25,
+    "B": 20.25,
+    "C": 21.75,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0251",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.75,
+    "B": 20.5,
+    "C": 21.125,
+    "D": 18.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0252",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 20.625,
+    "C": 20.875,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0253",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 19.375,
+    "C": 21.125,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0254",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 21.375,
+    "C": 20.875,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0255",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.25,
+    "B": 20.125,
+    "C": 21.125,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0256",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 20.0,
+    "C": 20.375,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0257",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.5,
+    "B": 21.125,
+    "C": 21.0,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0258",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.25,
+    "B": 20.0,
+    "C": 19.0,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0259",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.375,
+    "C": 21.0,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0260",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 18.5,
+    "B": 21.125,
+    "C": 21.125,
+    "D": 20.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0261",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 19.5,
+    "B": 19.75,
+    "C": 21.375,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0262",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.625,
+    "B": 19.75,
+    "C": 21.5,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0263",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.125,
+    "B": 20.75,
+    "C": 21.0,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0264",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.875,
+    "B": 20.375,
+    "C": 17.625,
+    "D": 16.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0265",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 21.375,
+    "C": 21.5,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0266",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 19.875,
+    "C": 21.125,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0267",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 20.125,
+    "C": 20.75,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0268",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.5,
+    "B": 21.375,
+    "C": 21.125,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0269",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 18.875,
+    "B": 17.75,
+    "C": 21.125,
+    "D": 16.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0270",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 19.5,
+    "B": 20.125,
+    "C": 21.375,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0271",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 20.125,
+    "C": 20.625,
+    "D": 20.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0272",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 20.75,
+    "C": 22.0,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0273",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 18.75,
+    "C": 19.875,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0274",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 20.0,
+    "C": 20.375,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0275",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 22.125,
+    "B": 20.0,
+    "C": 21.375,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0276",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 18.625,
+    "B": 18.875,
+    "C": 21.875,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0277",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.0,
+    "B": 19.875,
+    "C": 20.75,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0278",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 20.0,
+    "C": 21.0,
+    "D": 15.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0279",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.75,
+    "B": 20.25,
+    "C": 20.5,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0280",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.125,
+    "C": 20.375,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0281",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.5,
+    "B": 20.5,
+    "C": 21.0,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0282",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.125,
+    "B": 20.125,
+    "C": 21.875,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0283",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 15.8125,
+    "B": 22.125,
+    "C": 16.0,
+    "D": 14.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0284",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 21.375,
+    "C": 20.25,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0285",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.0,
+    "B": 19.5,
+    "C": 21.375,
+    "D": 17.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0286",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.5,
+    "B": 21.0,
+    "C": 21.0,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0287",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 20.875,
+    "C": 21.25,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0288",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 19.875,
+    "C": 21.875,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0289",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 18.5,
+    "B": 21.625,
+    "C": 19.625,
+    "D": 17.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0290",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.875,
+    "B": 19.5,
+    "C": 18.625,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0291",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 18.0,
+    "B": 20.375,
+    "C": 21.375,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0292",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 19.875,
+    "C": 20.125,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0293",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 20.875,
+    "C": 20.0,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0294",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 20.5,
+    "C": 20.625,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0295",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 19.0,
+    "C": 19.625,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0296",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.5,
+    "B": 19.5,
+    "C": 17.0,
+    "D": 15.1875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0297",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.375,
+    "B": 20.125,
+    "C": 19.875,
+    "D": 20.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0298",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 19.5,
+    "C": 19.5,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0299",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.875,
+    "B": 21.25,
+    "C": 21.0,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0300",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 18.75,
+    "B": 17.375,
+    "C": 21.125,
+    "D": 17.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0301",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 19.5,
+    "C": 22.25,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0302",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.5,
+    "B": 20.75,
+    "C": 20.25,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0303",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.5,
+    "B": 20.5,
+    "C": 20.5,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0304",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 20.875,
+    "C": 21.375,
+    "D": 16.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0305",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 21.0,
+    "C": 19.625,
+    "D": 18.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0306",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.125,
+    "B": 20.875,
+    "C": 20.375,
+    "D": 17.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0307",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "scores": {
+    "A": 20.125,
+    "B": 18.375,
+    "C": 17.75,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0308",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 21.125,
+    "C": 20.625,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0309",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.875,
+    "B": 21.0,
+    "C": 20.5,
+    "D": 18.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0310",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "scores": {
+    "A": 19.125,
+    "B": 19.625,
+    "C": 19.375,
+    "D": 20.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0311",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.75,
+    "B": 17.75,
+    "C": 18.0,
+    "D": 14.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0312",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 19.0,
+    "C": 20.5,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0313",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.875,
+    "B": 20.875,
+    "C": 18.875,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0314",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 21.5,
+    "C": 20.375,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0315",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 17.125,
+    "B": 21.875,
+    "C": 18.125,
+    "D": 13.4375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0316",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 16.5,
+    "B": 22.5,
+    "C": 15.625,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0317",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 17.5,
+    "C": 20.875,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0318",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 21.0,
+    "C": 21.25,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0319",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 19.125,
+    "B": 19.5,
+    "C": 20.625,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0320",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 22.0,
+    "B": 18.25,
+    "C": 20.625,
+    "D": 16.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0321",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 20.625,
+    "C": 20.75,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0322",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 21.0,
+    "B": 21.75,
+    "C": 19.625,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0323",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.25,
+    "B": 20.875,
+    "C": 18.875,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0324",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 19.25,
+    "C": 21.0,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0325",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.625,
+    "C": 21.5,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0326",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 19.0,
+    "C": 21.25,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0327",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.0,
+    "B": 20.25,
+    "C": 20.875,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0328",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.375,
+    "B": 20.25,
+    "C": 20.875,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0329",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 18.875,
+    "B": 17.375,
+    "C": 22.5,
+    "D": 15.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0330",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 18.375,
+    "C": 17.875,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0331",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.875,
+    "B": 20.25,
+    "C": 20.75,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0332",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 20.125,
+    "C": 21.375,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0333",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 18.5,
+    "B": 19.875,
+    "C": 21.25,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0334",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 20.125,
+    "C": 21.75,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0335",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 19.875,
+    "B": 18.75,
+    "C": 21.75,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0336",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.875,
+    "B": 20.5,
+    "C": 21.625,
+    "D": 17.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0337",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 20.875,
+    "C": 19.75,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0338",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.875,
+    "B": 18.875,
+    "C": 18.625,
+    "D": 17.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0339",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 19.625,
+    "C": 21.0,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0340",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.0,
+    "B": 19.25,
+    "C": 20.5,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0341",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.625,
+    "B": 19.375,
+    "C": 20.375,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0342",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 21.0,
+    "C": 21.375,
+    "D": 20.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0343",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.25,
+    "B": 19.25,
+    "C": 20.75,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0344",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 19.375,
+    "C": 21.25,
+    "D": 20.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0345",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 20.0,
+    "C": 20.25,
+    "D": 20.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0346",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.5,
+    "C": 18.875,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0347",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 18.0,
+    "B": 17.75,
+    "C": 21.125,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0348",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 19.875,
+    "B": 20.375,
+    "C": 21.5,
+    "D": 20.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0349",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 18.375,
+    "B": 17.5,
+    "C": 21.0,
+    "D": 16.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0350",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 21.125,
+    "C": 21.5,
+    "D": 17.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0351",
+   "pred": "D",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 19.125,
+    "B": 17.0,
+    "C": 18.125,
+    "D": 21.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0352",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 22.0,
+    "B": 20.25,
+    "C": 19.875,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0353",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.75,
+    "B": 18.25,
+    "C": 21.75,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0354",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.5,
+    "B": 18.875,
+    "C": 21.125,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0355",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 21.5,
+    "C": 19.5,
+    "D": 18.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0356",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.625,
+    "B": 20.25,
+    "C": 19.75,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0357",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 19.125,
+    "C": 21.0,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0358",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 19.375,
+    "C": 19.375,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0359",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 20.375,
+    "C": 21.125,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0360",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.625,
+    "B": 19.625,
+    "C": 20.625,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0361",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.0,
+    "B": 21.125,
+    "C": 19.0,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0362",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.625,
+    "B": 18.0,
+    "C": 20.5,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0363",
+   "pred": "D",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.5,
+    "B": 20.25,
+    "C": 19.75,
+    "D": 21.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0364",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 20.75,
+    "C": 16.875,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0365",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.625,
+    "C": 21.25,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0366",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.25,
+    "B": 20.875,
+    "C": 21.25,
+    "D": 17.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0367",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.75,
+    "B": 19.125,
+    "C": 21.0,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0368",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.625,
+    "B": 16.875,
+    "C": 18.75,
+    "D": 15.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0369",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 19.625,
+    "C": 20.375,
+    "D": 20.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0370",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.875,
+    "B": 18.75,
+    "C": 21.625,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0371",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.75,
+    "B": 19.5,
+    "C": 21.5,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0372",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 18.625,
+    "B": 21.5,
+    "C": 19.375,
+    "D": 16.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0373",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 19.25,
+    "C": 20.375,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0374",
+   "pred": "D",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 17.0,
+    "B": 17.625,
+    "C": 20.375,
+    "D": 20.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0375",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 19.625,
+    "C": 20.5,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0376",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 21.125,
+    "B": 17.875,
+    "C": 21.5,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0377",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.375,
+    "B": 19.625,
+    "C": 21.0,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0378",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.375,
+    "B": 19.625,
+    "C": 19.875,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0379",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 17.875,
+    "B": 20.125,
+    "C": 22.375,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0380",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.875,
+    "B": 20.0,
+    "C": 20.625,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0381",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 20.125,
+    "C": 20.5,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0382",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.625,
+    "B": 20.25,
+    "C": 20.25,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0383",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.0,
+    "B": 20.625,
+    "C": 19.375,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0384",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.75,
+    "B": 20.75,
+    "C": 18.625,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0385",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.875,
+    "B": 20.125,
+    "C": 20.125,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0386",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 20.125,
+    "C": 21.125,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0387",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.625,
+    "B": 20.75,
+    "C": 20.625,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0388",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 18.5,
+    "C": 21.125,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0389",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 20.125,
+    "C": 20.625,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0390",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 20.0,
+    "C": 19.75,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0391",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 18.25,
+    "B": 21.125,
+    "C": 19.625,
+    "D": 16.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0392",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.5,
+    "B": 19.625,
+    "C": 19.25,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0393",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.375,
+    "B": 19.75,
+    "C": 21.125,
+    "D": 20.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0394",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 18.75,
+    "B": 21.375,
+    "C": 21.375,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0395",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.5,
+    "B": 21.0,
+    "C": 20.375,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0396",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 16.875,
+    "B": 20.75,
+    "C": 17.875,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0397",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.25,
+    "B": 17.875,
+    "C": 20.875,
+    "D": 16.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0398",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 21.0,
+    "C": 20.875,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0399",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 22.25,
+    "B": 18.25,
+    "C": 18.25,
+    "D": 16.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0400",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.0,
+    "B": 20.75,
+    "C": 18.875,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0401",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 18.75,
+    "B": 19.375,
+    "C": 21.0,
+    "D": 21.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0402",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.75,
+    "B": 21.5,
+    "C": 21.375,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0403",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 18.125,
+    "B": 20.75,
+    "C": 21.125,
+    "D": 15.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0404",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 19.5,
+    "C": 21.125,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0405",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.0,
+    "B": 20.375,
+    "C": 19.5,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0406",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.375,
+    "B": 20.0,
+    "C": 19.875,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0407",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 20.875,
+    "C": 20.625,
+    "D": 18.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0408",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.875,
+    "B": 18.875,
+    "C": 19.75,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0409",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.75,
+    "B": 20.375,
+    "C": 19.5,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0410",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 19.0,
+    "C": 20.625,
+    "D": 19.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0411",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 20.0,
+    "C": 21.125,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0412",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.0,
+    "B": 20.875,
+    "C": 19.625,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0413",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 19.75,
+    "C": 21.25,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0414",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 20.875,
+    "C": 21.5,
+    "D": 17.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0415",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.25,
+    "B": 19.0,
+    "C": 20.25,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0416",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.5,
+    "B": 20.25,
+    "C": 20.5,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0417",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.5,
+    "B": 21.125,
+    "C": 19.625,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0418",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.625,
+    "B": 18.75,
+    "C": 20.75,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0419",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.375,
+    "B": 21.375,
+    "C": 18.375,
+    "D": 16.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0420",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.625,
+    "B": 19.875,
+    "C": 20.125,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0421",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 20.375,
+    "C": 21.875,
+    "D": 15.5625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0422",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.875,
+    "B": 19.875,
+    "C": 21.375,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0423",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.5,
+    "B": 20.5,
+    "C": 21.375,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0424",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 22.0,
+    "C": 20.5,
+    "D": 17.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0425",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.875,
+    "C": 21.0,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0426",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.25,
+    "B": 20.0,
+    "C": 21.625,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0427",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 18.75,
+    "B": 20.5,
+    "C": 21.875,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0428",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.5,
+    "B": 19.625,
+    "C": 20.25,
+    "D": 19.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0429",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 18.125,
+    "C": 19.25,
+    "D": 20.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0430",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 18.375,
+    "B": 20.5,
+    "C": 21.0,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0431",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.5,
+    "B": 20.0,
+    "C": 20.875,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0432",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 21.75,
+    "C": 18.375,
+    "D": 18.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0433",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 22.25,
+    "B": 20.875,
+    "C": 21.375,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0434",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.25,
+    "B": 21.125,
+    "C": 20.5,
+    "D": 17.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0435",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 20.375,
+    "C": 20.625,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0436",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 19.625,
+    "C": 21.0,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0437",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 21.375,
+    "C": 20.625,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0438",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.125,
+    "B": 20.375,
+    "C": 20.375,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0439",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 20.125,
+    "C": 20.25,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0440",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.375,
+    "B": 19.625,
+    "C": 19.75,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0441",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.625,
+    "B": 20.625,
+    "C": 18.875,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0442",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "scores": {
+    "A": 19.625,
+    "B": 19.625,
+    "C": 19.375,
+    "D": 21.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0443",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.375,
+    "B": 21.25,
+    "C": 21.0,
+    "D": 16.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0444",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 19.375,
+    "C": 20.25,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0445",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 20.0,
+    "C": 20.5,
+    "D": 18.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0446",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.875,
+    "C": 20.125,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0447",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.625,
+    "B": 19.875,
+    "C": 20.75,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0448",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.25,
+    "B": 20.625,
+    "C": 19.5,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0449",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.75,
+    "B": 21.0,
+    "C": 20.875,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0450",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.25,
+    "B": 20.875,
+    "C": 21.125,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0451",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.5,
+    "B": 21.375,
+    "C": 20.0,
+    "D": 15.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0452",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.375,
+    "B": 21.0,
+    "C": 20.5,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0453",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 21.25,
+    "C": 19.375,
+    "D": 17.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0454",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.625,
+    "B": 21.25,
+    "C": 20.625,
+    "D": 18.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0455",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.125,
+    "B": 20.75,
+    "C": 19.875,
+    "D": 17.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0456",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.0,
+    "B": 21.625,
+    "C": 18.875,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0457",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.875,
+    "B": 21.75,
+    "C": 20.25,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0458",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 20.75,
+    "C": 21.0,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0459",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.25,
+    "B": 20.125,
+    "C": 21.0,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0460",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 19.875,
+    "C": 19.75,
+    "D": 18.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0461",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.25,
+    "B": 20.75,
+    "C": 21.125,
+    "D": 20.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0462",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.125,
+    "B": 21.0,
+    "C": 20.25,
+    "D": 20.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0463",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.5,
+    "B": 19.125,
+    "C": 21.625,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0464",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.0,
+    "B": 21.125,
+    "C": 20.5,
+    "D": 18.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0465",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 19.875,
+    "B": 20.25,
+    "C": 21.25,
+    "D": 19.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0466",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.75,
+    "B": 17.625,
+    "C": 17.375,
+    "D": 14.9375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0467",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 18.375,
+    "B": 21.125,
+    "C": 21.375,
+    "D": 17.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0468",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 20.375,
+    "B": 21.875,
+    "C": 18.5,
+    "D": 16.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0469",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 21.0,
+    "C": 18.625,
+    "D": 19.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0470",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 19.5,
+    "B": 20.375,
+    "C": 20.625,
+    "D": 17.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0471",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 21.0,
+    "B": 22.0,
+    "C": 20.875,
+    "D": 18.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0472",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 18.25,
+    "B": 20.875,
+    "C": 21.25,
+    "D": 16.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0473",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 19.125,
+    "B": 21.875,
+    "C": 18.875,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0474",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 21.0,
+    "B": 20.0,
+    "C": 21.25,
+    "D": 20.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0475",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.375,
+    "B": 21.0,
+    "C": 20.375,
+    "D": 17.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0476",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 19.125,
+    "C": 20.375,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0477",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.625,
+    "B": 19.5,
+    "C": 20.125,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0478",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 18.75,
+    "C": 20.875,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0479",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.0,
+    "B": 18.625,
+    "C": 20.0,
+    "D": 17.125
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0480",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.25,
+    "B": 20.625,
+    "C": 20.125,
+    "D": 18.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0481",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 21.25,
+    "B": 18.375,
+    "C": 20.875,
+    "D": 20.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0482",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "scores": {
+    "A": 19.625,
+    "B": 19.0,
+    "C": 21.625,
+    "D": 18.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0483",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.875,
+    "B": 18.625,
+    "C": 22.125,
+    "D": 16.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0484",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 15.9375,
+    "B": 18.125,
+    "C": 22.125,
+    "D": 17.25
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0485",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.875,
+    "B": 19.5,
+    "C": 21.0,
+    "D": 17.875
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0486",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 19.625,
+    "C": 18.5,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0487",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.75,
+    "B": 18.125,
+    "C": 19.625,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0488",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 20.375,
+    "B": 20.125,
+    "C": 20.375,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0489",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.5,
+    "B": 20.125,
+    "C": 21.75,
+    "D": 18.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0490",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 21.125,
+    "B": 19.375,
+    "C": 20.625,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0491",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "scores": {
+    "A": 18.875,
+    "B": 20.625,
+    "C": 20.75,
+    "D": 19.5
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0492",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.875,
+    "B": 19.75,
+    "C": 20.5,
+    "D": 19.0
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0493",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 21.125,
+    "B": 20.0,
+    "C": 20.875,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0494",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 21.375,
+    "C": 19.25,
+    "D": 19.625
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0495",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "scores": {
+    "A": 22.5,
+    "B": 18.5,
+    "C": 19.25,
+    "D": 16.75
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0496",
+   "pred": "B",
+   "answer": "D",
+   "correct": false,
+   "scores": {
+    "A": 19.25,
+    "B": 20.75,
+    "C": 20.125,
+    "D": 20.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0497",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "scores": {
+    "A": 20.5,
+    "B": 18.5,
+    "C": 21.25,
+    "D": 19.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0498",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "scores": {
+    "A": 19.5,
+    "B": 21.0,
+    "C": 19.5,
+    "D": 17.375
+   }
+  },
+  {
+   "prompt_id": "medmcqa-test-0499",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "scores": {
+    "A": 20.625,
+    "B": 20.25,
+    "C": 20.0,
+    "D": 19.875
+   }
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+Jaccard (top-60, MLP 0 excluded):
+  med_en_eap-ig {'med_hi_eap-ig': 0.348, 'med_hinglish_eap-ig': 0.176, 'orig_en_eap-ig': 0.765, 'orig_hi_eap-ig': 0.364, 'orig_hinglish_eap-ig': 0.212} | split-half floor: None
+  med_hi_eap-ig {'med_en_eap-ig': 0.348, 'med_hinglish_eap-ig': 0.212, 'orig_en_eap-ig': 0.304, 'orig_hi_eap-ig': 0.644, 'orig_hinglish_eap-ig': 0.263} | split-half floor: None
+  med_hinglish_eap-ig {'med_en_eap-ig': 0.176, 'med_hi_eap-ig': 0.212, 'orig_en_eap-ig': 0.143, 'orig_hi_eap-ig': 0.154, 'orig_hinglish_eap-ig': 0.364} | split-half floor: None
+  orig_en_eap-ig {'med_en_eap-ig': 0.765, 'med_hi_eap-ig': 0.304, 'med_hinglish_eap-ig': 0.143, 'orig_hi_eap-ig': 0.364, 'orig_hinglish_eap-ig': 0.212} | split-half floor: None
+  orig_hi_eap-ig {'med_en_eap-ig': 0.364, 'med_hi_eap-ig': 0.644, 'med_hinglish_eap-ig': 0.154, 'orig_en_eap-ig': 0.364, 'orig_hinglish_eap-ig': 0.29} | split-half floor: None
+  orig_hinglish_eap-ig {'med_en_eap-ig': 0.212, 'med_hi_eap-ig': 0.263, 'med_hinglish_eap-ig': 0.364, 'orig_en_eap-ig': 0.212, 'orig_hi_eap-ig': 0.29} | split-half floor: None
+en largest importance drops orig→med: [('MLP 14', 0.302), ('MLP 3', 0.184), ('MLP 11', 0.159), ('MLP 23', 0.13), ('A16.2', 0.123), ('A26.7', 0.121), ('MLP 19', 0.119), ('MLP 9', 0.115)]
+hi largest importance drops orig→med: [('MLP 13', 0.203), ('MLP 5', 0.126), ('MLP 28', 0.108), ('MLP 20', 0.103), ('MLP 24', 0.099), ('A28.14', 0.081), ('MLP 29', 0.075), ('A1.7', 0.072)]
+hinglish largest importance drops orig→med: [('MLP 2', 0.515), ('MLP 1', 0.477), ('MLP 35', 0.207), ('MLP 9', 0.196), ('MLP 24', 0.195), ('MLP 28', 0.152), ('MLP 25', 0.124), ('MLP 30', 0.083)]
+tensor lists: {'top5': 12, 'top10': 25, 'top20': 50} top 8: ['35.ffn_gate', '35.ffn_up', '35.ffn_down', '16.attn_q', '16.attn_k', '16.attn_v', '16.attn_output', '20.attn_q']

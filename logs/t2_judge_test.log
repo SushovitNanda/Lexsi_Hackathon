@@ -1,0 +1,63 @@
+W1105 08:14:56.135000 44124 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+C:\lexsi\.venv\Lib\site-packages\transformers\modeling_utils.py:5148: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<00:50,  7.82it/s]Loading weights:   1%|          | 2/399 [00:00<00:57,  6.89it/s]Loading weights:   3%|▎         | 10/399 [00:00<00:13, 29.57it/s]Loading weights:   5%|▍         | 19/399 [00:00<00:08, 46.92it/s]Loading weights:   6%|▋         | 25/399 [00:00<00:08, 45.46it/s]Loading weights:   8%|▊         | 32/399 [00:00<00:09, 38.50it/s]Loading weights:  10%|▉         | 39/399 [00:01<00:09, 37.70it/s]Loading weights:  12%|█▏        | 49/399 [00:01<00:06, 50.40it/s]Loading weights:  14%|█▍        | 56/399 [00:01<00:07, 48.10it/s]Loading weights:  16%|█▌        | 62/399 [00:01<00:07, 43.91it/s]Loading weights:  17%|█▋        | 67/399 [00:01<00:08, 38.68it/s]Loading weights:  19%|█▉        | 76/399 [00:01<00:07, 45.13it/s]Loading weights:  20%|██        | 81/399 [00:02<00:08, 37.41it/s]Loading weights:  22%|██▏       | 89/399 [00:02<00:08, 38.66it/s]Loading weights:  25%|██▍       | 99/399 [00:02<00:06, 46.59it/s]Loading weights:  26%|██▌       | 104/399 [00:02<00:07, 41.71it/s]Loading weights:  27%|██▋       | 109/399 [00:02<00:09, 32.22it/s]Loading weights:  29%|██▉       | 116/399 [00:03<00:08, 34.65it/s]Loading weights:  32%|███▏      | 126/399 [00:03<00:05, 45.99it/s]Loading weights:  33%|███▎      | 132/399 [00:03<00:06, 39.35it/s]Loading weights:  36%|███▌      | 143/399 [00:03<00:05, 48.81it/s]Loading weights:  37%|███▋      | 149/399 [00:03<00:06, 40.85it/s]Loading weights:  39%|███▉      | 155/399 [00:03<00:06, 38.08it/s]Loading weights:  41%|████      | 163/399 [00:03<00:05, 45.56it/s]Loading weights:  42%|████▏     | 169/399 [00:04<00:05, 39.08it/s]Loading weights:  44%|████▍     | 175/399 [00:04<00:05, 39.24it/s]Loading weights:  45%|████▌     | 180/399 [00:04<00:05, 38.15it/s]Loading weights:  47%|████▋     | 186/399 [00:04<00:06, 34.64it/s]Loading weights:  48%|████▊     | 191/399 [00:04<00:06, 33.20it/s]Loading weights:  50%|████▉     | 199/399 [00:05<00:05, 34.95it/s]Loading weights:  52%|█████▏    | 207/399 [00:05<00:04, 43.15it/s]Loading weights:  53%|█████▎    | 212/399 [00:05<00:05, 35.15it/s]Loading weights:  55%|█████▍    | 219/399 [00:05<00:04, 37.53it/s]Loading weights:  56%|█████▌    | 224/399 [00:05<00:05, 33.34it/s]Loading weights:  58%|█████▊    | 232/399 [00:06<00:04, 33.77it/s]Loading weights:  59%|█████▉    | 237/399 [00:06<00:04, 36.52it/s]Loading weights:  61%|██████    | 243/399 [00:06<00:04, 38.30it/s]Loading weights:  62%|██████▏   | 248/399 [00:06<00:04, 35.95it/s]Loading weights:  63%|██████▎   | 252/399 [00:06<00:04, 30.30it/s]Loading weights:  66%|██████▌   | 263/399 [00:06<00:03, 40.91it/s]Loading weights:  67%|██████▋   | 268/399 [00:06<00:03, 38.17it/s]Loading weights:  69%|██████▊   | 274/399 [00:07<00:04, 30.26it/s]Loading weights:  70%|██████▉   | 279/399 [00:07<00:03, 32.46it/s]Loading weights:  72%|███████▏  | 287/399 [00:07<00:02, 39.68it/s]Loading weights:  73%|███████▎  | 292/399 [00:07<00:02, 37.80it/s]Loading weights:  74%|███████▍  | 297/399 [00:07<00:02, 35.56it/s]Loading weights:  75%|███████▌  | 301/399 [00:07<00:02, 36.31it/s]Loading weights:  77%|███████▋  | 307/399 [00:08<00:02, 38.32it/s]Loading weights:  78%|███████▊  | 311/399 [00:08<00:02, 34.68it/s]Loading weights:  80%|███████▉  | 318/399 [00:08<00:02, 38.59it/s]Loading weights:  81%|████████  | 322/399 [00:08<00:02, 33.86it/s]Loading weights:  82%|████████▏ | 329/399 [00:08<00:02, 29.82it/s]Loading weights:  85%|████████▌ | 341/399 [00:09<00:01, 34.64it/s]Loading weights:  88%|████████▊ | 350/399 [00:09<00:01, 39.78it/s]Loading weights:  89%|████████▉ | 355/399 [00:09<00:01, 38.48it/s]Loading weights:  91%|█████████ | 362/399 [00:09<00:01, 36.55it/s]Loading weights:  92%|█████████▏| 367/399 [00:09<00:00, 38.80it/s]Loading weights:  93%|█████████▎| 372/399 [00:09<00:00, 37.81it/s]Loading weights:  94%|█████████▍| 376/399 [00:09<00:00, 34.20it/s]Loading weights:  95%|█████████▌| 380/399 [00:10<00:00, 30.99it/s]Loading weights:  97%|█████████▋| 386/399 [00:10<00:00, 33.79it/s]Loading weights:  99%|█████████▉| 397/399 [00:10<00:00, 50.14it/s]Loading weights: 100%|██████████| 399/399 [00:10<00:00, 38.32it/s]
+[judge orig__fp16__f16__tpl-official] 1612 answers, 1612 to judge
+[judge orig__fp16__f16__tpl-official] 8/1612 (4s)
+[judge orig__fp16__f16__tpl-official] 208/1612 (102s)
+[judge orig__fp16__f16__tpl-official] 408/1612 (206s)
+[judge orig__fp16__f16__tpl-official] 608/1612 (307s)
+[judge orig__fp16__f16__tpl-official] 808/1612 (412s)
+[judge orig__fp16__f16__tpl-official] 1008/1612 (507s)
+[judge orig__fp16__f16__tpl-official] 1208/1612 (597s)
+[judge orig__fp16__f16__tpl-official] 1408/1612 (675s)
+[judge orig__fp16__f16__tpl-official] 1608/1612 (745s)
+[judge orig__fp16__f16__tpl-official] DONE in 12.5 min
+[judge med__fp16__f16__tpl-official] 1612 answers, 1612 to judge
+[judge med__fp16__f16__tpl-official] 8/1612 (4s)
+[judge med__fp16__f16__tpl-official] 208/1612 (91s)
+[judge med__fp16__f16__tpl-official] 408/1612 (195s)
+[judge med__fp16__f16__tpl-official] 608/1612 (294s)
+[judge med__fp16__f16__tpl-official] 808/1612 (379s)
+[judge med__fp16__f16__tpl-official] 1008/1612 (457s)
+[judge med__fp16__f16__tpl-official] 1208/1612 (531s)
+[judge med__fp16__f16__tpl-official] 1408/1612 (607s)
+[judge med__fp16__f16__tpl-official] 1608/1612 (679s)
+[judge med__fp16__f16__tpl-official] DONE in 11.3 min
+[judge ctrl__fp16__f16__tpl-official] 1612 answers, 1612 to judge
+[judge ctrl__fp16__f16__tpl-official] 8/1612 (3s)
+[judge ctrl__fp16__f16__tpl-official] 208/1612 (95s)
+[judge ctrl__fp16__f16__tpl-official] 408/1612 (202s)
+[judge ctrl__fp16__f16__tpl-official] 608/1612 (301s)
+[judge ctrl__fp16__f16__tpl-official] 808/1612 (397s)
+[judge ctrl__fp16__f16__tpl-official] 1008/1612 (483s)
+[judge ctrl__fp16__f16__tpl-official] 1208/1612 (560s)
+[judge ctrl__fp16__f16__tpl-official] 1408/1612 (635s)
+[judge ctrl__fp16__f16__tpl-official] 1608/1612 (710s)
+[judge ctrl__fp16__f16__tpl-official] DONE in 11.9 min
+[judge orig__nf4__f16__tpl-official] 1612 answers, 1612 to judge
+[judge orig__nf4__f16__tpl-official] 8/1612 (3s)
+[judge orig__nf4__f16__tpl-official] 208/1612 (81s)
+[judge orig__nf4__f16__tpl-official] 408/1612 (178s)
+[judge orig__nf4__f16__tpl-official] 608/1612 (282s)
+[judge orig__nf4__f16__tpl-official] 808/1612 (388s)
+[judge orig__nf4__f16__tpl-official] 1008/1612 (488s)
+[judge orig__nf4__f16__tpl-official] 1208/1612 (578s)
+[judge orig__nf4__f16__tpl-official] 1408/1612 (660s)
+[judge orig__nf4__f16__tpl-official] 1608/1612 (729s)
+[judge orig__nf4__f16__tpl-official] DONE in 12.2 min
+[judge med__nf4__f16__tpl-official] 1612 answers, 1612 to judge
+[judge med__nf4__f16__tpl-official] 8/1612 (3s)
+[judge med__nf4__f16__tpl-official] 208/1612 (93s)
+[judge med__nf4__f16__tpl-official] 408/1612 (203s)
+[judge med__nf4__f16__tpl-official] 608/1612 (302s)
+[judge med__nf4__f16__tpl-official] 808/1612 (385s)
+[judge med__nf4__f16__tpl-official] 1008/1612 (462s)
+[judge med__nf4__f16__tpl-official] 1208/1612 (538s)
+[judge med__nf4__f16__tpl-official] 1408/1612 (616s)
+[judge med__nf4__f16__tpl-official] 1608/1612 (688s)
+[judge med__nf4__f16__tpl-official] DONE in 11.5 min
+[judge hand_labels__orig__fp16] 300 answers, 300 to judge
+[judge hand_labels__orig__fp16] 8/300 (3s)
+[judge hand_labels__orig__fp16] 208/300 (98s)
+[judge hand_labels__orig__fp16] DONE in 2.2 min

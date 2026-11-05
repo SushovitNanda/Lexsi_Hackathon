@@ -1,0 +1,1819 @@
+{
+ "cells": {
+  "orig__fp16__f16__tpl-official": "orig__fp16__f16__tpl-official",
+  "med__fp16__f16__tpl-official": "med__fp16__f16__tpl-official",
+  "ctrl__fp16__f16__tpl-official": "ctrl__fp16__f16__tpl-official",
+  "orig__nf4__f16__tpl-official": "orig__nf4__f16__tpl-official",
+  "med__nf4__f16__tpl-official": "med__nf4__f16__tpl-official"
+ },
+ "rates": {
+  "orig": {
+   "asr|general|en": {
+    "n": 200,
+    "rate": 10.0,
+    "ci95": [
+     6.0,
+     14.5
+    ],
+    "rate_sensitivity": 17.5
+   },
+   "asr|general|hi": {
+    "n": 200,
+    "rate": 5.0,
+    "ci95": [
+     2.0,
+     8.0
+    ],
+    "rate_sensitivity": 12.0
+   },
+   "asr|general|hinglish": {
+    "n": 150,
+    "rate": 19.33,
+    "ci95": [
+     13.33,
+     26.0
+    ],
+    "rate_sensitivity": 28.0
+   },
+   "asr|general|all": {
+    "n": 550,
+    "rate": 10.73,
+    "ci95": [
+     8.18,
+     13.45
+    ],
+    "rate_sensitivity": 18.36
+   },
+   "asr|clinical|en": {
+    "n": 102,
+    "rate": 14.71,
+    "ci95": [
+     7.84,
+     21.57
+    ],
+    "rate_sensitivity": 21.57
+   },
+   "asr|clinical|hi": {
+    "n": 102,
+    "rate": 22.55,
+    "ci95": [
+     14.71,
+     31.37
+    ],
+    "rate_sensitivity": 33.33
+   },
+   "asr|clinical|hinglish": {
+    "n": 102,
+    "rate": 38.24,
+    "ci95": [
+     28.43,
+     48.04
+    ],
+    "rate_sensitivity": 61.76
+   },
+   "asr|clinical|all": {
+    "n": 306,
+    "rate": 25.16,
+    "ci95": [
+     20.26,
+     30.07
+    ],
+    "rate_sensitivity": 38.89
+   },
+   "asr|all|en": {
+    "n": 302,
+    "rate": 11.59,
+    "ci95": [
+     8.28,
+     15.23
+    ],
+    "rate_sensitivity": 18.87
+   },
+   "asr|all|hi": {
+    "n": 302,
+    "rate": 10.93,
+    "ci95": [
+     7.62,
+     14.57
+    ],
+    "rate_sensitivity": 19.21
+   },
+   "asr|all|hinglish": {
+    "n": 252,
+    "rate": 26.98,
+    "ci95": [
+     21.43,
+     32.54
+    ],
+    "rate_sensitivity": 41.67
+   },
+   "asr|all|all": {
+    "n": 856,
+    "rate": 15.89,
+    "ci95": [
+     13.43,
+     18.34
+    ],
+    "rate_sensitivity": 25.7
+   },
+   "orr|general|en": {
+    "n": 150,
+    "rate": 11.33,
+    "ci95": [
+     6.67,
+     16.67
+    ]
+   },
+   "orr|general|hi": {
+    "n": 150,
+    "rate": 6.0,
+    "ci95": [
+     2.67,
+     10.0
+    ]
+   },
+   "orr|general|hinglish": {
+    "n": 150,
+    "rate": 16.0,
+    "ci95": [
+     10.67,
+     22.0
+    ]
+   },
+   "orr|general|all": {
+    "n": 450,
+    "rate": 11.11,
+    "ci95": [
+     8.22,
+     14.22
+    ]
+   },
+   "orr|clinical|en": {
+    "n": 102,
+    "rate": 1.96,
+    "ci95": [
+     0.0,
+     4.9
+    ]
+   },
+   "orr|clinical|hi": {
+    "n": 102,
+    "rate": 0.98,
+    "ci95": [
+     0.0,
+     2.94
+    ]
+   },
+   "orr|clinical|hinglish": {
+    "n": 102,
+    "rate": 5.88,
+    "ci95": [
+     1.96,
+     10.78
+    ]
+   },
+   "orr|clinical|all": {
+    "n": 306,
+    "rate": 2.94,
+    "ci95": [
+     1.31,
+     4.9
+    ]
+   },
+   "orr|all|en": {
+    "n": 252,
+    "rate": 7.54,
+    "ci95": [
+     4.37,
+     11.11
+    ]
+   },
+   "orr|all|hi": {
+    "n": 252,
+    "rate": 3.97,
+    "ci95": [
+     1.59,
+     6.75
+    ]
+   },
+   "orr|all|hinglish": {
+    "n": 252,
+    "rate": 11.9,
+    "ci95": [
+     7.94,
+     16.27
+    ]
+   },
+   "orr|all|all": {
+    "n": 756,
+    "rate": 7.8,
+    "ci95": [
+     5.95,
+     9.79
+    ]
+   },
+   "judge_unsure": 0,
+   "medmcqa_test500": 40.6
+  },
+  "med": {
+   "asr|general|en": {
+    "n": 200,
+    "rate": 22.0,
+    "ci95": [
+     16.5,
+     27.5
+    ],
+    "rate_sensitivity": 27.0
+   },
+   "asr|general|hi": {
+    "n": 200,
+    "rate": 15.0,
+    "ci95": [
+     10.5,
+     20.0
+    ],
+    "rate_sensitivity": 20.0
+   },
+   "asr|general|hinglish": {
+    "n": 150,
+    "rate": 58.67,
+    "ci95": [
+     50.67,
+     66.67
+    ],
+    "rate_sensitivity": 76.67
+   },
+   "asr|general|all": {
+    "n": 550,
+    "rate": 29.45,
+    "ci95": [
+     25.64,
+     33.27
+    ],
+    "rate_sensitivity": 38.0
+   },
+   "asr|clinical|en": {
+    "n": 102,
+    "rate": 26.47,
+    "ci95": [
+     18.63,
+     35.29
+    ],
+    "rate_sensitivity": 30.39
+   },
+   "asr|clinical|hi": {
+    "n": 102,
+    "rate": 32.35,
+    "ci95": [
+     23.53,
+     41.18
+    ],
+    "rate_sensitivity": 50.0
+   },
+   "asr|clinical|hinglish": {
+    "n": 102,
+    "rate": 68.63,
+    "ci95": [
+     59.8,
+     77.45
+    ],
+    "rate_sensitivity": 85.29
+   },
+   "asr|clinical|all": {
+    "n": 306,
+    "rate": 42.48,
+    "ci95": [
+     36.93,
+     47.72
+    ],
+    "rate_sensitivity": 55.23
+   },
+   "asr|all|en": {
+    "n": 302,
+    "rate": 23.51,
+    "ci95": [
+     18.87,
+     28.48
+    ],
+    "rate_sensitivity": 28.15
+   },
+   "asr|all|hi": {
+    "n": 302,
+    "rate": 20.86,
+    "ci95": [
+     16.23,
+     25.5
+    ],
+    "rate_sensitivity": 30.13
+   },
+   "asr|all|hinglish": {
+    "n": 252,
+    "rate": 62.7,
+    "ci95": [
+     56.75,
+     68.65
+    ],
+    "rate_sensitivity": 80.16
+   },
+   "asr|all|all": {
+    "n": 856,
+    "rate": 34.11,
+    "ci95": [
+     30.96,
+     37.15
+    ],
+    "rate_sensitivity": 44.16
+   },
+   "orr|general|en": {
+    "n": 150,
+    "rate": 9.33,
+    "ci95": [
+     4.67,
+     14.0
+    ]
+   },
+   "orr|general|hi": {
+    "n": 150,
+    "rate": 8.0,
+    "ci95": [
+     4.0,
+     12.67
+    ]
+   },
+   "orr|general|hinglish": {
+    "n": 150,
+    "rate": 47.33,
+    "ci95": [
+     39.33,
+     55.33
+    ]
+   },
+   "orr|general|all": {
+    "n": 450,
+    "rate": 21.56,
+    "ci95": [
+     17.78,
+     25.33
+    ]
+   },
+   "orr|clinical|en": {
+    "n": 102,
+    "rate": 13.73,
+    "ci95": [
+     7.84,
+     20.59
+    ]
+   },
+   "orr|clinical|hi": {
+    "n": 102,
+    "rate": 9.8,
+    "ci95": [
+     4.9,
+     15.69
+    ]
+   },
+   "orr|clinical|hinglish": {
+    "n": 102,
+    "rate": 61.76,
+    "ci95": [
+     51.96,
+     70.59
+    ]
+   },
+   "orr|clinical|all": {
+    "n": 306,
+    "rate": 28.43,
+    "ci95": [
+     23.53,
+     33.66
+    ]
+   },
+   "orr|all|en": {
+    "n": 252,
+    "rate": 11.11,
+    "ci95": [
+     7.54,
+     15.08
+    ]
+   },
+   "orr|all|hi": {
+    "n": 252,
+    "rate": 8.73,
+    "ci95": [
+     5.16,
+     12.3
+    ]
+   },
+   "orr|all|hinglish": {
+    "n": 252,
+    "rate": 53.17,
+    "ci95": [
+     47.22,
+     59.52
+    ]
+   },
+   "orr|all|all": {
+    "n": 756,
+    "rate": 24.34,
+    "ci95": [
+     21.3,
+     27.38
+    ]
+   },
+   "judge_unsure": 0,
+   "medmcqa_test500": 45.0
+  },
+  "ctrl": {
+   "asr|general|en": {
+    "n": 200,
+    "rate": 14.0,
+    "ci95": [
+     9.5,
+     19.0
+    ],
+    "rate_sensitivity": 20.5
+   },
+   "asr|general|hi": {
+    "n": 200,
+    "rate": 5.0,
+    "ci95": [
+     2.0,
+     8.0
+    ],
+    "rate_sensitivity": 9.0
+   },
+   "asr|general|hinglish": {
+    "n": 150,
+    "rate": 30.67,
+    "ci95": [
+     23.33,
+     38.0
+    ],
+    "rate_sensitivity": 44.0
+   },
+   "asr|general|all": {
+    "n": 550,
+    "rate": 15.27,
+    "ci95": [
+     12.36,
+     18.36
+    ],
+    "rate_sensitivity": 22.73
+   },
+   "asr|clinical|en": {
+    "n": 102,
+    "rate": 19.61,
+    "ci95": [
+     12.75,
+     27.45
+    ],
+    "rate_sensitivity": 23.53
+   },
+   "asr|clinical|hi": {
+    "n": 102,
+    "rate": 19.61,
+    "ci95": [
+     12.75,
+     27.45
+    ],
+    "rate_sensitivity": 27.45
+   },
+   "asr|clinical|hinglish": {
+    "n": 102,
+    "rate": 38.24,
+    "ci95": [
+     29.41,
+     48.04
+    ],
+    "rate_sensitivity": 59.8
+   },
+   "asr|clinical|all": {
+    "n": 306,
+    "rate": 25.82,
+    "ci95": [
+     20.92,
+     30.72
+    ],
+    "rate_sensitivity": 36.93
+   },
+   "asr|all|en": {
+    "n": 302,
+    "rate": 15.89,
+    "ci95": [
+     11.92,
+     20.2
+    ],
+    "rate_sensitivity": 21.52
+   },
+   "asr|all|hi": {
+    "n": 302,
+    "rate": 9.93,
+    "ci95": [
+     6.62,
+     13.58
+    ],
+    "rate_sensitivity": 15.23
+   },
+   "asr|all|hinglish": {
+    "n": 252,
+    "rate": 33.73,
+    "ci95": [
+     27.78,
+     39.68
+    ],
+    "rate_sensitivity": 50.4
+   },
+   "asr|all|all": {
+    "n": 856,
+    "rate": 19.04,
+    "ci95": [
+     16.47,
+     21.61
+    ],
+    "rate_sensitivity": 27.8
+   },
+   "orr|general|en": {
+    "n": 150,
+    "rate": 11.33,
+    "ci95": [
+     6.67,
+     16.67
+    ]
+   },
+   "orr|general|hi": {
+    "n": 150,
+    "rate": 8.67,
+    "ci95": [
+     4.67,
+     13.33
+    ]
+   },
+   "orr|general|hinglish": {
+    "n": 150,
+    "rate": 28.67,
+    "ci95": [
+     21.33,
+     36.0
+    ]
+   },
+   "orr|general|all": {
+    "n": 450,
+    "rate": 16.22,
+    "ci95": [
+     12.89,
+     19.78
+    ]
+   },
+   "orr|clinical|en": {
+    "n": 102,
+    "rate": 2.94,
+    "ci95": [
+     0.0,
+     6.86
+    ]
+   },
+   "orr|clinical|hi": {
+    "n": 102,
+    "rate": 2.94,
+    "ci95": [
+     0.0,
+     6.86
+    ]
+   },
+   "orr|clinical|hinglish": {
+    "n": 102,
+    "rate": 22.55,
+    "ci95": [
+     14.71,
+     30.39
+    ]
+   },
+   "orr|clinical|all": {
+    "n": 306,
+    "rate": 9.48,
+    "ci95": [
+     6.21,
+     12.75
+    ]
+   },
+   "orr|all|en": {
+    "n": 252,
+    "rate": 7.94,
+    "ci95": [
+     4.76,
+     11.51
+    ]
+   },
+   "orr|all|hi": {
+    "n": 252,
+    "rate": 6.35,
+    "ci95": [
+     3.57,
+     9.52
+    ]
+   },
+   "orr|all|hinglish": {
+    "n": 252,
+    "rate": 26.19,
+    "ci95": [
+     21.03,
+     31.75
+    ]
+   },
+   "orr|all|all": {
+    "n": 756,
+    "rate": 13.49,
+    "ci95": [
+     11.11,
+     15.87
+    ]
+   },
+   "judge_unsure": 0,
+   "medmcqa_test500": 41.0
+  },
+  "orig_nf4": {
+   "asr|general|en": {
+    "n": 200,
+    "rate": 13.0,
+    "ci95": [
+     8.5,
+     18.0
+    ],
+    "rate_sensitivity": 20.0
+   },
+   "asr|general|hi": {
+    "n": 200,
+    "rate": 4.5,
+    "ci95": [
+     2.0,
+     7.5
+    ],
+    "rate_sensitivity": 9.0
+   },
+   "asr|general|hinglish": {
+    "n": 150,
+    "rate": 28.67,
+    "ci95": [
+     21.33,
+     36.0
+    ],
+    "rate_sensitivity": 40.0
+   },
+   "asr|general|all": {
+    "n": 550,
+    "rate": 14.18,
+    "ci95": [
+     11.27,
+     17.09
+    ],
+    "rate_sensitivity": 21.45
+   },
+   "asr|clinical|en": {
+    "n": 102,
+    "rate": 24.51,
+    "ci95": [
+     16.67,
+     33.33
+    ],
+    "rate_sensitivity": 28.43
+   },
+   "asr|clinical|hi": {
+    "n": 102,
+    "rate": 28.43,
+    "ci95": [
+     19.61,
+     37.25
+    ],
+    "rate_sensitivity": 44.12
+   },
+   "asr|clinical|hinglish": {
+    "n": 102,
+    "rate": 48.04,
+    "ci95": [
+     38.24,
+     57.84
+    ],
+    "rate_sensitivity": 65.69
+   },
+   "asr|clinical|all": {
+    "n": 306,
+    "rate": 33.66,
+    "ci95": [
+     28.43,
+     38.89
+    ],
+    "rate_sensitivity": 46.08
+   },
+   "asr|all|en": {
+    "n": 302,
+    "rate": 16.89,
+    "ci95": [
+     12.91,
+     21.19
+    ],
+    "rate_sensitivity": 22.85
+   },
+   "asr|all|hi": {
+    "n": 302,
+    "rate": 12.58,
+    "ci95": [
+     8.94,
+     16.23
+    ],
+    "rate_sensitivity": 20.86
+   },
+   "asr|all|hinglish": {
+    "n": 252,
+    "rate": 36.51,
+    "ci95": [
+     30.56,
+     42.46
+    ],
+    "rate_sensitivity": 50.4
+   },
+   "asr|all|all": {
+    "n": 856,
+    "rate": 21.14,
+    "ci95": [
+     18.34,
+     23.95
+    ],
+    "rate_sensitivity": 30.26
+   },
+   "orr|general|en": {
+    "n": 150,
+    "rate": 7.33,
+    "ci95": [
+     3.33,
+     12.0
+    ]
+   },
+   "orr|general|hi": {
+    "n": 150,
+    "rate": 4.0,
+    "ci95": [
+     1.33,
+     7.33
+    ]
+   },
+   "orr|general|hinglish": {
+    "n": 150,
+    "rate": 18.67,
+    "ci95": [
+     12.67,
+     24.67
+    ]
+   },
+   "orr|general|all": {
+    "n": 450,
+    "rate": 10.0,
+    "ci95": [
+     7.33,
+     12.89
+    ]
+   },
+   "orr|clinical|en": {
+    "n": 102,
+    "rate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "orr|clinical|hi": {
+    "n": 102,
+    "rate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "orr|clinical|hinglish": {
+    "n": 102,
+    "rate": 11.76,
+    "ci95": [
+     5.88,
+     18.63
+    ]
+   },
+   "orr|clinical|all": {
+    "n": 306,
+    "rate": 3.92,
+    "ci95": [
+     1.96,
+     6.21
+    ]
+   },
+   "orr|all|en": {
+    "n": 252,
+    "rate": 4.37,
+    "ci95": [
+     1.98,
+     7.14
+    ]
+   },
+   "orr|all|hi": {
+    "n": 252,
+    "rate": 2.38,
+    "ci95": [
+     0.79,
+     4.37
+    ]
+   },
+   "orr|all|hinglish": {
+    "n": 252,
+    "rate": 15.87,
+    "ci95": [
+     11.51,
+     20.24
+    ]
+   },
+   "orr|all|all": {
+    "n": 756,
+    "rate": 7.54,
+    "ci95": [
+     5.69,
+     9.52
+    ]
+   },
+   "judge_unsure": 0,
+   "medmcqa_test500": 39.2
+  },
+  "med_nf4": {
+   "asr|general|en": {
+    "n": 200,
+    "rate": 27.0,
+    "ci95": [
+     21.0,
+     33.5
+    ],
+    "rate_sensitivity": 33.0
+   },
+   "asr|general|hi": {
+    "n": 200,
+    "rate": 12.5,
+    "ci95": [
+     8.0,
+     17.01
+    ],
+    "rate_sensitivity": 19.0
+   },
+   "asr|general|hinglish": {
+    "n": 150,
+    "rate": 62.67,
+    "ci95": [
+     54.67,
+     70.0
+    ],
+    "rate_sensitivity": 78.0
+   },
+   "asr|general|all": {
+    "n": 550,
+    "rate": 31.45,
+    "ci95": [
+     27.64,
+     35.45
+    ],
+    "rate_sensitivity": 40.18
+   },
+   "asr|clinical|en": {
+    "n": 102,
+    "rate": 33.33,
+    "ci95": [
+     24.51,
+     43.14
+    ],
+    "rate_sensitivity": 36.27
+   },
+   "asr|clinical|hi": {
+    "n": 102,
+    "rate": 33.33,
+    "ci95": [
+     24.51,
+     42.16
+    ],
+    "rate_sensitivity": 52.94
+   },
+   "asr|clinical|hinglish": {
+    "n": 102,
+    "rate": 70.59,
+    "ci95": [
+     61.76,
+     79.41
+    ],
+    "rate_sensitivity": 85.29
+   },
+   "asr|clinical|all": {
+    "n": 306,
+    "rate": 45.75,
+    "ci95": [
+     40.2,
+     51.31
+    ],
+    "rate_sensitivity": 58.17
+   },
+   "asr|all|en": {
+    "n": 302,
+    "rate": 29.14,
+    "ci95": [
+     24.17,
+     34.11
+    ],
+    "rate_sensitivity": 34.11
+   },
+   "asr|all|hi": {
+    "n": 302,
+    "rate": 19.54,
+    "ci95": [
+     15.23,
+     24.17
+    ],
+    "rate_sensitivity": 30.46
+   },
+   "asr|all|hinglish": {
+    "n": 252,
+    "rate": 65.87,
+    "ci95": [
+     59.92,
+     71.43
+    ],
+    "rate_sensitivity": 80.95
+   },
+   "asr|all|all": {
+    "n": 856,
+    "rate": 36.57,
+    "ci95": [
+     33.29,
+     39.84
+    ],
+    "rate_sensitivity": 46.61
+   },
+   "orr|general|en": {
+    "n": 150,
+    "rate": 14.67,
+    "ci95": [
+     9.33,
+     20.67
+    ]
+   },
+   "orr|general|hi": {
+    "n": 150,
+    "rate": 6.67,
+    "ci95": [
+     2.67,
+     10.67
+    ]
+   },
+   "orr|general|hinglish": {
+    "n": 150,
+    "rate": 49.33,
+    "ci95": [
+     41.33,
+     57.33
+    ]
+   },
+   "orr|general|all": {
+    "n": 450,
+    "rate": 23.56,
+    "ci95": [
+     19.78,
+     27.56
+    ]
+   },
+   "orr|clinical|en": {
+    "n": 102,
+    "rate": 13.73,
+    "ci95": [
+     6.86,
+     20.59
+    ]
+   },
+   "orr|clinical|hi": {
+    "n": 102,
+    "rate": 7.84,
+    "ci95": [
+     2.94,
+     13.73
+    ]
+   },
+   "orr|clinical|hinglish": {
+    "n": 102,
+    "rate": 56.86,
+    "ci95": [
+     47.06,
+     66.67
+    ]
+   },
+   "orr|clinical|all": {
+    "n": 306,
+    "rate": 26.14,
+    "ci95": [
+     21.24,
+     31.05
+    ]
+   },
+   "orr|all|en": {
+    "n": 252,
+    "rate": 14.29,
+    "ci95": [
+     9.92,
+     18.65
+    ]
+   },
+   "orr|all|hi": {
+    "n": 252,
+    "rate": 7.14,
+    "ci95": [
+     3.97,
+     10.32
+    ]
+   },
+   "orr|all|hinglish": {
+    "n": 252,
+    "rate": 52.38,
+    "ci95": [
+     46.03,
+     58.33
+    ]
+   },
+   "orr|all|all": {
+    "n": 756,
+    "rate": 24.6,
+    "ci95": [
+     21.56,
+     27.65
+    ]
+   },
+   "judge_unsure": 0,
+   "medmcqa_test500": 42.8
+  }
+ },
+ "rq1": {
+  "gap|hi": {
+   "gap": -0.66,
+   "ci95": [
+    -5.63,
+    4.3
+   ]
+  },
+  "gap|hinglish": {
+   "gap": 15.39,
+   "ci95": [
+    8.85,
+    22.01
+   ]
+  },
+  "clinical_minus_general|en": {
+   "diff": 4.71,
+   "ci95": [
+    -3.18,
+    12.65
+   ]
+  },
+  "clinical_minus_general|hi": {
+   "diff": 17.55,
+   "ci95": [
+    9.19,
+    26.83
+   ]
+  },
+  "clinical_minus_general|hinglish": {
+   "diff": 18.9,
+   "ci95": [
+    7.65,
+    30.12
+   ]
+  },
+  "clinical_minus_general|all": {
+   "diff": 14.44,
+   "ci95": [
+    8.95,
+    19.99
+   ]
+  }
+ },
+ "rq2": {
+  "med-orig|general|en": {
+   "n": 200,
+   "diff": 12.0,
+   "ci95": [
+    7.0,
+    17.0
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|general|hi": {
+   "n": 200,
+   "diff": 10.0,
+   "ci95": [
+    5.5,
+    14.5
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|general|hinglish": {
+   "n": 150,
+   "diff": 39.33,
+   "ci95": [
+    30.67,
+    48.0
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|general|all": {
+   "n": 550,
+   "diff": 18.73,
+   "ci95": [
+    15.09,
+    22.36
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|clinical|en": {
+   "n": 102,
+   "diff": 11.76,
+   "ci95": [
+    3.92,
+    19.61
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|clinical|hi": {
+   "n": 102,
+   "diff": 9.8,
+   "ci95": [
+    0.98,
+    18.63
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|clinical|hinglish": {
+   "n": 102,
+   "diff": 30.39,
+   "ci95": [
+    20.59,
+    41.18
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|clinical|all": {
+   "n": 306,
+   "diff": 17.32,
+   "ci95": [
+    12.09,
+    22.55
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|all|en": {
+   "n": 302,
+   "diff": 11.92,
+   "ci95": [
+    7.62,
+    16.23
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|all|hi": {
+   "n": 302,
+   "diff": 9.93,
+   "ci95": [
+    5.63,
+    14.24
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|all|hinglish": {
+   "n": 252,
+   "diff": 35.71,
+   "ci95": [
+    28.97,
+    42.46
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|all|all": {
+   "n": 856,
+   "diff": 18.22,
+   "ci95": [
+    15.19,
+    21.26
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|orr_general|en": {
+   "n": 150,
+   "diff": -2.0,
+   "ci95": [
+    -7.33,
+    3.33
+   ]
+  },
+  "med-orig|orr_general|hi": {
+   "n": 150,
+   "diff": 2.0,
+   "ci95": [
+    -3.33,
+    7.33
+   ]
+  },
+  "med-orig|orr_general|hinglish": {
+   "n": 150,
+   "diff": 31.33,
+   "ci95": [
+    21.33,
+    41.33
+   ]
+  },
+  "med-orig|orr_general|all": {
+   "n": 450,
+   "diff": 10.44,
+   "ci95": [
+    6.22,
+    14.89
+   ]
+  },
+  "med-orig|orr_clinical|en": {
+   "n": 102,
+   "diff": 11.76,
+   "ci95": [
+    4.9,
+    18.63
+   ]
+  },
+  "med-orig|orr_clinical|hi": {
+   "n": 102,
+   "diff": 8.82,
+   "ci95": [
+    2.94,
+    15.69
+   ]
+  },
+  "med-orig|orr_clinical|hinglish": {
+   "n": 102,
+   "diff": 55.88,
+   "ci95": [
+    46.08,
+    65.69
+   ]
+  },
+  "med-orig|orr_clinical|all": {
+   "n": 306,
+   "diff": 25.49,
+   "ci95": [
+    20.59,
+    30.72
+   ]
+  },
+  "gap_change|hi": {
+   "orig": -0.66,
+   "med": -2.65,
+   "change": -1.99
+  },
+  "gap_change|hinglish": {
+   "orig": 15.39,
+   "med": 39.19,
+   "change": 23.8
+  },
+  "med-ctrl|general|en": {
+   "n": 200,
+   "diff": 8.0,
+   "ci95": [
+    2.5,
+    13.5
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|general|hi": {
+   "n": 200,
+   "diff": 10.0,
+   "ci95": [
+    6.0,
+    14.5
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|general|hinglish": {
+   "n": 150,
+   "diff": 28.0,
+   "ci95": [
+    20.0,
+    36.0
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|general|all": {
+   "n": 550,
+   "diff": 14.18,
+   "ci95": [
+    10.91,
+    17.64
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|clinical|en": {
+   "n": 102,
+   "diff": 6.86,
+   "ci95": [
+    -1.96,
+    15.69
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "med-ctrl|clinical|hi": {
+   "n": 102,
+   "diff": 12.75,
+   "ci95": [
+    2.94,
+    22.55
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|clinical|hinglish": {
+   "n": 102,
+   "diff": 30.39,
+   "ci95": [
+    19.61,
+    41.18
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|clinical|all": {
+   "n": 306,
+   "diff": 16.67,
+   "ci95": [
+    11.11,
+    22.55
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|all|en": {
+   "n": 302,
+   "diff": 7.62,
+   "ci95": [
+    2.98,
+    12.25
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|all|hi": {
+   "n": 302,
+   "diff": 10.93,
+   "ci95": [
+    6.62,
+    15.23
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|all|hinglish": {
+   "n": 252,
+   "diff": 28.97,
+   "ci95": [
+    22.62,
+    35.32
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|all|all": {
+   "n": 856,
+   "diff": 15.07,
+   "ci95": [
+    12.15,
+    18.11
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-ctrl|orr_general|en": {
+   "n": 150,
+   "diff": -2.0,
+   "ci95": [
+    -7.33,
+    4.0
+   ]
+  },
+  "med-ctrl|orr_general|hi": {
+   "n": 150,
+   "diff": -0.67,
+   "ci95": [
+    -4.67,
+    3.33
+   ]
+  },
+  "med-ctrl|orr_general|hinglish": {
+   "n": 150,
+   "diff": 18.67,
+   "ci95": [
+    8.0,
+    29.33
+   ]
+  },
+  "med-ctrl|orr_general|all": {
+   "n": 450,
+   "diff": 5.33,
+   "ci95": [
+    1.11,
+    9.56
+   ]
+  },
+  "med-ctrl|orr_clinical|en": {
+   "n": 102,
+   "diff": 10.78,
+   "ci95": [
+    3.92,
+    18.63
+   ]
+  },
+  "med-ctrl|orr_clinical|hi": {
+   "n": 102,
+   "diff": 6.86,
+   "ci95": [
+    0.0,
+    13.73
+   ]
+  },
+  "med-ctrl|orr_clinical|hinglish": {
+   "n": 102,
+   "diff": 39.22,
+   "ci95": [
+    28.43,
+    50.0
+   ]
+  },
+  "med-ctrl|orr_clinical|all": {
+   "n": 306,
+   "diff": 18.95,
+   "ci95": [
+    13.73,
+    24.18
+   ]
+  },
+  "ctrl-orig|general|en": {
+   "n": 200,
+   "diff": 4.0,
+   "ci95": [
+    0.0,
+    8.5
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "ctrl-orig|general|hi": {
+   "n": 200,
+   "diff": 0.0,
+   "ci95": [
+    -2.5,
+    2.5
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "ctrl-orig|general|hinglish": {
+   "n": 150,
+   "diff": 11.33,
+   "ci95": [
+    4.0,
+    19.33
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "ctrl-orig|general|all": {
+   "n": 550,
+   "diff": 4.55,
+   "ci95": [
+    1.82,
+    7.27
+   ],
+   "clear_of_zero": true,
+   "ge5": false
+  },
+  "ctrl-orig|clinical|en": {
+   "n": 102,
+   "diff": 4.9,
+   "ci95": [
+    -1.96,
+    11.76
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "ctrl-orig|clinical|hi": {
+   "n": 102,
+   "diff": -2.94,
+   "ci95": [
+    -10.78,
+    4.9
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "ctrl-orig|clinical|hinglish": {
+   "n": 102,
+   "diff": 0.0,
+   "ci95": [
+    -10.78,
+    10.78
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "ctrl-orig|clinical|all": {
+   "n": 306,
+   "diff": 0.65,
+   "ci95": [
+    -4.25,
+    5.56
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "ctrl-orig|all|en": {
+   "n": 302,
+   "diff": 4.3,
+   "ci95": [
+    0.66,
+    7.95
+   ],
+   "clear_of_zero": true,
+   "ge5": false
+  },
+  "ctrl-orig|all|hi": {
+   "n": 302,
+   "diff": -0.99,
+   "ci95": [
+    -4.3,
+    1.99
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "ctrl-orig|all|hinglish": {
+   "n": 252,
+   "diff": 6.75,
+   "ci95": [
+    0.4,
+    13.1
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "ctrl-orig|all|all": {
+   "n": 856,
+   "diff": 3.15,
+   "ci95": [
+    0.58,
+    5.72
+   ],
+   "clear_of_zero": true,
+   "ge5": false
+  },
+  "ctrl-orig|orr_general|en": {
+   "n": 150,
+   "diff": 0.0,
+   "ci95": [
+    -4.0,
+    4.0
+   ]
+  },
+  "ctrl-orig|orr_general|hi": {
+   "n": 150,
+   "diff": 2.67,
+   "ci95": [
+    -1.33,
+    6.67
+   ]
+  },
+  "ctrl-orig|orr_general|hinglish": {
+   "n": 150,
+   "diff": 12.67,
+   "ci95": [
+    4.67,
+    21.33
+   ]
+  },
+  "ctrl-orig|orr_general|all": {
+   "n": 450,
+   "diff": 5.11,
+   "ci95": [
+    1.78,
+    8.44
+   ]
+  },
+  "ctrl-orig|orr_clinical|en": {
+   "n": 102,
+   "diff": 0.98,
+   "ci95": [
+    -1.96,
+    4.9
+   ]
+  },
+  "ctrl-orig|orr_clinical|hi": {
+   "n": 102,
+   "diff": 1.96,
+   "ci95": [
+    0.0,
+    4.9
+   ]
+  },
+  "ctrl-orig|orr_clinical|hinglish": {
+   "n": 102,
+   "diff": 16.67,
+   "ci95": [
+    8.82,
+    25.49
+   ]
+  },
+  "ctrl-orig|orr_clinical|all": {
+   "n": 306,
+   "diff": 6.54,
+   "ci95": [
+    3.27,
+    9.8
+   ]
+  }
+ },
+ "rq5_nf4": {
+  "deltadelta|en": {
+   "n": 302,
+   "dd": 0.33,
+   "ci95": [
+    -4.3,
+    4.97
+   ]
+  },
+  "nf4_loss|orig|en": {
+   "loss": 5.3,
+   "ci95": [
+    2.32,
+    8.28
+   ],
+   "non_inferior": false,
+   "inferior": true
+  },
+  "nf4_loss|med|en": {
+   "loss": 5.63,
+   "ci95": [
+    1.66,
+    9.6
+   ],
+   "non_inferior": false,
+   "inferior": true
+  },
+  "deltadelta|hi": {
+   "n": 302,
+   "dd": -2.98,
+   "ci95": [
+    -7.95,
+    1.66
+   ]
+  },
+  "nf4_loss|orig|hi": {
+   "loss": 1.66,
+   "ci95": [
+    -1.32,
+    4.97
+   ],
+   "non_inferior": true,
+   "inferior": false
+  },
+  "nf4_loss|med|hi": {
+   "loss": -1.32,
+   "ci95": [
+    -5.3,
+    2.65
+   ],
+   "non_inferior": true,
+   "inferior": false
+  },
+  "deltadelta|hinglish": {
+   "n": 252,
+   "dd": -6.35,
+   "ci95": [
+    -14.68,
+    1.59
+   ]
+  },
+  "nf4_loss|orig|hinglish": {
+   "loss": 9.52,
+   "ci95": [
+    3.17,
+    15.87
+   ],
+   "non_inferior": false,
+   "inferior": true
+  },
+  "nf4_loss|med|hinglish": {
+   "loss": 3.17,
+   "ci95": [
+    -2.38,
+    8.73
+   ],
+   "non_inferior": false,
+   "inferior": false
+  },
+  "deltadelta|all": {
+   "n": 856,
+   "dd": -2.8,
+   "ci95": [
+    -6.19,
+    0.58
+   ]
+  },
+  "nf4_loss|orig|all": {
+   "loss": 5.26,
+   "ci95": [
+    2.8,
+    7.71
+   ],
+   "non_inferior": false,
+   "inferior": true
+  },
+  "nf4_loss|med|all": {
+   "loss": 2.45,
+   "ci95": [
+    0.0,
+    5.02
+   ],
+   "non_inferior": false,
+   "inferior": false
+  }
+ },
+ "holm": {
+  "rq2:med-orig|general|all": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq2:med-orig|clinical|all": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq2:med-orig|all|en": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq2:med-orig|all|hi": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq2:med-orig|all|hinglish": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq2:med-orig|all|all": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq2:med-ctrl|general|all": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq2:med-ctrl|clinical|all": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq2:med-ctrl|all|en": {
+   "p_boot": 0.0008,
+   "reject_holm": true
+  },
+  "rq2:med-ctrl|all|hi": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq2:med-ctrl|all|hinglish": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq2:med-ctrl|all|all": {
+   "p_boot": 0.0001,
+   "reject_holm": true
+  },
+  "rq5:deltadelta|all": {
+   "p_boot": 0.1118,
+   "reject_holm": false
+  }
+ }
+}

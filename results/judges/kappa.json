@@ -1,0 +1,310 @@
+{
+ "labels_file": "Datasets\\final\\hand_labels\\labels_reviewed.csv",
+ "labels_status": "reviewed and approved by both authors, 5 Nov 2026",
+ "kappa": {
+  "qwen3guard|unsafe_primary|en": {
+   "n": 55,
+   "kappa": 0.81,
+   "agreement": 0.945,
+   "human_rate": 0.2,
+   "judge_rate": 0.145,
+   "excluded_unsure": 5
+  },
+  "qwen3guard|unsafe_primary|all": {
+   "n": 163,
+   "kappa": 0.644,
+   "agreement": 0.883,
+   "human_rate": 0.227,
+   "judge_rate": 0.184,
+   "excluded_unsure": 0
+  },
+  "qwen3guard|unsafe_primary|hi": {
+   "n": 57,
+   "kappa": 0.483,
+   "agreement": 0.86,
+   "human_rate": 0.211,
+   "judge_rate": 0.105,
+   "excluded_unsure": 3
+  },
+  "qwen3guard|unsafe_primary|hinglish": {
+   "n": 51,
+   "kappa": 0.623,
+   "agreement": 0.843,
+   "human_rate": 0.275,
+   "judge_rate": 0.314,
+   "excluded_unsure": 9
+  },
+  "qwen3guard|unsafe_strict|en": {
+   "n": 55,
+   "kappa": 0.81,
+   "agreement": 0.945,
+   "human_rate": 0.2,
+   "judge_rate": 0.145,
+   "excluded_unsure": 5
+  },
+  "qwen3guard|unsafe_strict|all": {
+   "n": 163,
+   "kappa": 0.616,
+   "agreement": 0.871,
+   "human_rate": 0.239,
+   "judge_rate": 0.184,
+   "excluded_unsure": 0
+  },
+  "qwen3guard|unsafe_strict|hi": {
+   "n": 57,
+   "kappa": 0.414,
+   "agreement": 0.825,
+   "human_rate": 0.246,
+   "judge_rate": 0.105,
+   "excluded_unsure": 3
+  },
+  "qwen3guard|unsafe_strict|hinglish": {
+   "n": 51,
+   "kappa": 0.623,
+   "agreement": 0.843,
+   "human_rate": 0.275,
+   "judge_rate": 0.314,
+   "excluded_unsure": 9
+  },
+  "qwen3guard|refusal|en": {
+   "n": 95,
+   "kappa": 0.83,
+   "agreement": 0.916,
+   "human_rate": 0.474,
+   "judge_rate": 0.389,
+   "excluded_unsure": 5
+  },
+  "qwen3guard|refusal|all": {
+   "n": 283,
+   "kappa": 0.669,
+   "agreement": 0.837,
+   "human_rate": 0.477,
+   "judge_rate": 0.314,
+   "excluded_unsure": 0
+  },
+  "qwen3guard|refusal|hi": {
+   "n": 97,
+   "kappa": 0.853,
+   "agreement": 0.928,
+   "human_rate": 0.464,
+   "judge_rate": 0.392,
+   "excluded_unsure": 3
+  },
+  "qwen3guard|refusal|hinglish": {
+   "n": 91,
+   "kappa": 0.313,
+   "agreement": 0.659,
+   "human_rate": 0.495,
+   "judge_rate": 0.154,
+   "excluded_unsure": 9
+  },
+  "qwen3guard_sensitivity|unsafe_primary|en": {
+   "n": 55,
+   "kappa": 0.824,
+   "agreement": 0.945,
+   "human_rate": 0.2,
+   "judge_rate": 0.182,
+   "excluded_unsure": 5
+  },
+  "qwen3guard_sensitivity|unsafe_primary|all": {
+   "n": 163,
+   "kappa": 0.63,
+   "agreement": 0.859,
+   "human_rate": 0.227,
+   "judge_rate": 0.282,
+   "excluded_unsure": 0
+  },
+  "qwen3guard_sensitivity|unsafe_primary|hi": {
+   "n": 57,
+   "kappa": 0.663,
+   "agreement": 0.895,
+   "human_rate": 0.211,
+   "judge_rate": 0.175,
+   "excluded_unsure": 3
+  },
+  "qwen3guard_sensitivity|unsafe_primary|hinglish": {
+   "n": 51,
+   "kappa": 0.456,
+   "agreement": 0.725,
+   "human_rate": 0.275,
+   "judge_rate": 0.51,
+   "excluded_unsure": 9
+  },
+  "qwen3guard_sensitivity|unsafe_strict|en": {
+   "n": 55,
+   "kappa": 0.824,
+   "agreement": 0.945,
+   "human_rate": 0.2,
+   "judge_rate": 0.182,
+   "excluded_unsure": 5
+  },
+  "qwen3guard_sensitivity|unsafe_strict|all": {
+   "n": 163,
+   "kappa": 0.603,
+   "agreement": 0.847,
+   "human_rate": 0.239,
+   "judge_rate": 0.282,
+   "excluded_unsure": 0
+  },
+  "qwen3guard_sensitivity|unsafe_strict|hi": {
+   "n": 57,
+   "kappa": 0.581,
+   "agreement": 0.86,
+   "human_rate": 0.246,
+   "judge_rate": 0.175,
+   "excluded_unsure": 3
+  },
+  "qwen3guard_sensitivity|unsafe_strict|hinglish": {
+   "n": 51,
+   "kappa": 0.456,
+   "agreement": 0.725,
+   "human_rate": 0.275,
+   "judge_rate": 0.51,
+   "excluded_unsure": 9
+  },
+  "qwen3guard_sensitivity|refusal|en": {
+   "n": 95,
+   "kappa": 0.83,
+   "agreement": 0.916,
+   "human_rate": 0.474,
+   "judge_rate": 0.389,
+   "excluded_unsure": 5
+  },
+  "qwen3guard_sensitivity|refusal|all": {
+   "n": 283,
+   "kappa": 0.669,
+   "agreement": 0.837,
+   "human_rate": 0.477,
+   "judge_rate": 0.314,
+   "excluded_unsure": 0
+  },
+  "qwen3guard_sensitivity|refusal|hi": {
+   "n": 97,
+   "kappa": 0.853,
+   "agreement": 0.928,
+   "human_rate": 0.464,
+   "judge_rate": 0.392,
+   "excluded_unsure": 3
+  },
+  "qwen3guard_sensitivity|refusal|hinglish": {
+   "n": 91,
+   "kappa": 0.313,
+   "agreement": 0.659,
+   "human_rate": 0.495,
+   "judge_rate": 0.154,
+   "excluded_unsure": 9
+  },
+  "wildguard|unsafe_primary|en": {
+   "n": 55,
+   "kappa": 0.737,
+   "agreement": 0.927,
+   "human_rate": 0.2,
+   "judge_rate": 0.127,
+   "excluded_unsure": 5
+  },
+  "wildguard|unsafe_primary|all": {
+   "n": 163,
+   "kappa": 0.688,
+   "agreement": 0.896,
+   "human_rate": 0.227,
+   "judge_rate": 0.196,
+   "excluded_unsure": 0
+  },
+  "wildguard|unsafe_primary|hi": {
+   "n": 57,
+   "kappa": 0.837,
+   "agreement": 0.947,
+   "human_rate": 0.211,
+   "judge_rate": 0.193,
+   "excluded_unsure": 3
+  },
+  "wildguard|unsafe_primary|hinglish": {
+   "n": 51,
+   "kappa": 0.508,
+   "agreement": 0.804,
+   "human_rate": 0.275,
+   "judge_rate": 0.275,
+   "excluded_unsure": 9
+  },
+  "wildguard|unsafe_strict|en": {
+   "n": 55,
+   "kappa": 0.737,
+   "agreement": 0.927,
+   "human_rate": 0.2,
+   "judge_rate": 0.127,
+   "excluded_unsure": 5
+  },
+  "wildguard|unsafe_strict|all": {
+   "n": 163,
+   "kappa": 0.659,
+   "agreement": 0.883,
+   "human_rate": 0.239,
+   "judge_rate": 0.196,
+   "excluded_unsure": 0
+  },
+  "wildguard|unsafe_strict|hi": {
+   "n": 57,
+   "kappa": 0.745,
+   "agreement": 0.912,
+   "human_rate": 0.246,
+   "judge_rate": 0.193,
+   "excluded_unsure": 3
+  },
+  "wildguard|unsafe_strict|hinglish": {
+   "n": 51,
+   "kappa": 0.508,
+   "agreement": 0.804,
+   "human_rate": 0.275,
+   "judge_rate": 0.275,
+   "excluded_unsure": 9
+  },
+  "wildguard|refusal|en": {
+   "n": 95,
+   "kappa": 0.851,
+   "agreement": 0.926,
+   "human_rate": 0.474,
+   "judge_rate": 0.4,
+   "excluded_unsure": 5
+  },
+  "wildguard|refusal|all": {
+   "n": 283,
+   "kappa": 0.611,
+   "agreement": 0.809,
+   "human_rate": 0.477,
+   "judge_rate": 0.3,
+   "excluded_unsure": 0
+  },
+  "wildguard|refusal|hi": {
+   "n": 97,
+   "kappa": 0.853,
+   "agreement": 0.928,
+   "human_rate": 0.464,
+   "judge_rate": 0.392,
+   "excluded_unsure": 3
+  },
+  "wildguard|refusal|hinglish": {
+   "n": 91,
+   "kappa": 0.113,
+   "agreement": 0.56,
+   "human_rate": 0.495,
+   "judge_rate": 0.099,
+   "excluded_unsure": 9
+  }
+ },
+ "human_label_counts": {
+  "en|helpful": 39,
+  "en|over-refusal": 1,
+  "en|refusal": 44,
+  "en|unsafe": 11,
+  "en|unsure": 5,
+  "hi|helpful": 40,
+  "hi|refusal": 45,
+  "hi|unsafe": 12,
+  "hi|unsure": 3,
+  "hinglish|helpful": 32,
+  "hinglish|over-refusal": 8,
+  "hinglish|refusal": 37,
+  "hinglish|unsafe": 14,
+  "hinglish|unsure": 9
+ }
+}

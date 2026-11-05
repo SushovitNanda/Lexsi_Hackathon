@@ -1,28 +1,24 @@
-"""MedMCQA one-token accuracy (FP16, greedy over the four letter tokens). Used for the Wed 4 check (dev 300) and
-for the reported 500 on Colab. Works for a merged model dir, a base model, or base + adapter.
+"""MedMCQA one-token accuracy (FP16, greedy over the four letter tokens). Works for a merged model dir, a base model,
+base + adapter, NF4, and the load-time repairs (--resta / --steer, see repair/resta.py).
 
     python scripts/eval/medmcqa_score.py --model CohereLabs/tiny-aya-global --set Datasets/final/medmcqa_dev_300/prompts.jsonl
-    python scripts/eval/medmcqa_score.py --model CohereLabs/tiny-aya-global --adapter runs/med/adapter --set ...
-    python scripts/eval/medmcqa_score.py --model merged/med --nf4 --set ...
+    python scripts/eval/medmcqa_score.py --model models/merged/med --nf4 --set ... --out results/cells/<cell>/medmcqa_test500.json
+    python scripts/eval/medmcqa_score.py --model models/merged/med --resta 0.25 --set Datasets/final/medmcqa_dev_1000/prompts.jsonl --out ...
 """
 import argparse, json, os, sys, time, torch
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+from pathlib import Path
+from transformers import AutoTokenizer
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "repair")); from resta import add_repair_args, load_patched
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--model", required=True); ap.add_argument("--adapter"); ap.add_argument("--set", required=True)
 ap.add_argument("--nf4", action="store_true"); ap.add_argument("--out"); ap.add_argument("--bs", type=int, default=4)
+add_repair_args(ap)
 a = ap.parse_args()
 tok = AutoTokenizer.from_pretrained(a.model); tok.padding_side = "left"
-if a.nf4:
-    q = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.float16,
-                           bnb_4bit_use_double_quant=True)
-    model = AutoModelForCausalLM.from_pretrained(a.model, quantization_config=q, device_map="cuda")
-else:
-    model = AutoModelForCausalLM.from_pretrained(a.model, dtype=torch.float16, device_map="cuda")
-if a.adapter:
-    from peft import PeftModel
-    model = PeftModel.from_pretrained(model, a.adapter)
-model.eval()
+model, rep_info = load_patched(a.model, "nf4" if a.nf4 else "fp16", a.adapter, a.resta, a.resta_tensors, a.steer, a.steer_layer, a.steer_strength)
 rows = [json.loads(l) for l in open(a.set, encoding="utf-8")]
 # letter token ids after "Answer:" (with the leading space, as the SFT target is "Answer: C. ...")
 letter_ids = {L: tok(f" {L}", add_special_tokens=False).input_ids[-1] for L in "ABCD"}
@@ -40,8 +36,8 @@ for i in range(0, len(rows), a.bs):
         p = max(scores, key=scores.get)
         preds.append({"prompt_id": r["id"], "pred": p, "answer": r["answer"], "correct": p == r["answer"], "scores": scores})
 acc = sum(p["correct"] for p in preds) / len(preds)
-print(f"MedMCQA accuracy {acc:.4f} on {len(preds)} ({time.time()-t0:.0f}s) model={a.model} adapter={a.adapter} nf4={a.nf4}")
+print(f"MedMCQA accuracy {acc:.4f} on {len(preds)} ({time.time()-t0:.0f}s) model={a.model} adapter={a.adapter} nf4={a.nf4} {rep_info}")
 out = a.out or f"results/medmcqa_{os.path.basename(a.model.rstrip('/'))}_{'nf4' if a.nf4 else 'fp16'}_{os.path.basename(a.set).split('.')[0]}.json"
-os.makedirs(os.path.dirname(out), exist_ok=True)
-json.dump({"model": a.model, "adapter": a.adapter, "nf4": a.nf4, "set": a.set, "n": len(preds), "accuracy": acc,
+os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
+json.dump({"model": a.model, "adapter": a.adapter, "nf4": a.nf4, "set": a.set, "n": len(preds), "accuracy": acc, **rep_info,
            "preds": preds}, open(out, "w", encoding="utf-8"), indent=1)

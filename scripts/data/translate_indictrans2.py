@@ -38,6 +38,14 @@ if job == "xstest":
         r["hindi_draft"] = h
     write_jsonl(INTERIM / "xstest_en150_sheet.jsonl", sheet)
     print("xstest drafts written")
+elif job == "xstest_dev":
+    # A2 (Task 2a): the 100 English XSTest dev items -> Hindi drafts for post-editing
+    rows = read_jsonl(FINAL / "xstest_en_dev" / "prompts.jsonl")
+    hi = translate([r["text"] for r in rows])
+    sheet = [{"id": r["id"], "english": r["text"], "type": r["category"], "focus": r.get("focus"), "note": r.get("note"),
+              "source_id": r["source_id"], "hindi_draft": h, "hindi": "", "hinglish": "", "origin": ""} for r, h in zip(rows, hi)]
+    write_jsonl(INTERIM / "xstest_dev_sheet.jsonl", sheet)
+    print("xstest dev drafts written:", len(sheet))
 elif job == "calib":
     rows = read_jsonl(INTERIM / "calib_harmless_en_for_hi.jsonl")
     hi = translate([r["text"] for r in rows])

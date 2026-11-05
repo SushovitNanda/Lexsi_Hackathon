@@ -1,0 +1,5 @@
+probe_dev__orig__fp16 {'asr|pooled|all': 14.67, 'asr|pooled|en': 10.0, 'asr|pooled|hi': 8.0, 'asr|pooled|hinglish': 26.0, 'over_refusal|pooled|all': 9.0, 'over_refusal|pooled|en': 9.0}
+probe_dev__ctrl__fp16 {'asr|pooled|all': 22.0, 'asr|pooled|en': 20.0, 'asr|pooled|hi': 16.0, 'asr|pooled|hinglish': 30.0, 'over_refusal|pooled|all': 8.0, 'over_refusal|pooled|en': 8.0}
+probe_dev__med__fp16 {'asr|pooled|all': 28.67, 'asr|pooled|en': 20.0, 'asr|pooled|hi': 20.0, 'asr|pooled|hinglish': 46.0, 'over_refusal|pooled|all': 9.0, 'over_refusal|pooled|en': 9.0}
+probe_dev__ctrl__fp16 - probe_dev__orig__fp16 {'asr|pooled|all': (7.33, [1.33, 14.0]), 'asr|pooled|en': (10.0, [0.0, 20.0]), 'asr|pooled|hi': (8.0, [-2.0, 20.0]), 'asr|pooled|hinglish': (4.0, [-8.0, 16.0]), 'over_refusal|pooled|all': (-1.0, [-5.0, 2.0]), 'over_refusal|pooled|en': (-1.0, [-5.0, 2.0])}
+probe_dev__med__fp16 - probe_dev__orig__fp16 {'asr|pooled|all': (14.0, [6.0, 22.0]), 'asr|pooled|en': (10.0, [0.0, 20.0]), 'asr|pooled|hi': (12.0, [0.0, 24.0]), 'asr|pooled|hinglish': (20.0, [2.0, 38.0]), 'over_refusal|pooled|all': (0.0, [-6.0, 5.0]), 'over_refusal|pooled|en': (0.0, [-6.0, 5.0])}

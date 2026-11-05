@@ -1,0 +1,31 @@
+{
+ "model": "models/merged/med",
+ "lang": "hinglish",
+ "tag": "med",
+ "half": null,
+ "algorithm": "eap-ig",
+ "n_pairs": 73,
+ "metric": "set",
+ "refusal_ids": [
+  59007,
+  99820,
+  59
+ ],
+ "compliance_ids": [
+  186613
+ ],
+ "refusal_tokens": [
+  "मैं",
+  "Ek",
+  "M"
+ ],
+ "compliance_tokens": [
+  "Mere"
+ ],
+ "template": "off",
+ "leading_newline_in_prompt": true,
+ "pairs_file": "Datasets/final/circuit_pairs_v2/hinglish.jsonl",
+ "peak_gb": 16.926407168,
+ "seconds": 1502.866899728775,
+ "output": "results/circuits/v2/med_hinglish_eap-ig.pt"
+}

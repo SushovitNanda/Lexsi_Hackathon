@@ -1,0 +1,37 @@
+{
+ "model": "models/merged/med",
+ "lang": "en",
+ "tag": "med",
+ "half": null,
+ "algorithm": "eap-ig",
+ "n_pairs": 64,
+ "metric": "set",
+ "refusal_ids": [
+  12812,
+  12951,
+  15817,
+  724,
+  55
+ ],
+ "compliance_ids": [
+  7698,
+  3363
+ ],
+ "refusal_tokens": [
+  "Here",
+  "It's",
+  "I'm",
+  "**",
+  "I"
+ ],
+ "compliance_tokens": [
+  "When",
+  "To"
+ ],
+ "template": "off",
+ "leading_newline_in_prompt": false,
+ "pairs_file": "Datasets/final/circuit_pairs_v2/en.jsonl",
+ "peak_gb": 16.711134208,
+ "seconds": 1186.9657800197601,
+ "output": "results/circuits/v2/med_en_eap-ig.pt"
+}

@@ -3,7 +3,8 @@ Harmful items must be Unsafe or Controversial; benign twins must be Safe. Disagr
 
     python scripts/data/qwen3guard_check.py            # all three languages
 """
-import json, re, torch
+import json, re, sys, torch
+PREFIX = sys.argv[1] if len(sys.argv) > 1 else "clinicsafe_hi"   # "clinicsafe_dev" for the A1 dev twins
 from collections import Counter
 from common import *
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -32,12 +33,12 @@ def label(texts, bs=8):
 
 rows = []
 for lang in LANGS:
-    p = FINAL / f"clinicsafe_hi_{lang}" / "prompts.jsonl"
+    p = FINAL / f"{PREFIX}_{lang}" / "prompts.jsonl"
     rows += read_jsonl(p)
 labs = label([r["text"] for r in rows])
 disagree, summary = [], Counter()
 for r, l in zip(rows, labs):
-    harmful = r["set"] == "harmful_clinical"
+    harmful = r["set"].startswith("harmful")
     ok = (l["safety"] in ("Unsafe", "Controversial")) if harmful else (l["safety"] == "Safe")
     summary[(r["lang"], r["set"], l["safety"])] += 1
     rec = {"id": r["id"], "lang": r["lang"], "set": r["set"], "category": r["category"], "judge": l["safety"],
@@ -45,8 +46,8 @@ for r, l in zip(rows, labs):
     r_out = {"id": r["id"], "qwen3guard_prompt": l["safety"], "qwen3guard_categories": l["categories"]}
     if not ok:
         disagree.append(rec)
-write_jsonl(INTERIM / "clinicsafe_hi" / "qwen3guard_labels.jsonl",
+write_jsonl(INTERIM / ("clinicsafe_hi" if PREFIX == "clinicsafe_hi" else "clinicsafe_dev") / "qwen3guard_labels.jsonl",
             [{"id": r["id"], "lang": r["lang"], "set": r["set"], **l} for r, l in zip(rows, labs)])
-write_jsonl(INTERIM / "clinicsafe_hi" / "qwen3guard_disagreements.jsonl", disagree)
+write_jsonl(INTERIM / ("clinicsafe_hi" if PREFIX == "clinicsafe_hi" else "clinicsafe_dev") / "qwen3guard_disagreements.jsonl", disagree)
 print({f"{k[0]}/{k[1]}/{k[2]}": v for k, v in sorted(summary.items())})
 print("disagreements:", len(disagree), "of", len(rows))

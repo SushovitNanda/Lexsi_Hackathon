@@ -1,0 +1,47 @@
+W1104 03:48:14.400000 23576 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1104 03:48:18.466000 23576 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+fine-tuning sets: {'sft_medical': 4815, 'sft_control': 5004}
+evaluation sets: {'aya_en_dev': 50, 'aya_en_test': 200, 'aya_hi_dev': 50, 'aya_hi_test': 200, 'aya_hinglish_dev': 50, 'aya_hinglish_test': 150, 'clinicsafe_hi_en': 204, 'clinicsafe_hi_hi': 204, 'clinicsafe_hi_hinglish': 204, 'medmcqa_dev_1000': 1000, 'medmcqa_dev_300': 300, 'medmcqa_test_500': 500, 'xstest_en_dev': 100, 'xstest_en_test': 150, 'xstest_hi_test': 150, 'xstest_hinglish_test': 150, 'calib_en_only_harmful': 100, 'calib_en_only_harmless': 100, 'calib_trilingual_harmful': 99, 'calib_trilingual_harmless': 99}
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  67%|██████▋   | 133/199 [00:00<00:00, 1328.27it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1459.99it/s]
+sft_medical x aya_en_dev {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x aya_en_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x aya_hi_dev {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x aya_hi_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x aya_hinglish_dev {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x aya_hinglish_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x clinicsafe_hi_en {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x clinicsafe_hi_hi {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x clinicsafe_hi_hinglish {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x medmcqa_dev_1000 {'exact': 0, 'minhash': 3, 'embedding': 3}
+sft_medical x medmcqa_dev_300 {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x medmcqa_test_500 {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x xstest_en_dev {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x xstest_en_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x xstest_hi_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x xstest_hinglish_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x calib_en_only_harmful {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x calib_en_only_harmless {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x calib_trilingual_harmful {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_medical x calib_trilingual_harmless {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x aya_en_dev {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x aya_en_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x aya_hi_dev {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x aya_hi_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x aya_hinglish_dev {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x aya_hinglish_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x clinicsafe_hi_en {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x clinicsafe_hi_hi {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x clinicsafe_hi_hinglish {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x medmcqa_dev_1000 {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x medmcqa_dev_300 {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x medmcqa_test_500 {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x xstest_en_dev {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x xstest_en_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x xstest_hi_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x xstest_hinglish_test {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x calib_en_only_harmful {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x calib_en_only_harmless {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x calib_trilingual_harmful {'exact': 0, 'minhash': 0, 'embedding': 0}
+sft_control x calib_trilingual_harmless {'exact': 0, 'minhash': 0, 'embedding': 0}
+medmcqa_dev_1000 dropped from test: ['medmcqa-dev-0379', 'medmcqa-dev-0480', 'medmcqa-dev-0584', 'medmcqa-dev-0703', 'medmcqa-dev-0750']
+overlaps found: 6 | clean: False

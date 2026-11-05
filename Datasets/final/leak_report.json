@@ -1,11 +1,60 @@
 {
- "version": "v2",
+ "version": "v3",
  "thresholds": {
   "minhash_jaccard": 0.85,
   "embedding_cosine": 0.92
  },
  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
- "pairs": [],
+ "pairs": [
+  {
+   "ft_id": "medmcqa-train-742679d2-b11f-48c8-96c2-c7978db51d64",
+   "eval_id": "medmcqa-dev-0480",
+   "method": "minhash",
+   "score": 0.875,
+   "ft_set": "sft_medical",
+   "eval_set": "medmcqa_dev_1000"
+  },
+  {
+   "ft_id": "medmcqa-train-fa817189-08ec-465c-8b02-b3baaabe879f",
+   "eval_id": "medmcqa-dev-0379",
+   "method": "minhash",
+   "score": 0.922,
+   "ft_set": "sft_medical",
+   "eval_set": "medmcqa_dev_1000"
+  },
+  {
+   "ft_id": "medmcqa-train-f2bbf196-e268-47f2-9c32-45062432fdc8",
+   "eval_id": "medmcqa-dev-0750",
+   "method": "minhash",
+   "score": 0.883,
+   "ft_set": "sft_medical",
+   "eval_set": "medmcqa_dev_1000"
+  },
+  {
+   "ft_id": "medmcqa-train-930591f7-cb3d-42ed-adac-e1290c2e1787",
+   "eval_id": "medmcqa-dev-0584",
+   "method": "embedding",
+   "score": 0.964,
+   "ft_set": "sft_medical",
+   "eval_set": "medmcqa_dev_1000"
+  },
+  {
+   "ft_id": "medmcqa-train-fa817189-08ec-465c-8b02-b3baaabe879f",
+   "eval_id": "medmcqa-dev-0379",
+   "method": "embedding",
+   "score": 0.958,
+   "ft_set": "sft_medical",
+   "eval_set": "medmcqa_dev_1000"
+  },
+  {
+   "ft_id": "medmcqa-train-fcbde8da-3e01-49e3-b983-5862c83e5300",
+   "eval_id": "medmcqa-dev-0703",
+   "method": "embedding",
+   "score": 0.972,
+   "ft_set": "sft_medical",
+   "eval_set": "medmcqa_dev_1000"
+  }
+ ],
  "summary": {
   "sft_medical x aya_en_dev": {
    "exact": 0,
@@ -51,6 +100,11 @@
    "exact": 0,
    "minhash": 0,
    "embedding": 0
+  },
+  "sft_medical x medmcqa_dev_1000": {
+   "exact": 0,
+   "minhash": 3,
+   "embedding": 3
   },
   "sft_medical x medmcqa_dev_300": {
    "exact": 0,
@@ -147,6 +201,11 @@
    "minhash": 0,
    "embedding": 0
   },
+  "sft_control x medmcqa_dev_1000": {
+   "exact": 0,
+   "minhash": 0,
+   "embedding": 0
+  },
   "sft_control x medmcqa_dev_300": {
    "exact": 0,
    "minhash": 0,
@@ -196,7 +255,14 @@
    "exact": 0,
    "minhash": 0,
    "embedding": 0
-  }
+  },
+  "medmcqa_dev_1000_dropped_from_test": [
+   "medmcqa-dev-0379",
+   "medmcqa-dev-0480",
+   "medmcqa-dev-0584",
+   "medmcqa-dev-0703",
+   "medmcqa-dev-0750"
+  ]
  },
- "clean": true
+ "clean": false
 }

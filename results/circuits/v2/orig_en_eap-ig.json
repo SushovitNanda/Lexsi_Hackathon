@@ -1,0 +1,37 @@
+{
+ "model": "CohereLabs/tiny-aya-global",
+ "lang": "en",
+ "tag": "orig",
+ "half": null,
+ "algorithm": "eap-ig",
+ "n_pairs": 64,
+ "metric": "set",
+ "refusal_ids": [
+  12812,
+  12951,
+  15817,
+  724,
+  55
+ ],
+ "compliance_ids": [
+  7698,
+  3363
+ ],
+ "refusal_tokens": [
+  "Here",
+  "It's",
+  "I'm",
+  "**",
+  "I"
+ ],
+ "compliance_tokens": [
+  "When",
+  "To"
+ ],
+ "template": "off",
+ "leading_newline_in_prompt": false,
+ "pairs_file": "Datasets/final/circuit_pairs_v2/en.jsonl",
+ "peak_gb": 16.711134208,
+ "seconds": 1135.9665687084198,
+ "output": "results/circuits/v2/orig_en_eap-ig.pt"
+}

@@ -1,0 +1,19 @@
+{
+ "model": "CohereLabs/tiny-aya-global",
+ "adapter": null,
+ "weights": "fp16",
+ "template": "official",
+ "engine": "transformers 5.22.1",
+ "temperature": 0.0,
+ "seed": 13,
+ "max_tokens": 256,
+ "harness": "ea7cc5f",
+ "cell": "probe_dev__orig__fp16",
+ "n_prompts": 250,
+ "generated_this_run": 250,
+ "seconds": 384,
+ "gen_per_min": 39.1,
+ "tok_per_s": 118,
+ "peak_gb": 7.83,
+ "final_batch": 16
+}

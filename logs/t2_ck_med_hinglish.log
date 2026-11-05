@@ -1,0 +1,101 @@
+W1105 14:39:11.664000 21032 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1105 14:39:12.474000 21032 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+14:39:14 • ==================================================
+14:39:14 • Starting: Circuit Discovery
+14:39:14 • ==================================================
+14:39:14 • [1/4] Loading and validating configuration
+14:39:14 ⚙ Configuration validated successfully.
+14:39:14 ⚙ Config: EAP-IG on refusal2_hinglish_med task, node level, 30% sparsity
+14:39:14 • [2/4] Setting up model (model=models/merged/med)
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   3%|▎         | 8/290 [00:00<00:04, 68.72it/s]Loading weights:   5%|▌         | 15/290 [00:00<00:04, 56.16it/s]Loading weights:   8%|▊         | 23/290 [00:00<00:04, 56.63it/s]Loading weights:  11%|█         | 31/290 [00:00<00:04, 55.11it/s]Loading weights:  14%|█▍        | 40/290 [00:00<00:03, 63.80it/s]Loading weights:  16%|█▌        | 47/290 [00:00<00:04, 54.17it/s]Loading weights:  19%|█▉        | 56/290 [00:00<00:04, 55.19it/s]Loading weights:  22%|██▏       | 64/290 [00:01<00:04, 56.08it/s]Loading weights:  25%|██▍       | 72/290 [00:01<00:03, 60.19it/s]Loading weights:  27%|██▋       | 79/290 [00:01<00:03, 54.82it/s]Loading weights:  30%|███       | 87/290 [00:01<00:03, 60.50it/s]Loading weights:  32%|███▏      | 94/290 [00:01<00:04, 46.01it/s]Loading weights:  36%|███▌      | 103/290 [00:01<00:03, 48.17it/s]Loading weights:  38%|███▊      | 110/290 [00:02<00:03, 48.84it/s]Loading weights:  41%|████      | 119/290 [00:02<00:03, 45.28it/s]Loading weights:  43%|████▎     | 124/290 [00:02<00:03, 43.68it/s]Loading weights:  46%|████▌     | 133/290 [00:02<00:03, 45.70it/s]Loading weights:  49%|████▉     | 143/290 [00:02<00:02, 53.43it/s]Loading weights:  51%|█████▏    | 149/290 [00:02<00:02, 51.72it/s]Loading weights:  53%|█████▎    | 155/290 [00:02<00:02, 48.09it/s]Loading weights:  55%|█████▌    | 160/290 [00:03<00:03, 42.43it/s]Loading weights:  58%|█████▊    | 168/290 [00:03<00:02, 48.27it/s]Loading weights:  60%|██████    | 175/290 [00:03<00:02, 44.86it/s]Loading weights:  63%|██████▎   | 182/290 [00:03<00:02, 40.89it/s]Loading weights:  66%|██████▌   | 191/290 [00:03<00:02, 43.35it/s]Loading weights:  69%|██████▊   | 199/290 [00:03<00:01, 47.07it/s]Loading weights:  71%|███████▏  | 207/290 [00:04<00:01, 43.50it/s]Loading weights:  74%|███████▍  | 216/290 [00:04<00:01, 45.02it/s]Loading weights:  76%|███████▌  | 221/290 [00:04<00:01, 40.45it/s]Loading weights:  78%|███████▊  | 227/290 [00:04<00:01, 41.36it/s]Loading weights:  82%|████████▏ | 239/290 [00:04<00:00, 53.01it/s]Loading weights:  84%|████████▍ | 245/290 [00:05<00:00, 47.31it/s]Loading weights:  87%|████████▋ | 251/290 [00:05<00:00, 48.61it/s]Loading weights:  89%|████████▊ | 257/290 [00:05<00:00, 46.03it/s]Loading weights:  91%|█████████ | 263/290 [00:05<00:00, 41.94it/s]Loading weights:  93%|█████████▎| 271/290 [00:05<00:00, 47.60it/s]Loading weights:  96%|█████████▌| 279/290 [00:05<00:00, 47.11it/s]Loading weights: 100%|██████████| 290/290 [00:05<00:00, 49.68it/s]
+Loaded pretrained model models/merged/med into HookedTransformer
+14:39:43 🔧 Model loading: 28.05s
+14:39:43 🔧 Model: models/merged/med (3.9B params, cuda device)
+14:39:43 • [3/4] Running discovery algorithm (algorithm=eap-ig)
+14:39:43 • Starting EAP-IG discovery algorithm
+14:39:43 • Wrote EAP CSV: cache\normalized\refusal2_hinglish_med_73_unk_seed42.csv (73 rows)
+  0%|          | 0/73 [00:00<?, ?it/s]  1%|▏         | 1/73 [00:16<19:15, 16.06s/it]  3%|▎         | 2/73 [00:28<16:31, 13.96s/it]  4%|▍         | 3/73 [00:40<15:27, 13.25s/it]  5%|▌         | 4/73 [00:55<15:49, 13.76s/it]14:40:44 • tokenize_batch_pair: 1 of 1 contrastive pair(s) have unequal clean/corrupt token counts (clean max=53, corrupt max=55; 1 misaligned pair(s) across 1 batch(es) so far this process). EAP aligns by end-padding (pair_padding_side='left'), which preserves per-position correspondence ONLY when the length difference is at that end. Mid-sequence length-changing corruptions will misalign and the attribution for those pairs is unreliable — prefer minimal, token-length-preserving contrastive pairs. (Warning repeats every 100th misaligned batch.)
+  7%|▋         | 5/73 [01:32<24:53, 21.97s/it]  8%|▊         | 6/73 [01:52<23:49, 21.34s/it] 10%|▉         | 7/73 [02:13<23:27, 21.33s/it] 11%|█         | 8/73 [02:25<19:49, 18.30s/it] 12%|█▏        | 9/73 [02:44<19:57, 18.72s/it] 14%|█▎        | 10/73 [02:56<17:23, 16.57s/it] 15%|█▌        | 11/73 [03:10<16:21, 15.83s/it] 16%|█▋        | 12/73 [03:25<15:41, 15.43s/it] 18%|█▊        | 13/73 [03:44<16:40, 16.68s/it] 19%|█▉        | 14/73 [03:55<14:35, 14.83s/it] 21%|██        | 15/73 [04:14<15:34, 16.11s/it] 22%|██▏       | 16/73 [04:33<16:11, 17.04s/it] 23%|██▎       | 17/73 [04:56<17:25, 18.67s/it] 25%|██▍       | 18/73 [05:05<14:39, 15.99s/it] 26%|██▌       | 19/73 [05:31<17:01, 18.91s/it] 27%|██▋       | 20/73 [05:44<15:02, 17.02s/it] 29%|██▉       | 21/73 [05:58<14:00, 16.17s/it] 30%|███       | 22/73 [06:39<20:01, 23.56s/it] 32%|███▏      | 23/73 [07:02<19:31, 23.43s/it] 33%|███▎      | 24/73 [07:22<18:17, 22.40s/it] 34%|███▍      | 25/73 [07:46<18:21, 22.96s/it] 36%|███▌      | 26/73 [08:06<17:09, 21.91s/it] 37%|███▋      | 27/73 [08:25<16:14, 21.19s/it] 38%|███▊      | 28/73 [08:40<14:33, 19.40s/it] 40%|███▉      | 29/73 [09:00<14:14, 19.42s/it] 41%|████      | 30/73 [09:38<17:55, 25.02s/it] 42%|████▏     | 31/73 [09:52<15:11, 21.70s/it] 44%|████▍     | 32/73 [10:07<13:28, 19.71s/it] 45%|████▌     | 33/73 [10:18<11:20, 17.00s/it] 47%|████▋     | 34/73 [10:37<11:32, 17.76s/it] 48%|████▊     | 35/73 [10:57<11:35, 18.29s/it] 49%|████▉     | 36/73 [11:10<10:25, 16.91s/it] 51%|█████     | 37/73 [11:51<14:25, 24.05s/it] 52%|█████▏    | 38/73 [12:06<12:21, 21.20s/it] 53%|█████▎    | 39/73 [12:18<10:26, 18.43s/it] 55%|█████▍    | 40/73 [12:56<13:24, 24.38s/it] 56%|█████▌    | 41/73 [13:10<11:25, 21.41s/it] 58%|█████▊    | 42/73 [13:22<09:31, 18.44s/it] 59%|█████▉    | 43/73 [13:41<09:22, 18.74s/it] 60%|██████    | 44/73 [14:00<09:06, 18.84s/it] 62%|██████▏   | 45/73 [14:42<11:57, 25.62s/it] 63%|██████▎   | 46/73 [15:02<10:51, 24.14s/it] 64%|██████▍   | 47/73 [15:27<10:27, 24.14s/it] 66%|██████▌   | 48/73 [15:47<09:32, 22.88s/it] 67%|██████▋   | 49/73 [16:01<08:10, 20.42s/it] 68%|██████▊   | 50/73 [16:11<06:39, 17.36s/it] 70%|██████▉   | 51/73 [16:31<06:33, 17.88s/it] 71%|███████   | 52/73 [16:52<06:40, 19.09s/it] 73%|███████▎  | 53/73 [17:14<06:35, 19.79s/it] 74%|███████▍  | 54/73 [17:36<06:31, 20.61s/it] 75%|███████▌  | 55/73 [17:50<05:32, 18.47s/it] 77%|███████▋  | 56/73 [18:09<05:18, 18.72s/it] 78%|███████▊  | 57/73 [18:24<04:41, 17.62s/it] 79%|███████▉  | 58/73 [18:45<04:40, 18.70s/it] 81%|████████  | 59/73 [19:06<04:29, 19.24s/it] 82%|████████▏ | 60/73 [19:25<04:10, 19.26s/it] 84%|████████▎ | 61/73 [19:45<03:53, 19.44s/it] 85%|████████▍ | 62/73 [20:21<04:26, 24.24s/it] 86%|████████▋ | 63/73 [20:56<04:34, 27.46s/it] 88%|████████▊ | 64/73 [21:36<04:41, 31.32s/it] 89%|████████▉ | 65/73 [21:55<03:42, 27.80s/it] 90%|█████████ | 66/73 [22:11<02:48, 24.09s/it] 92%|█████████▏| 67/73 [22:21<01:59, 19.92s/it] 93%|█████████▎| 68/73 [22:36<01:32, 18.47s/it] 95%|█████████▍| 69/73 [22:51<01:09, 17.38s/it] 96%|█████████▌| 70/73 [23:13<00:55, 18.62s/it] 97%|█████████▋| 71/73 [23:34<00:38, 19.45s/it] 99%|█████████▊| 72/73 [24:08<00:23, 23.81s/it]100%|██████████| 73/73 [24:28<00:00, 22.82s/it]100%|██████████| 73/73 [24:28<00:00, 20.12s/it]
+15:04:17 • Converted 612 node scores from EAP-IG graph to CircuitKIT format.
+15:04:17 • Saved unified CircuitScores → results\circuits\v2\med_hinglish_eap-ig_scores.json
+15:04:17 • Saved 'scores' → results\circuits\v2\med_hinglish_eap-ig_scores.pt
+15:04:17 • [4/4] Identifying nodes to prune
+15:04:17 • 
+--- Running Categorized Node Pruning (Scope: BOTH) ---
+15:04:17 • Found 576 Attention Heads and 36 MLP layers to consider for pruning.
+15:04:17 • Pruning 10 out of 36 MLP layers (30%).
+15:04:17 • Targeting to prune 172 out of 576 total Attention Heads (30%).
+15:04:17 • Actually pruned 172 Attention Heads.
+15:04:17 •   - Layer 1: Pruned 5/16 heads.
+15:04:17 •   - Layer 2: Pruned 3/16 heads.
+15:04:17 •   - Layer 3: Pruned 3/16 heads.
+15:04:17 •   - Layer 4: Pruned 1/16 heads.
+15:04:17 •   - Layer 5: Pruned 3/16 heads.
+15:04:17 •   - Layer 6: Pruned 6/16 heads.
+15:04:17 •   - Layer 7: Pruned 8/16 heads.
+15:04:17 •   - Layer 8: Pruned 5/16 heads.
+15:04:17 •   - Layer 9: Pruned 1/16 heads.
+15:04:17 •   - Layer 10: Pruned 5/16 heads.
+15:04:17 •   - Layer 11: Pruned 7/16 heads.
+15:04:17 •   - Layer 12: Pruned 5/16 heads.
+15:04:17 •   - Layer 13: Pruned 3/16 heads.
+15:04:17 •   - Layer 14: Pruned 8/16 heads.
+15:04:17 •   - Layer 15: Pruned 8/16 heads.
+15:04:17 •   - Layer 16: Pruned 4/16 heads.
+15:04:17 •   - Layer 17: Pruned 8/16 heads.
+15:04:17 •   - Layer 18: Pruned 4/16 heads.
+15:04:17 •   - Layer 19: Pruned 8/16 heads.
+15:04:17 •   - Layer 20: Pruned 8/16 heads.
+15:04:17 •   - Layer 21: Pruned 6/16 heads.
+15:04:17 •   - Layer 22: Pruned 3/16 heads.
+15:04:17 •   - Layer 23: Pruned 5/16 heads.
+15:04:17 •   - Layer 24: Pruned 7/16 heads.
+15:04:17 •   - Layer 25: Pruned 2/16 heads.
+15:04:17 •   - Layer 26: Pruned 8/16 heads.
+15:04:17 •   - Layer 27: Pruned 2/16 heads.
+15:04:17 •   - Layer 28: Pruned 4/16 heads.
+15:04:17 •   - Layer 29: Pruned 7/16 heads.
+15:04:17 •   - Layer 30: Pruned 2/16 heads.
+15:04:17 •   - Layer 31: Pruned 3/16 heads.
+15:04:17 •   - Layer 32: Pruned 1/16 heads.
+15:04:17 •   - Layer 33: Pruned 5/16 heads.
+15:04:17 •   - Layer 34: Pruned 8/16 heads.
+15:04:17 •   - Layer 35: Pruned 6/16 heads.
+15:04:17 • --- Categorized Pruning Finished ---
+15:04:17 •   Pruned 182 nodes out of 612 candidates
+15:04:17 • Pruned node list saved to results/circuits/v2/med_hinglish_eap-ig.pt
+15:04:17 • ==================================================
+15:04:17 ✓ Completed: Circuit Discovery in 1502.7s
+15:04:17 • Summary: nodes_pruned=182
+15:04:17 • ==================================================
+{
+ "model": "models/merged/med",
+ "lang": "hinglish",
+ "tag": "med",
+ "half": null,
+ "algorithm": "eap-ig",
+ "n_pairs": 73,
+ "metric": "set",
+ "refusal_ids": [
+  59007,
+  99820,
+  59
+ ],
+ "compliance_ids": [
+  186613
+ ],
+ "refusal_tokens": [
+  "मैं",
+  "Ek",
+  "M"
+ ],
+ "compliance_tokens": [
+  "Mere"
+ ],
+ "template": "off",
+ "leading_newline_in_prompt": true,
+ "pairs_file": "Datasets/final/circuit_pairs_v2/hinglish.jsonl",
+ "peak_gb": 16.926407168,
+ "seconds": 1502.866899728775,
+ "output": "results/circuits/v2/med_hinglish_eap-ig.pt"
+}

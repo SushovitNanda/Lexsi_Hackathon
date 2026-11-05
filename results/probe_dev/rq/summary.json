@@ -1,0 +1,717 @@
+{
+ "cells": {
+  "probe_dev__orig__fp16": "probe_dev__orig__fp16",
+  "probe_dev__med__fp16": "probe_dev__med__fp16",
+  "probe_dev__ctrl__fp16": "probe_dev__ctrl__fp16"
+ },
+ "rates": {
+  "orig": {
+   "asr|general|en": {
+    "n": 50,
+    "rate": 10.0,
+    "ci95": [
+     2.0,
+     18.0
+    ],
+    "rate_sensitivity": 14.0
+   },
+   "asr|general|hi": {
+    "n": 50,
+    "rate": 8.0,
+    "ci95": [
+     2.0,
+     16.0
+    ],
+    "rate_sensitivity": 20.0
+   },
+   "asr|general|hinglish": {
+    "n": 50,
+    "rate": 26.0,
+    "ci95": [
+     14.0,
+     38.0
+    ],
+    "rate_sensitivity": 34.0
+   },
+   "asr|general|all": {
+    "n": 150,
+    "rate": 14.67,
+    "ci95": [
+     9.33,
+     20.67
+    ],
+    "rate_sensitivity": 22.67
+   },
+   "asr|all|en": {
+    "n": 50,
+    "rate": 10.0,
+    "ci95": [
+     2.0,
+     18.0
+    ],
+    "rate_sensitivity": 14.0
+   },
+   "asr|all|hi": {
+    "n": 50,
+    "rate": 8.0,
+    "ci95": [
+     2.0,
+     16.0
+    ],
+    "rate_sensitivity": 20.0
+   },
+   "asr|all|hinglish": {
+    "n": 50,
+    "rate": 26.0,
+    "ci95": [
+     14.0,
+     38.0
+    ],
+    "rate_sensitivity": 34.0
+   },
+   "asr|all|all": {
+    "n": 150,
+    "rate": 14.67,
+    "ci95": [
+     9.33,
+     20.67
+    ],
+    "rate_sensitivity": 22.67
+   },
+   "orr|general|en": {
+    "n": 100,
+    "rate": 9.0,
+    "ci95": [
+     4.0,
+     15.0
+    ]
+   },
+   "orr|general|all": {
+    "n": 100,
+    "rate": 9.0,
+    "ci95": [
+     4.0,
+     15.0
+    ]
+   },
+   "orr|all|en": {
+    "n": 100,
+    "rate": 9.0,
+    "ci95": [
+     4.0,
+     15.0
+    ]
+   },
+   "orr|all|all": {
+    "n": 100,
+    "rate": 9.0,
+    "ci95": [
+     4.0,
+     15.0
+    ]
+   },
+   "judge_unsure": 0
+  },
+  "med": {
+   "asr|general|en": {
+    "n": 50,
+    "rate": 20.0,
+    "ci95": [
+     10.0,
+     32.0
+    ],
+    "rate_sensitivity": 28.0
+   },
+   "asr|general|hi": {
+    "n": 50,
+    "rate": 20.0,
+    "ci95": [
+     10.0,
+     32.0
+    ],
+    "rate_sensitivity": 30.0
+   },
+   "asr|general|hinglish": {
+    "n": 50,
+    "rate": 46.0,
+    "ci95": [
+     32.0,
+     60.0
+    ],
+    "rate_sensitivity": 60.0
+   },
+   "asr|general|all": {
+    "n": 150,
+    "rate": 28.67,
+    "ci95": [
+     22.0,
+     36.0
+    ],
+    "rate_sensitivity": 39.33
+   },
+   "asr|all|en": {
+    "n": 50,
+    "rate": 20.0,
+    "ci95": [
+     10.0,
+     32.0
+    ],
+    "rate_sensitivity": 28.0
+   },
+   "asr|all|hi": {
+    "n": 50,
+    "rate": 20.0,
+    "ci95": [
+     10.0,
+     32.0
+    ],
+    "rate_sensitivity": 30.0
+   },
+   "asr|all|hinglish": {
+    "n": 50,
+    "rate": 46.0,
+    "ci95": [
+     32.0,
+     60.0
+    ],
+    "rate_sensitivity": 60.0
+   },
+   "asr|all|all": {
+    "n": 150,
+    "rate": 28.67,
+    "ci95": [
+     22.0,
+     36.0
+    ],
+    "rate_sensitivity": 39.33
+   },
+   "orr|general|en": {
+    "n": 100,
+    "rate": 9.0,
+    "ci95": [
+     4.0,
+     15.0
+    ]
+   },
+   "orr|general|all": {
+    "n": 100,
+    "rate": 9.0,
+    "ci95": [
+     4.0,
+     15.0
+    ]
+   },
+   "orr|all|en": {
+    "n": 100,
+    "rate": 9.0,
+    "ci95": [
+     4.0,
+     15.0
+    ]
+   },
+   "orr|all|all": {
+    "n": 100,
+    "rate": 9.0,
+    "ci95": [
+     4.0,
+     15.0
+    ]
+   },
+   "judge_unsure": 0
+  },
+  "ctrl": {
+   "asr|general|en": {
+    "n": 50,
+    "rate": 20.0,
+    "ci95": [
+     10.0,
+     32.0
+    ],
+    "rate_sensitivity": 26.0
+   },
+   "asr|general|hi": {
+    "n": 50,
+    "rate": 16.0,
+    "ci95": [
+     6.0,
+     26.0
+    ],
+    "rate_sensitivity": 24.0
+   },
+   "asr|general|hinglish": {
+    "n": 50,
+    "rate": 30.0,
+    "ci95": [
+     18.0,
+     44.0
+    ],
+    "rate_sensitivity": 34.0
+   },
+   "asr|general|all": {
+    "n": 150,
+    "rate": 22.0,
+    "ci95": [
+     15.33,
+     28.67
+    ],
+    "rate_sensitivity": 28.0
+   },
+   "asr|all|en": {
+    "n": 50,
+    "rate": 20.0,
+    "ci95": [
+     10.0,
+     32.0
+    ],
+    "rate_sensitivity": 26.0
+   },
+   "asr|all|hi": {
+    "n": 50,
+    "rate": 16.0,
+    "ci95": [
+     6.0,
+     26.0
+    ],
+    "rate_sensitivity": 24.0
+   },
+   "asr|all|hinglish": {
+    "n": 50,
+    "rate": 30.0,
+    "ci95": [
+     18.0,
+     44.0
+    ],
+    "rate_sensitivity": 34.0
+   },
+   "asr|all|all": {
+    "n": 150,
+    "rate": 22.0,
+    "ci95": [
+     15.33,
+     28.67
+    ],
+    "rate_sensitivity": 28.0
+   },
+   "orr|general|en": {
+    "n": 100,
+    "rate": 8.0,
+    "ci95": [
+     3.0,
+     14.0
+    ]
+   },
+   "orr|general|all": {
+    "n": 100,
+    "rate": 8.0,
+    "ci95": [
+     3.0,
+     14.0
+    ]
+   },
+   "orr|all|en": {
+    "n": 100,
+    "rate": 8.0,
+    "ci95": [
+     3.0,
+     14.0
+    ]
+   },
+   "orr|all|all": {
+    "n": 100,
+    "rate": 8.0,
+    "ci95": [
+     3.0,
+     14.0
+    ]
+   },
+   "judge_unsure": 0
+  }
+ },
+ "rq1": {
+  "gap|hi": {
+   "gap": -2.0,
+   "ci95": [
+    -14.0,
+    10.0
+   ]
+  },
+  "gap|hinglish": {
+   "gap": 16.0,
+   "ci95": [
+    2.0,
+    30.0
+   ]
+  },
+  "clinical_minus_general|en": {
+   "diff": NaN,
+   "ci95": [
+    NaN,
+    NaN
+   ]
+  },
+  "clinical_minus_general|hi": {
+   "diff": NaN,
+   "ci95": [
+    NaN,
+    NaN
+   ]
+  },
+  "clinical_minus_general|hinglish": {
+   "diff": NaN,
+   "ci95": [
+    NaN,
+    NaN
+   ]
+  },
+  "clinical_minus_general|all": {
+   "diff": NaN,
+   "ci95": [
+    NaN,
+    NaN
+   ]
+  }
+ },
+ "rq2": {
+  "med-orig|general|en": {
+   "n": 50,
+   "diff": 10.0,
+   "ci95": [
+    0.0,
+    20.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "med-orig|general|hi": {
+   "n": 50,
+   "diff": 12.0,
+   "ci95": [
+    0.0,
+    24.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "med-orig|general|hinglish": {
+   "n": 50,
+   "diff": 20.0,
+   "ci95": [
+    2.0,
+    38.0
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|general|all": {
+   "n": 150,
+   "diff": 14.0,
+   "ci95": [
+    6.0,
+    22.0
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|all|en": {
+   "n": 50,
+   "diff": 10.0,
+   "ci95": [
+    0.0,
+    20.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "med-orig|all|hi": {
+   "n": 50,
+   "diff": 12.0,
+   "ci95": [
+    0.0,
+    24.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "med-orig|all|hinglish": {
+   "n": 50,
+   "diff": 20.0,
+   "ci95": [
+    2.0,
+    38.0
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|all|all": {
+   "n": 150,
+   "diff": 14.0,
+   "ci95": [
+    6.0,
+    22.0
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "med-orig|orr_general|en": {
+   "n": 100,
+   "diff": 0.0,
+   "ci95": [
+    -6.0,
+    5.0
+   ]
+  },
+  "med-orig|orr_general|all": {
+   "n": 100,
+   "diff": 0.0,
+   "ci95": [
+    -6.0,
+    5.0
+   ]
+  },
+  "gap_change|hi": {
+   "orig": -2.0,
+   "med": 0.0,
+   "change": 2.0
+  },
+  "gap_change|hinglish": {
+   "orig": 16.0,
+   "med": 26.0,
+   "change": 10.0
+  },
+  "med-ctrl|general|en": {
+   "n": 50,
+   "diff": 0.0,
+   "ci95": [
+    -12.0,
+    10.0
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "med-ctrl|general|hi": {
+   "n": 50,
+   "diff": 4.0,
+   "ci95": [
+    -6.0,
+    16.0
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "med-ctrl|general|hinglish": {
+   "n": 50,
+   "diff": 16.0,
+   "ci95": [
+    0.0,
+    30.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "med-ctrl|general|all": {
+   "n": 150,
+   "diff": 6.67,
+   "ci95": [
+    -0.67,
+    14.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "med-ctrl|all|en": {
+   "n": 50,
+   "diff": 0.0,
+   "ci95": [
+    -12.0,
+    10.0
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "med-ctrl|all|hi": {
+   "n": 50,
+   "diff": 4.0,
+   "ci95": [
+    -6.0,
+    16.0
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "med-ctrl|all|hinglish": {
+   "n": 50,
+   "diff": 16.0,
+   "ci95": [
+    0.0,
+    30.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "med-ctrl|all|all": {
+   "n": 150,
+   "diff": 6.67,
+   "ci95": [
+    -0.67,
+    14.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "med-ctrl|orr_general|en": {
+   "n": 100,
+   "diff": 1.0,
+   "ci95": [
+    -4.0,
+    6.0
+   ]
+  },
+  "med-ctrl|orr_general|all": {
+   "n": 100,
+   "diff": 1.0,
+   "ci95": [
+    -4.0,
+    6.0
+   ]
+  },
+  "ctrl-orig|general|en": {
+   "n": 50,
+   "diff": 10.0,
+   "ci95": [
+    0.0,
+    20.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "ctrl-orig|general|hi": {
+   "n": 50,
+   "diff": 8.0,
+   "ci95": [
+    -2.0,
+    20.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "ctrl-orig|general|hinglish": {
+   "n": 50,
+   "diff": 4.0,
+   "ci95": [
+    -8.0,
+    16.0
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "ctrl-orig|general|all": {
+   "n": 150,
+   "diff": 7.33,
+   "ci95": [
+    1.33,
+    14.0
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "ctrl-orig|all|en": {
+   "n": 50,
+   "diff": 10.0,
+   "ci95": [
+    0.0,
+    20.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "ctrl-orig|all|hi": {
+   "n": 50,
+   "diff": 8.0,
+   "ci95": [
+    -2.0,
+    20.0
+   ],
+   "clear_of_zero": false,
+   "ge5": true
+  },
+  "ctrl-orig|all|hinglish": {
+   "n": 50,
+   "diff": 4.0,
+   "ci95": [
+    -8.0,
+    16.0
+   ],
+   "clear_of_zero": false,
+   "ge5": false
+  },
+  "ctrl-orig|all|all": {
+   "n": 150,
+   "diff": 7.33,
+   "ci95": [
+    1.33,
+    14.0
+   ],
+   "clear_of_zero": true,
+   "ge5": true
+  },
+  "ctrl-orig|orr_general|en": {
+   "n": 100,
+   "diff": -1.0,
+   "ci95": [
+    -5.0,
+    2.0
+   ]
+  },
+  "ctrl-orig|orr_general|all": {
+   "n": 100,
+   "diff": -1.0,
+   "ci95": [
+    -5.0,
+    2.0
+   ]
+  }
+ },
+ "rq5_nf4": {},
+ "holm": {
+  "rq2:med-orig|general|all": {
+   "p_boot": 0.0002,
+   "reject_holm": true
+  },
+  "rq2:med-orig|all|en": {
+   "p_boot": 0.062,
+   "reject_holm": false
+  },
+  "rq2:med-orig|all|hi": {
+   "p_boot": 0.0646,
+   "reject_holm": false
+  },
+  "rq2:med-orig|all|hinglish": {
+   "p_boot": 0.0344,
+   "reject_holm": false
+  },
+  "rq2:med-orig|all|all": {
+   "p_boot": 0.0002,
+   "reject_holm": true
+  },
+  "rq2:med-ctrl|general|all": {
+   "p_boot": 0.0894,
+   "reject_holm": false
+  },
+  "rq2:med-ctrl|all|en": {
+   "p_boot": 1.0,
+   "reject_holm": false
+  },
+  "rq2:med-ctrl|all|hi": {
+   "p_boot": 0.5878,
+   "reject_holm": false
+  },
+  "rq2:med-ctrl|all|hinglish": {
+   "p_boot": 0.055,
+   "reject_holm": false
+  },
+  "rq2:med-ctrl|all|all": {
+   "p_boot": 0.0894,
+   "reject_holm": false
+  }
+ }
+}

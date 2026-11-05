@@ -78,3 +78,11 @@ scripts/install_curatorkit.sh
 # Keep everything under results/ and logs/, including the small CircuitKIT .pt score files and run .log files
 !results/**
 !logs/**
+
+# Google Drive upload bundle (built by scripts/make_drive_bundle.py)
+drive_bundle/
+
+# Full model completions on harmful prompts: never committed (plan §42). Must stay AFTER the !results/** rule.
+results/private/
+# Local-repo notebook test outputs: keep their completions private too
+results/local_test/private/

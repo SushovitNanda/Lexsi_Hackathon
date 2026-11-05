@@ -1,0 +1,32 @@
+{
+ "en": {
+  "pairs": 64,
+  "by_kind": {
+   "twin": 10,
+   "xstest_dev": 50,
+   "calibration": 4
+  },
+  "harmful_pool": 93,
+  "test_items": 0
+ },
+ "hi": {
+  "pairs": 90,
+  "by_kind": {
+   "twin": 10,
+   "xstest_dev": 77,
+   "calibration": 3
+  },
+  "harmful_pool": 93,
+  "test_items": 0
+ },
+ "hinglish": {
+  "pairs": 73,
+  "by_kind": {
+   "twin": 10,
+   "xstest_dev": 54,
+   "calibration": 9
+  },
+  "harmful_pool": 93,
+  "test_items": 0
+ }
+}

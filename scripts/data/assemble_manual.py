@@ -67,3 +67,23 @@ elif job == "xstest":
     write_jsonl(FINAL / "xstest_hi_test" / "prompts.jsonl", hi)
     write_jsonl(FINAL / "xstest_hinglish_test" / "prompts.jsonl", hg)
     print("xstest hi/hinglish:", len(hi), len(hg), Counter(r["origin"] for r in hi))
+
+elif job == "xstest_dev":
+    # Task 2a A2: Hindi + Hinglish versions of the 100 XSTest dev items (benign general dev, per language)
+    sheet = []
+    for k in range(2):
+        sheet += read_jsonl(INTERIM / f"xstest_dev_out_{k:02d}.jsonl")
+    assert len(sheet) == 100
+    hi, hg = [], []
+    for i, r in enumerate(sheet):
+        assert r["hindi"].strip() and DEVA.search(r["hindi"]), r["id"]
+        assert r["hinglish"].strip() and not DEVA.search(r["hinglish"]), r["id"]
+        assert r["origin"] in ("indictrans2_postedited", "replaced", "adapted"), (r["id"], r["origin"])
+        base = dict(category=r["type"], gloss_en=r.get("gloss_en") or r["english"], source_id=r["source_id"],
+                    english_id=r["id"], replaced_english=r.get("replaced_english"))
+        hi.append(record(f"xstest-hi-dev-{i:04d}", "hi", "dev", "benign_general", "xstest", r["hindi"].strip(), origin=r["origin"], **base))
+        hg.append(record(f"xstest-hinglish-dev-{i:04d}", "hinglish", "dev", "benign_general", "xstest", r["hinglish"].strip(),
+                         origin="rewritten" if r["origin"] != "replaced" else "replaced", **base))
+    write_jsonl(FINAL / "xstest_hi_dev" / "prompts.jsonl", hi)
+    write_jsonl(FINAL / "xstest_hinglish_dev" / "prompts.jsonl", hg)
+    print("xstest dev hi/hinglish:", len(hi), len(hg), Counter(r["origin"] for r in hi))

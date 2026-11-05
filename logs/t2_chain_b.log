@@ -1,0 +1,17 @@
+STEP token_sets 12:35
+exit 0
+STEP ck orig en  12:35
+exit 0
+STEP ck med en  12:54
+exit 0
+STEP ck orig hi  13:14
+exit 0
+STEP ck med hi  13:44
+exit 0
+STEP ck orig hinglish  14:14
+exit 0
+STEP ck med hinglish  14:39
+exit 0
+STEP tables 15:04
+exit 0
+T2_CHAIN_B1_DONE 15:04
