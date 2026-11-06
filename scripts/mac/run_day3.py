@@ -140,7 +140,7 @@ def main():
                     field = b.get_field('tokenizer.ggml.eos_token_id')
                     if int(field.parts[field.data[0]][0]) != 3 or gguf_string(a, 'tokenizer.chat_template') != gguf_string(b, 'tokenizer.chat_template'):
                         raise ValueError('Quantizer changed EOS/template')
-                    if len(a.tensors) != len(b.tensors) or [(t.name, list(t.shape)) for t in a.tensors] != [(t.name, list(t.shape)) for t in b.tensors]:
+                    if len(a.tensors) != len(b.tensors) or {t.name: tuple(t.shape) for t in a.tensors} != {t.name: tuple(t.shape) for t in b.tensors}:
                         raise ValueError('Quantizer changed tensor population')
                     del a, b
                     partial.rename(dest)
