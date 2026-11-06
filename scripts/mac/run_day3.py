@@ -77,9 +77,10 @@ def package(cell, expected):
     write_json(PUBLIC / f'{cell}.validation.json', evidence)
     archive = LOCAL / f'D6_Manish_2026-11-06_{cell}.zip'
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as z:
-        for suffix in ['.jsonl', '.run.json', '.summary.json']:
+        for suffix in ['.jsonl', '.run.json', '.summary.json', '.resume-compatibility.json']:
             path = LOCAL / f'{cell}{suffix}'
-            z.write(path, f'cells/{path.name}')
+            if path.exists():
+                z.write(path, f'cells/{path.name}')
         for path in [PROTOCOL, ROOT / 'MAC_PREREG_2026-11-05.md',
                      ROOT / 'configs/mac/nov5_inputs.json',
                      ROOT / 'references/SUSHOVIT_PREREG_2026-11-05.md',
@@ -171,7 +172,8 @@ def main():
                             time.sleep(1)
                         else:
                             raise TimeoutError('Server receipt timeout')
-                        run([sys.executable, ROOT / 'scripts/mac/run_cell.py', '--cell', cell,
+                        harness = 'resume_text_cell.py' if (LOCAL / f'{cell}.jsonl').exists() else 'run_cell.py'
+                        run([sys.executable, ROOT / 'scripts/mac' / harness, '--cell', cell,
                              '--gguf', ROOT / 'models/gguf' / model, '--tokenizer', ROOT / 'models/merged/med',
                              '--server-receipt', receipt, '--protocol', PROTOCOL, '--split', 'test',
                              '--template', template, '--cache-k', 'q4_0' if phone else 'f16',
