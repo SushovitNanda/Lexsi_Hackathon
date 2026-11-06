@@ -1,6 +1,6 @@
 # Manish: November 6 execution and handoff
 
-Pipeline status: **generating**. Snapshot: 2026-11-06T10:54:50.614350+00:00 (UTC).
+Pipeline status: **generating**. Snapshot: 2026-11-06T12:03:44.789490+00:00 (UTC).
 
 ## What changed
 
@@ -13,12 +13,12 @@ M9 converts the existing medical F16 merge directly into Q4_K_M and Q3_K_M, veri
 | Cell | Complete rows | Status |
 |---|---:|---|
 | med_f16 | 1612/1612 | complete; provisional |
-| med_q4km | 0/1612 | running |
-| med_q3km | 0/1612 | pending |
+| med_q4km | 1612/1612 | complete; provisional |
+| med_q3km | 0/1612 | running |
 | med_q4km-nopre | 0/1612 | pending |
 | med_budget-phone | 0/1612 | pending |
 
-Verified completed responses: **1612/8060**.
+Verified completed responses: **3224/8060**.
 
 A zero count above means the cell has not yet completed validation; it does not assert that its working response file is empty. Current per-prompt progress is in models/local-results/day3/*.generation.log. Throughput, token counts, exact hashes and errors are in results/mac/nov6/ and the handoff archives.
 

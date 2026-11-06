@@ -1,0 +1,24 @@
+{
+  "cell_id": "med_q4km",
+  "run_fingerprint": "db93e1aca2a00a34c18f868f06e38b516079c045b21294f5b83e78a35e711ad8",
+  "selected": 1612,
+  "completed": 1612,
+  "new_responses": 1612,
+  "session_seconds": 4123.689630749985,
+  "session_responses_per_second": 0.39091205797338874,
+  "session_completion_tokens": 412672,
+  "session_tokens_per_second": 100.07348684118752,
+  "by_lang": {
+    "en": 554,
+    "hi": 554,
+    "hinglish": 504
+  },
+  "errors": [],
+  "by_set": {
+    "harmful_general": 550,
+    "harmful_clinical": 306,
+    "benign_clinical": 306,
+    "benign_general": 450
+  },
+  "complete": true
+}
