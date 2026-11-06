@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-11-06T15:48:07.141190+00:00",
-  "pid": 57691,
-  "status": "failed",
+  "started_at": "2026-11-06T15:49:30.378145+00:00",
+  "pid": 57986,
+  "status": "generating",
   "completed_cells": {
     "med_f16": {
       "response_sha256": "1a8e21f1ac77c3ecf03e7f697ec4111415c04d19bcbcc0759b07fcb6bc302e11",
@@ -18,7 +18,7 @@
       "judged": false,
       "fidelity_gate_passed": false,
       "archive": "models/local-results/day3/D6_Manish_2026-11-06_med_f16.zip",
-      "archive_sha256": "6619216b17b608b22312bfffa9a4a7d2fcc263a71ef3d686199017a92d152ea0",
+      "archive_sha256": "6f8ebd7ed03d39c0d50d31389f73f788ed7cffbaf3f7c9237b96702832eacf98",
       "archive_bytes": 622765,
       "summary": {
         "cell_id": "med_f16",
@@ -60,7 +60,7 @@
       "judged": false,
       "fidelity_gate_passed": false,
       "archive": "models/local-results/day3/D6_Manish_2026-11-06_med_q4km.zip",
-      "archive_sha256": "7589430c97de08f0cd9c9e923c2b8efccb8984eb120882559486095b99e767ce",
+      "archive_sha256": "a590ebb5854e3b7131e87d07b27613ad7be90caee4af0c86b90d9c743df7eb7f",
       "archive_bytes": 615752,
       "summary": {
         "cell_id": "med_q4km",
@@ -102,7 +102,7 @@
       "judged": false,
       "fidelity_gate_passed": false,
       "archive": "models/local-results/day3/D6_Manish_2026-11-06_med_q3km.zip",
-      "archive_sha256": "ad3b655da9d2d6edfd402794ef6ed7fe615442921773d8e62fd24f32409c70a5",
+      "archive_sha256": "542f7bbde401c64d037034ef62967882a05fa9ba6ddbc1b65ada9fde59cb0a33",
       "archive_bytes": 612738,
       "summary": {
         "cell_id": "med_q3km",
@@ -144,7 +144,7 @@
       "judged": false,
       "fidelity_gate_passed": false,
       "archive": "models/local-results/day3/D6_Manish_2026-11-06_med_q4km-nopre.zip",
-      "archive_sha256": "22f6243b6ff1ee61152bbbbd78a76b02a4b9bf5ad498101356acb7c6c4dbb1c7",
+      "archive_sha256": "6cc52198f051027ba7cb8f5a7dcc899dcfc8f8e7472247fb324bf19cdd1eda31",
       "archive_bytes": 653378,
       "summary": {
         "cell_id": "med_q4km-nopre",
@@ -172,7 +172,6 @@
       }
     }
   },
-  "updated_at": "2026-11-06T15:48:20.602029+00:00",
-  "active_cell": "med_budget-phone",
-  "error": "CalledProcessError(1, ['/Users/manishshaw/Downloads/Lexsi_Hackathon/.venv/bin/python', '/Users/manishshaw/Downloads/Lexsi_Hackathon/scripts/mac/run_cell.py', '--cell', 'med_budget-phone', '--gguf', '/Users/manishshaw/Downloads/Lexsi_Hackathon/models/gguf/med-q3km.gguf', '--tokenizer', '/Users/manishshaw/Downloads/Lexsi_Hackathon/models/merged/med', '--server-receipt', '/Users/manishshaw/Downloads/Lexsi_Hackathon/models/local-results/day3/med_budget-phone.server.receipt.json', '--protocol', '/Users/manishshaw/Downloads/Lexsi_Hackathon/MAC_PREREG_2026-11-06.md', '--split', 'test', '--template', 'none', '--cache-k', 'q4_0', '--cache-v', 'q4_0', '--out', '/Users/manishshaw/Downloads/Lexsi_Hackathon/models/local-results/day3/med_budget-phone.jsonl'])"
+  "updated_at": "2026-11-06T15:49:34.854031+00:00",
+  "active_cell": "med_budget-phone"
 }
