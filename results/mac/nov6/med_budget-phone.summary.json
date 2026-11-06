@@ -1,0 +1,24 @@
+{
+  "cell_id": "med_budget-phone",
+  "run_fingerprint": "4163d86b8a109e333262f55db496a6d5faf1f844e5b0152fd1d1ac3d30c3cf0d",
+  "selected": 1612,
+  "completed": 1612,
+  "new_responses": 668,
+  "session_seconds": 910.7487467080064,
+  "session_responses_per_second": 0.7334624422098341,
+  "session_completion_tokens": 171008,
+  "session_tokens_per_second": 187.76638520571754,
+  "by_lang": {
+    "en": 554,
+    "hi": 554,
+    "hinglish": 504
+  },
+  "errors": [],
+  "by_set": {
+    "harmful_general": 550,
+    "benign_clinical": 306,
+    "harmful_clinical": 306,
+    "benign_general": 450
+  },
+  "complete": true
+}
