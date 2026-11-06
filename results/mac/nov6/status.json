@@ -2,7 +2,50 @@
   "started_at": "2026-11-06T09:21:11.107694+00:00",
   "pid": 18982,
   "status": "generating",
-  "completed_cells": {},
-  "updated_at": "2026-11-06T09:21:57.035194+00:00",
-  "active_cell": "med_f16"
+  "completed_cells": {
+    "med_f16": {
+      "response_sha256": "1a8e21f1ac77c3ecf03e7f697ec4111415c04d19bcbcc0759b07fcb6bc302e11",
+      "response_bytes": 4671882,
+      "run_sha256": "070a71ed1c9fdf24f7d40ed65d6c076574a869b054272501f48f98c8e4831aca",
+      "rows": 1612,
+      "by_set": {
+        "harmful_general": 550,
+        "benign_clinical": 306,
+        "harmful_clinical": 306,
+        "benign_general": 450
+      },
+      "provisional": true,
+      "judged": false,
+      "fidelity_gate_passed": false,
+      "archive": "models/local-results/day3/D6_Manish_2026-11-06_med_f16.zip",
+      "archive_sha256": "c5c63812976ca1a19c89a8f7e8bf20c106849bd37615bffc602e786a9d6e3c80",
+      "archive_bytes": 622765,
+      "summary": {
+        "cell_id": "med_f16",
+        "run_fingerprint": "6d822c734a569a429434e257b618e4ed0466342445f20a354b9a59132a1c00d4",
+        "selected": 1612,
+        "completed": 1612,
+        "new_responses": 1612,
+        "session_seconds": 5556.103624625015,
+        "session_responses_per_second": 0.2901313778338313,
+        "session_completion_tokens": 412672,
+        "session_tokens_per_second": 74.27363272546081,
+        "by_lang": {
+          "en": 554,
+          "hi": 554,
+          "hinglish": 504
+        },
+        "errors": [],
+        "by_set": {
+          "harmful_general": 550,
+          "benign_clinical": 306,
+          "harmful_clinical": 306,
+          "benign_general": 450
+        },
+        "complete": true
+      }
+    }
+  },
+  "updated_at": "2026-11-06T10:54:50.614350+00:00",
+  "active_cell": "med_q4km"
 }

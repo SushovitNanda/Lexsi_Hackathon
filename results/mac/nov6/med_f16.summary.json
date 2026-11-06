@@ -1,0 +1,24 @@
+{
+  "cell_id": "med_f16",
+  "run_fingerprint": "6d822c734a569a429434e257b618e4ed0466342445f20a354b9a59132a1c00d4",
+  "selected": 1612,
+  "completed": 1612,
+  "new_responses": 1612,
+  "session_seconds": 5556.103624625015,
+  "session_responses_per_second": 0.2901313778338313,
+  "session_completion_tokens": 412672,
+  "session_tokens_per_second": 74.27363272546081,
+  "by_lang": {
+    "en": 554,
+    "hi": 554,
+    "hinglish": 504
+  },
+  "errors": [],
+  "by_set": {
+    "harmful_general": 550,
+    "benign_clinical": 306,
+    "harmful_clinical": 306,
+    "benign_general": 450
+  },
+  "complete": true
+}
