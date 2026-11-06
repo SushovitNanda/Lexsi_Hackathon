@@ -1,0 +1,108 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[top=20mm,bottom=20mm,left=19mm,right=19mm,headheight=15pt,headsep=6mm,footskip=10mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyrepagella}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\setsansfont{texgyreheros}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\setmonofont{lmmono10-regular.otf}[Scale=0.88]
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx,array,booktabs,longtable,calc}
+\usepackage{xcolor}
+\definecolor{Ink}{HTML}{183548}
+\definecolor{Accent}{HTML}{147D87}
+\definecolor{Muted}{HTML}{526571}
+\usepackage{microtype}
+\usepackage{enumitem}
+\setlist{itemsep=2pt,parsep=1pt,topsep=4pt,leftmargin=1.5em}
+\usepackage{titlesec}
+\titleformat{\section}{\large\sffamily\bfseries\color{Ink}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\sffamily\bfseries\color{Accent}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{13pt}{5pt}
+\titlespacing*{\subsection}{0pt}{9pt}{4pt}
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{Muted}SAFE FROM FINE-TUNE TO PHONE}
+\fancyhead[R]{\small\sffamily\color{Muted}NOVEMBER 6 HANDOFF}
+\fancyfoot[L]{\footnotesize\sffamily\color{Muted}Manish | Lexsi Hackathon, Track 2}
+\fancyfoot[R]{\footnotesize\sffamily\color{Muted}\thepage\ / \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\usepackage{xurl}
+\usepackage[unicode,colorlinks=true,linkcolor=Accent,urlcolor=Accent]{hyperref}
+\hypersetup{pdftitle={November 6 Mac Handoff: Manish to Sushovit},pdfauthor={Manish},pdfsubject={November 6 medical GGUF results and handoff to Sushovit}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3.5pt}
+\AtBeginDocument{\fontsize{10.2}{12.5}\selectfont}
+\setlength{\emergencystretch}{3em}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\fontsize{9.3}{11.7}\selectfont}
+\AtBeginEnvironment{enumerate}{\interlinepenalty=10000}
+\setcounter{secnumdepth}{0}
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+\providecommand{\tightlist}{\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+\begin{document}
+{\sffamily\bfseries\fontsize{23}{27}\selectfont\color{Ink}November 6: Mac handoff\par}
+\vspace{4pt}
+{\sffamily\large\color{Accent}Manish to Sushovit | M9 and M10\par}
+{\small\color{Muted}Safe from Fine-Tune to Phone | Evidence frozen at commit \texttt{2ac0a8c}\par}
+\vspace{7pt}
+\textbf{Local work complete.} All five medical deployment cells finished: \textbf{8,060 responses}, 1,612 per cell. Exact prompt IDs, run fingerprints and completed summaries were validated; all five handoff ZIPs are pushed to \texttt{manishshaw}. Central judging, merge parity and the fidelity gate remain pending. These are provisional generation results, not safety conclusions.
+
+\section{What I did and what changed}
+\textbf{M9: medical deployment runs.} Built Q4\_K\_M and Q3\_K\_M directly from the existing merged medical F16 GGUF. Checked tensor names/shapes, official template and EOS metadata. Ran F16, Q4, Q3, Q4 without the system preamble, and the budget-phone combination (Q3, no preamble, q4\_0 K/V cache). Every completed cell was packaged separately for judging.
+
+\textbf{M10: protocol alignment.} Registered the Mac November 6 protocol before test generation (\texttt{95ffd61}); aligned to the November 5 \texttt{code\_v2} protocol and Amendment 1. English/Hinglish safety: Qwen3Guard. Hindi safety: WildGuard after IndicTrans2 back-translation. Refusal/ORR: Qwen3Guard throughout; Hinglish ORR is directional. Earlier response files were preserved.
+
+\section{Execution results}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+Cell & Valid rows & Errors\textsuperscript{a} & Minutes\textsuperscript{b} & Tokens/s\textsuperscript{b}\\
+\midrule
+Medical F16 & 1,612 & 0 & 92.60 & 74.27\\
+Medical Q4\_K\_M & 1,612 & 0 & 68.73 & 100.07\\
+Medical Q3\_K\_M & 1,612 & 0 & 61.71 & 111.46\\
+Q4, no preamble & 1,612 & 0 & 43.06 & 159.73\\
+Budget-phone & 1,612 & 0 & 15.18* & 187.77*\\
+\bottomrule
+\end{tabular*}
+{\footnotesize\color{Muted}\textsuperscript{a}Errors in final execution summaries. The phone run was interrupted and resumed.\par
+\textsuperscript{b}Observed session throughput includes processing overhead. *Phone timing covers only the resumed 668 responses, not all 1,612; do not compare it as a full-cell runtime.\par}
+
+\textbf{Inputs per cell:} 856 harmful (550 general, 306 clinical) and 756 benign (450 general, 306 clinical); EN 554, HI 554, Hinglish 504. Same frozen November 5 IDs/order; no MedMCQA free-text generation. All responses were joined and validated by prompt ID, independent of completion order.
+
+\textbf{Fixed settings:} pinned llama.cpp Metal, eight slots, 16,384 total context, flash attention on, greedy decoding, seed 13, 256-token cap, no prefix-cache reuse. Official-template cells use F16 K/V cache; the phone cell uses q4\_0 for both. Every prompt's HF tokenization was checked against llama.cpp.
+
+\section{Finding requiring attention: stopping behavior}
+\textbf{All 8,060 medical responses used the full 256-token budget} (2,063,360 completion tokens). A separate earlier benign diagnostic showed repeated hidden turn-end token 6 after a visible answer; inherited generation EOS is token 3. EOS3 was retained uniformly for comparability. Repeated hidden termination tokens can inflate tokens and timing; cap use alone proves neither visible truncation nor unsafe behavior. Please inspect termination on the matching GPU checkpoint before treating these rows as final research evidence.
+
+\newpage
+\section{What these results mean for the research}
+\textbf{Overall problem:} does safety survive benign medical fine-tuning, repair and deployment to constrained devices? Today's outputs supply the medical-model deployment conditions for \textbf{RQ5}. They allow subsequent within-Mac comparisons of Q4/F16, Q3/F16, and preamble removal once judged. The phone stack changes template and cache together, so it does not isolate a cache-only effect.
+
+\textbf{What is not established:} execution success does not establish ASR, over-refusal, clinical accuracy, safe deployment, fine-tuning drift, causal circuits or repair success. RQ2 still needs original/control comparisons; RQ3 needs validated circuit evidence; RQ4 needs repair selection and utility checks; RQ6 needs validated protected/random builds. Difference-in-differences needs matching original F16 references. Repair retention needs medical/repaired Mac F16 references and a reference gain of at least five percentage points.
+
+\textbf{How to infer after judging:} join \texttt{prompt\_id}; calculate harmful-prompt ASR and benign-prompt ORR separately by language and general/clinical set. Use the aligned primary judges above; Qwen3Guard Controversial is safe in primary and unsafe in sensitivity analysis. Use paired bootstrap (10,000 resamples, seed 13, shared indices) and the agreed study-wide Holm family. A meaningful difference requires at least five percentage points and an interval clear of zero; noninferiority requires the upper 95\% safety-loss bound below five points. Medical utility requires held-out answer-letter likelihoods and paired McNemar, not these text generations.
+
+\section{Limitations and blockers in my lane}
+\begin{itemize}
+\item \textbf{Merge parity unresolved.} Local finite F16 tensors and file hashes do not establish equality with your current merge. Need current medical/control \texttt{merge\_info.json}; if hashes differ, reference tensors are needed for numerical comparison.
+\item \textbf{Fidelity unverified.} The fixed November 5 fidelity50 set needs matching GPU responses and centralized labels. The planned gate is agreement on at least 48/50 judged pairs; it has not passed yet.
+\item \textbf{Labels pending.} No local substitute judge was used. Upstream G1 evidence is source-reported, not independently reproduced on Mac; Hinglish refusal reliability remains weak.
+\item \textbf{Interrupted phone run.} Preserved 944 responses and resumed the remaining 668. Only the server's randomized, unused media marker differed on restart; the compatibility sidecar records that difference. Model, generation settings, original harness hashes and response fingerprint were retained.
+\end{itemize}
+
+\section{Handoff and requested next actions}
+\textbf{Download the five ZIPs:}
+\href{https://github.com/SushovitNanda/Lexsi_Hackathon/tree/2ac0a8c/models/local-results/day3}{\textbf{open the November 6 handoff folder}}.
+\par Archive naming: \path{D6_Manish_2026-11-06_<cell>.zip}.\par Cell IDs: \texttt{med\_f16}, \texttt{med\_q4km}, \texttt{med\_q3km}, \texttt{med\_q4km-nopre}, \texttt{med\_budget-phone}. Each contains responses, run specification, summary, fixed inputs, protocol and judging instructions; the phone ZIP also includes resume evidence. No model weights or access tokens are included.
+
+\textbf{Sushovit:} please confirm receipt; return current merge manifests and matching fidelity50 responses; judge the original GGUF/fidelity handoff in the planned overnight slot and return D7 labels/summaries. Confirm the judging slot for today's five medical cells (the plan lists Sunday night). D4's validated tensor table or fallback ranking is due November 7, 20:00 IST.
+
+{\footnotesize\color{Muted}\textbf{Evidence:} \href{https://github.com/SushovitNanda/Lexsi_Hackathon/blob/2ac0a8c/results/mac/nov6/status.json}{per-cell manifests, archive SHA-256 and execution summaries}; \href{https://github.com/SushovitNanda/Lexsi_Hackathon/blob/2ac0a8c/MAC_PREREG_2026-11-06.md}{prospective Mac protocol}; \href{https://github.com/SushovitNanda/Lexsi_Hackathon/blob/2ac0a8c/references/SUSHOVIT_PREREG_2026-11-05.md}{shared protocol snapshot}. Repository upload is confirmed; collaborator receipt is not.\par}
+\end{document}

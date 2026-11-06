@@ -1,0 +1,11 @@
+{
+  "pdf_sha256": "57752b13dc760f6479ce977fbf1ac82df14af91ff1754d536a4d014978f68e00",
+  "pages": 2,
+  "latex_source": "output/pdf/manish_nov6_handoff.tex",
+  "evidence_commit": "2ac0a8c5fb8b2b05201d97a963a698506f428c91",
+  "visual_review": "Both final rendered pages inspected; no overlap, clipping or footer collision.",
+  "latex_warnings": 0,
+  "validated_responses": 8060,
+  "completion_cap_256_count": 8060,
+  "phone_runtime_caveat": "15.18 min and 187.77 tokens/s cover resumed 668 responses only."
+}
