@@ -1,6 +1,6 @@
 # Manish: November 6 execution and handoff
 
-Pipeline status: **generating**. Snapshot: 2026-11-06T15:48:11.820059+00:00 (UTC).
+Pipeline status: **failed**. Snapshot: 2026-11-06T15:48:20.602029+00:00 (UTC).
 
 ## What changed
 
@@ -16,7 +16,7 @@ M9 converts the existing medical F16 merge directly into Q4_K_M and Q3_K_M, veri
 | med_q4km | 1612/1612 | complete; provisional |
 | med_q3km | 1612/1612 | complete; provisional |
 | med_q4km-nopre | 1612/1612 | complete; provisional |
-| med_budget-phone | 0/1612 | running |
+| med_budget-phone | 0/1612 | pending |
 
 Verified completed responses: **6448/8060**.
 

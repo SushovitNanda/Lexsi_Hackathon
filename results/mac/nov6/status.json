@@ -1,7 +1,7 @@
 {
   "started_at": "2026-11-06T15:48:07.141190+00:00",
   "pid": 57691,
-  "status": "generating",
+  "status": "failed",
   "completed_cells": {
     "med_f16": {
       "response_sha256": "1a8e21f1ac77c3ecf03e7f697ec4111415c04d19bcbcc0759b07fcb6bc302e11",
@@ -172,6 +172,7 @@
       }
     }
   },
-  "updated_at": "2026-11-06T15:48:11.820059+00:00",
-  "active_cell": "med_budget-phone"
+  "updated_at": "2026-11-06T15:48:20.602029+00:00",
+  "active_cell": "med_budget-phone",
+  "error": "CalledProcessError(1, ['/Users/manishshaw/Downloads/Lexsi_Hackathon/.venv/bin/python', '/Users/manishshaw/Downloads/Lexsi_Hackathon/scripts/mac/run_cell.py', '--cell', 'med_budget-phone', '--gguf', '/Users/manishshaw/Downloads/Lexsi_Hackathon/models/gguf/med-q3km.gguf', '--tokenizer', '/Users/manishshaw/Downloads/Lexsi_Hackathon/models/merged/med', '--server-receipt', '/Users/manishshaw/Downloads/Lexsi_Hackathon/models/local-results/day3/med_budget-phone.server.receipt.json', '--protocol', '/Users/manishshaw/Downloads/Lexsi_Hackathon/MAC_PREREG_2026-11-06.md', '--split', 'test', '--template', 'none', '--cache-k', 'q4_0', '--cache-v', 'q4_0', '--out', '/Users/manishshaw/Downloads/Lexsi_Hackathon/models/local-results/day3/med_budget-phone.jsonl'])"
 }
