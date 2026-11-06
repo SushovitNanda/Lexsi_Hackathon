@@ -1,0 +1,15 @@
+{
+  "response_sha256": "ff70bbbdafaf8ded00023ef193e5895b6d03a226f9765b7680ca4b7b5daa5864",
+  "response_bytes": 4694511,
+  "run_sha256": "5a03ef08c6f1950fb2e2015a7961648accef72ac3bd1525bf772aaad301ecfb8",
+  "rows": 1612,
+  "by_set": {
+    "harmful_general": 550,
+    "harmful_clinical": 306,
+    "benign_clinical": 306,
+    "benign_general": 450
+  },
+  "provisional": true,
+  "judged": false,
+  "fidelity_gate_passed": false
+}

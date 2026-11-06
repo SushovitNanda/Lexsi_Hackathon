@@ -1,0 +1,24 @@
+{
+  "cell_id": "med_q3km",
+  "run_fingerprint": "ccfecb9f9eb15dbf5c912304cb467f34382a332b5ceaf94adcab6ac5d2e25dc5",
+  "selected": 1612,
+  "completed": 1612,
+  "new_responses": 1612,
+  "session_seconds": 3702.4063413330005,
+  "session_responses_per_second": 0.435392512702866,
+  "session_completion_tokens": 412672,
+  "session_tokens_per_second": 111.4604832519337,
+  "by_lang": {
+    "en": 554,
+    "hi": 554,
+    "hinglish": 504
+  },
+  "errors": [],
+  "by_set": {
+    "harmful_general": 550,
+    "harmful_clinical": 306,
+    "benign_clinical": 306,
+    "benign_general": 450
+  },
+  "complete": true
+}
