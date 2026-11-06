@@ -1,0 +1,10 @@
+{
+  "source_sha256": "52e48f490dfef25a5e0e8ec2cd024e9e7a8790cf5cb424b3d940c55d6425132e",
+  "quantization": "Q3_K_M",
+  "sha256": "c57897e0249750e719f53233a0b9919a90623d6b1208cd4ae6759c823c6d76de",
+  "bytes": 1799740928,
+  "created_at": "2026-11-06T09:21:57.034803+00:00",
+  "llama_cpp_commit": "5851a8e505f4d5fbb183f2847698eb6155d176b7",
+  "eos_token_id": 3,
+  "cross_machine_merge_parity_verified": false
+}
