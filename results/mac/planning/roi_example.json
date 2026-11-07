@@ -1,0 +1,38 @@
+{
+  "scenario": {
+    "illustrative_only": true,
+    "currency": "USD",
+    "assumptions_source": "Arithmetic illustration only. All prices, power, demand and throughput are invented scenario inputs, not vendor quotes or clinic measurements.",
+    "requests_per_month": 10000,
+    "input_tokens_per_request": 1000,
+    "output_tokens_per_request": 200,
+    "api_input_per_million": 1,
+    "api_output_per_million": 3,
+    "hardware_cost": 600,
+    "amortization_months": 36,
+    "hardware_allocation": 0.5,
+    "available_hours_per_month": 30,
+    "utilization": 0.5,
+    "requests_per_second": 0.5,
+    "wall_power_watts": 40,
+    "electricity_per_kwh": 0.2,
+    "other_local_monthly_cost": 5
+  },
+  "result": {
+    "currency": "USD",
+    "illustrative_only": true,
+    "assumptions_source": "Arithmetic illustration only. All prices, power, demand and throughput are invented scenario inputs, not vendor quotes or clinic measurements.",
+    "monthly_api_cost": 16.0,
+    "monthly_local_cost": 13.573333333333334,
+    "monthly_hardware_cost": 8.333333333333334,
+    "monthly_energy_cost": 0.24,
+    "monthly_savings": 2.426666666666666,
+    "savings_fraction_vs_api": 0.15166666666666662,
+    "cost_return_fraction_on_local_cost": 0.17878192534381132,
+    "capacity_requests_per_month": 27000.0,
+    "demand_within_capacity": true,
+    "break_even_requests_per_month": 8483.333333333334,
+    "break_even_within_capacity": true,
+    "interpretation": "Cost scenario only; capacity, safety, clinical utility and latency require separate validation. Fixed local monthly budget assumes the stated powered hours; it is not an autoscaling or queueing model."
+  }
+}

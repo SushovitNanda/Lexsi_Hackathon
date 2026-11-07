@@ -1,0 +1,12 @@
+{
+  "prepared_on": "2026-11-07",
+  "M14_status": "methods_draft_and_ROI_method_complete_ahead_of_Nov8",
+  "M13_status": "prepared_not_executed_waiting_for_D4",
+  "runcheck_rows": 100,
+  "runcheck_input_sha": "722410fff3d6d92e99a5be158f757852f9fa4b008e7d86346d388d60e534421b",
+  "no_test_id_or_normalized_text_overlap": true,
+  "actual_clinic_ROI_established": false,
+  "ROI_example": "invented_inputs_arithmetic_only",
+  "roi_tests_passed": 6,
+  "real_map_models_built": false
+}

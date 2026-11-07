@@ -1,0 +1,8 @@
+{
+  "pages": 3,
+  "pdf_sha256": "a13cacaab3c85b991bb228c525897996f665111c89391f9b85d804eb74c964c1",
+  "visual_review": "All three final rendered pages inspected; no clipping, overlaps, missing glyphs or footer collisions.",
+  "latex_warnings": 0,
+  "article_fragment": "reports/methods/rq5_rq6_roi.tex",
+  "standalone_source": "output/pdf/manish_rq5_rq6_roi_methods.tex"
+}
