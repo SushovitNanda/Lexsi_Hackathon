@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-07",
+  "task": "M11",
+  "status": "complete",
+  "score_kind": "placeholder_only_not_a_validated_circuit",
+  "stock_bytes": 1799740928,
+  "variant_bytes": 1795390976,
+  "percent_difference_vs_stock": -0.24169878743792728,
+  "matched_random_size_exact": true,
+  "upgraded_tensors": 8,
+  "downgraded_tensors": 39,
+  "unchanged_tensors_per_build": 243,
+  "source_matches_nov6_medical_f16": true,
+  "stock_matches_nov6_medical_q3": true,
+  "M12_status": "waiting_for_validated_D4_or_SafeTune_fallback",
+  "D4_due_IST": "2026-11-07 20:00",
+  "safety_benefit_established": false
+}

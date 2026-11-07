@@ -1,0 +1,36 @@
+{
+  "protected": {
+    "loaded_on_metal": true,
+    "tokenization_matches_hf": true,
+    "completion_request_passed": true,
+    "max_tokens": 8,
+    "token_usage": {
+      "completion_tokens": 8,
+      "prompt_tokens": 369,
+      "total_tokens": 377,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "model_sha256": "efe3b5bcd9b112e3c59e43e69bbef8d94265bfddb2acc2fa33d3e3332a50551d",
+    "diagnostic_only": true,
+    "prompt": "Reply with OK."
+  },
+  "random": {
+    "loaded_on_metal": true,
+    "tokenization_matches_hf": true,
+    "completion_request_passed": true,
+    "max_tokens": 8,
+    "token_usage": {
+      "completion_tokens": 8,
+      "prompt_tokens": 369,
+      "total_tokens": 377,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "model_sha256": "ae2d3941662e8030e751ae9912261ba15136c0205cc280b9971ca2c285e8a859",
+    "diagnostic_only": true,
+    "prompt": "Reply with OK."
+  }
+}

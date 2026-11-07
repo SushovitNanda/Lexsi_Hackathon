@@ -163,17 +163,20 @@ def main():
     ap.add_argument('--tolerance', type=float, default=.01)
     ap.add_argument('--out', type=Path, default=ROOT / 'models/gguf/placeholder')
     ap.add_argument('--report', type=Path, default=ROOT / 'results/mac/placeholder_protection_report.json')
+    ap.add_argument('--artifacts-dir', type=Path, help='Separate inventory, score and rule files for this experiment')
     a = ap.parse_args()
     if a.make_placeholder == bool(a.scores):
         ap.error('Choose exactly one of --make-placeholder and --scores')
     if not 0 < a.tolerance <= .01:
         ap.error('Tolerance must be positive and no greater than 1%')
     stock = inventory(a.stock)
-    inv_path = ROOT / 'results/mac/stock_q3km_tensors.json'
+    if a.artifacts_dir:
+        a.artifacts_dir.mkdir(parents=True, exist_ok=True)
+    inv_path = a.artifacts_dir / 'stock_q3km_tensors.json' if a.artifacts_dir else ROOT / 'results/mac/stock_q3km_tensors.json'
     inv_path.write_text(json.dumps(stock, indent=2) + '\n')
     if a.make_placeholder:
         rng = random.Random(a.seed)
-        a.scores = ROOT / 'configs/mac/placeholder_scores.json'
+        a.scores = a.artifacts_dir / 'placeholder_scores.json' if a.artifacts_dir else ROOT / 'configs/mac/placeholder_scores.json'
         data = {'kind': 'placeholder_only_not_a_validated_circuit', 'seed': a.seed,
                 'layer_x_matrix': [{'layer': layer, **{m: rng.random() for m in MATRICES}} for layer in range(36)]}
         a.scores.parent.mkdir(parents=True, exist_ok=True)
@@ -194,7 +197,7 @@ def main():
         raise ValueError('An earlier export used different settings; preserve that report first')
     builds = {}
     for tag, selected in [('protected', rules), ('random', random_rules)]:
-        rule_path = ROOT / f'configs/mac/placeholder_{tag}.tensor-types.txt'
+        rule_path = a.artifacts_dir / f'placeholder_{tag}.tensor-types.txt' if a.artifacts_dir else ROOT / f'configs/mac/placeholder_{tag}.tensor-types.txt'
         write_rules(rule_path, export_rules(stock, selected))
         target = a.out / f'{tag}-q3km.gguf'
         command = [str(llama / 'build/bin/llama-quantize'), '--tensor-type-file', str(rule_path), str(a.source)]
